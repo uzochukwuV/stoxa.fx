@@ -1,0 +1,56 @@
+div.radix {
+    position: relative;
+          --radix-scroll-area-corner-width: 0px;
+          --radix-scroll-area-corner-height: 0px;
+}
+
+[data-radix-scroll-area-viewport] {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  [data-radix-scroll-area-viewport]::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+
+  .tradingview-widget-copyright {
+    font-size: 13px !important;
+    line-height: 32px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    /* @mixin sf-pro-display-font; */
+    font-family: -apple-system, BlinkMacSystemFont,
+      "Trebuchet MS", Roboto, Ubuntu, sans-serif !important;
+    color: #b2b5be !important;
+  }
+
+  .tradingview-widget-copyright .blue-text {
+    color: #2962ff !important;
+  }
+
+  .tradingview-widget-copyright a {
+    text-decoration: none !important;
+    color: #b2b5be !important;
+  }
+
+  .tradingview-widget-copyright a:visited {
+    color: #b2b5be !important;
+  }
+
+  .tradingview-widget-copyright a:hover .blue-text {
+    color: #1e53e5 !important;
+  }
+
+  .tradingview-widget-copyright
+    a:active
+    .blue-text {
+    color: #1848cc !important;
+  }
+
+  .tradingview-widget-copyright
+    a:visited
+    .blue-text {
+    color: #2962ff !important;
+  }

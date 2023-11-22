@@ -1,0 +1,113 @@
+.camera_wrap {
+    direction: ltr;
+    display: none;
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+
+
+.camera_wrap {
+    width: 100%;
+}
+
+
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-slider {
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translateZ(0);
+}
+
+.slick-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap;
+}
+.goog-te-gadget img {
+    vertical-align: middle;
+    border: none
+}
+
+.goog-te-gadget-simple {
+    background-color: #FFF;
+    border-left: 1px solid #D5D5D5;
+    border-top: 1px solid #9B9B9B;
+    border-bottom: 1px solid #E8E8E8;
+    border-right: 1px solid #D5D5D5;
+    font-size: 10pt;
+    display: inline-block;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer
+}
+
+.goog-te-gadget-icon {
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 19px;
+    height: 19px;
+    border: none;
+    vertical-align: middle
+}
+
+.goog-te-combo {
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: baseline
+}
+
+.goog-te-gadget .goog-te-combo {
+    margin: 4px 0
+}
+
+.VIpgJd-ZVi9od-l9xktf-VgwJlc .DUGJie {
+    background-image: url(https://www&google.com/images/zippy_minus_sm.gif)
+}
+
+.VIpgJd-ZVi9od-l9xktf-VgwJlc .TdyTDe {
+    background-image: url(https://www&google.com/images/zippy_plus_sm.gif)
+}
