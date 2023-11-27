@@ -39,10 +39,7 @@ export default function RootLayout({ children }) {
          <Script
           src={"https://raw.githubusercontent.com/pixedelic/Camera/master/scripts/camera.js"}
         ></Script>
-        <Script>
-          jQuery('camera_wrap').slideUp()
-          
-        </Script>
+        
       </body>
     </html>
   );

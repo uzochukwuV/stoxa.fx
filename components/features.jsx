@@ -69,8 +69,8 @@ function Features() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-            </div></div
-        ></a>
+            </div></div>
+        </a>
       </div>
     </div>
     <div className="first-cont md:flex md:w-full flex-grow">
@@ -117,7 +117,7 @@ function Features() {
               <div className="body-cont text-sm px-3 text-gray-400">
                 <p>
                   This platform is built and maintained with maximum security in
-                  order to retain the ability to keep the trust of it's users.
+                  order to retain the ability to keep the trust of it &lsquo; s users.
                 </p>
               </div>
             </div>
@@ -209,7 +209,7 @@ function Features() {
             <div className="stepBody">
               <div className="body-cont text-sm px-3 text-gray-400">
                 <p>
-                  Each user's wallet is safe and secured, as all asset, funds
+                  Each user &lsquo; s wallet is safe and secured, as all asset, funds
                   are stored in a secured offline storage system.
                 </p>
               </div>
