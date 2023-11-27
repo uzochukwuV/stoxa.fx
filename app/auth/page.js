@@ -102,7 +102,7 @@ function Login() {
                 <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bord fonttb from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent font-bold">
                   account
                 </span>
-                to enjoy immense benefits and financial freedom, it's easy, it's
+                to enjoy immense benefits and financial freedom, it &lsquo; s easy, it &lsquo; s
                 <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent font-bold">
                   simple
                 </span>
