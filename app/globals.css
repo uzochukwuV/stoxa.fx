@@ -23,6 +23,10 @@ body {
   --text-color-change-70: rgba(0, 0, 0, 0.7);
   --text-color-change-60: rgba(0, 0, 0, 0.6);
   --text-color-change-50: rgba(0, 0, 0, 0.5);
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+ 
+  
 }
 
 body.dark {
@@ -106,4 +110,9 @@ body.dark {
   position: relative;
   --radix-scroll-area-corner-width: 0px;
   --radix-scroll-area-corner-height: 0px;
+}
+
+
+span {
+  padding: 0 5px;
 }

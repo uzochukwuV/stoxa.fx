@@ -21,6 +21,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "@/css/tailwindcss.css";
 
+
+
+
 export default function Home() {
   return (
     <>
@@ -47,6 +50,7 @@ export default function Home() {
           <FAQ></FAQ>
           <Footer></Footer>
         </div>
+        
       </main>
     </>
   );

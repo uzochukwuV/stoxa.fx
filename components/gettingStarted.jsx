@@ -8,7 +8,7 @@ function GettingStarted() {
     className="stepContainer w-full flex flex-col lg:flex-row md:flex-col pt-16 md:pt-16 px-3 relative max-w[100vw] bg-[#0a0a0a] text-gray-100"
   >
     <div
-      className="absolute w-full h-full aos-init aos-animate"
+      className="absolute aos-init aos-animate"
       data-aos="fade-right"
     >
       <div className="w-40 h-40 absolute opacity-30">

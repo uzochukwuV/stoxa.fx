@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import "./page.css";
 import SideBar from "@/dynamic/dashboard/sidebar";
@@ -5,6 +6,7 @@ import PopMenu from "@/components/pop/menu";
 import PopNotifications from "@/components/pop/notifications";
 
 function Content({ children }) {
+  
   return (
     <>
       <div className="main-bar w-full relative overflow-hidden /overflow-y-scroll">
@@ -40,7 +42,7 @@ function Content({ children }) {
                         className="group pointer-events-auto relative flex w-full items-center justify-between space-x-4 overflow-hidden rounded-md p-6 pr-8 shadow-lg transition-all data-[swipe=cancel]:translate-x-0 data-[swipe=end]:translate-x-[var(--radix-toast-swipe-end-x)] data-[swipe=move]:translate-x-[var(--radix-toast-swipe-move-x)] data-[swipe=move]:transition-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[swipe=end]:animate-out data-[state=closed]:fade-out-80 data-[state=closed]:slide-out-to-right-full data-[state=open]:slide-in-from-top-full data-[state=open]:sm:slide-in-from-bottom-full bg-[#111] text-white border border-white/10 top-0 md:right-0 md:fixed md:w-[400px] md:mt-5 md:mr-5"
                         data-radix-collection-item=""
                         style={{
-                          userEelect: "none",
+                          userSelect: "none",
                           touchAction: "none",
                           display: "none",
                         }}
@@ -100,11 +102,11 @@ function Content({ children }) {
   );
 }
 
-function layout({ children }) {
+export default function layout({ children }) {
   return (
-    <main className="h-screen overflow-hidden relative overflow-y-scroll w-screen">
-      <PopMenu />
-      <PopNotifications />
+    <main className="h-screen  overflow-hidden relative overflow-y-scroll w-screen">
+      {/* <PopMenu />
+      <PopNotifications /> */}
       <div
         style={{
           position: "fixed",
@@ -113,10 +115,11 @@ function layout({ children }) {
           pointerEvents: "none",
         }}
       ></div>
-      <div className="fixed top-0 left-0 w-full  z-30">
+      <div className="fixed top-0 left-0 w-full   z-30">
         <div className="nav-container flex justify-between  border border-white/5 duration-300 items-center py-3 px-5 transition-colors">
           <div className="burger md:hidden cursor-pointer">
             <button
+           
               type="button"
               aria-haspopup="dialog"
               aria-expanded="false"
@@ -269,4 +272,4 @@ function layout({ children }) {
   );
 }
 
-export default layout;
+

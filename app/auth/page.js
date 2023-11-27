@@ -1,10 +1,16 @@
-import React from "react";
+"use client"
+
+import React, {useState} from "react";
 
 import "@/css/main.css";
 import "@/css/animate.css";
 import "@/css/tailwindcss.css";
+import SignupOne from "@/dynamic/auth/signupOne";
+import SignupTwo from "@/dynamic/auth/signupTwo";
+import SignupX from "@/dynamic/auth/signupX";
 
 function StateBlur() {
+ 
   return (
     <div
       data-state="open"
@@ -17,6 +23,7 @@ function StateBlur() {
 }
 
 function Login() {
+  const [lid, setlid] = useState(0)
   return (
     <div
       role="dialog"
@@ -82,7 +89,7 @@ function Login() {
           className="/ring-offset-background focus-visible:outline-none /focus-visible:ring-2 /focus-visible:ring-ring /focus-visible:ring-offset-2 mt-8"
           style={{ animationDuration: 0 }}
         >
-          <form className="">
+          <form className={lid=== 0 ? "": "hidden"}>
             <div className="message mb-5">
               <div className="text-gray-200 font-bold text-lg">
                 <span className="text-red-700 font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent">
@@ -143,6 +150,7 @@ function Login() {
             </div>
             <div className="flex justify-between">
               <button
+              onClick={()=>setlid(1)}
                 className="rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 w-full flex items-center justify-center bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 text-white h-12 font-bold roundd-lg"
                 type="button"
                 disabled=""
@@ -153,6 +161,9 @@ function Login() {
               </button>
             </div>
           </form>
+          <SignupOne  props={{lid, setlid}} />
+          <SignupTwo  props={{lid, setlid}} />
+          <SignupX   props={{lid, setlid}} />
         </div>
         <div
           data-state="inactive"

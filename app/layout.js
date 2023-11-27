@@ -1,9 +1,11 @@
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
 import Script from "next/script";
-
 import "@/css/tailwindcss.css";
+import AppContext from "./appContext";
+import '@/plugins/loader'
+
+
 
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -15,13 +17,32 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="">
+      
       <body className={`${poppins.className}`}>
         {/* <Header /> */}
+        <AppContext>
         {children}
+        </AppContext>
         <Script
           src={"//code.tidio.co/aed6ulxqw9wemo9hgeu4ekuxjry3l6ml.js"}
           async
         ></Script>
+
+        <Script
+          src={"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"}
+          async
+        ></Script>
+         <Script
+          src={"https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"}
+          async
+        ></Script>
+         <Script
+          src={"https://raw.githubusercontent.com/pixedelic/Camera/master/scripts/camera.js"}
+        ></Script>
+        <Script>
+          jQuery('camera_wrap').slideUp()
+          
+        </Script>
       </body>
     </html>
   );

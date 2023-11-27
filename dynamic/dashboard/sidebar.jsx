@@ -1,11 +1,15 @@
 "use client";
 
-import React from "react";
+import React, { useMemo } from "react";
 import { usePathname } from "next/navigation";
 
 function SideBar() {
   const pathname = usePathname();
-  console.log(pathname);
+
+  useMemo(() => {
+    
+  }, []);
+
   return (
     <div className="side-bar hidden md:block /overflow-scroll ">
       <div

@@ -8,20 +8,20 @@ function Content() {
     <div
       className="camera_wrap relative w-full"
       id="Home"
-      style={{display: "none", height: 600}}
+      style={{display: 'block', height: 600}}
     >
       <div className="camera_fakehover">
-        <div className="camera_src camerastarted">
+        <div className="camera_src camerastarted camerasliding">
           <div data-src="/assets/brokerImage1.webp">
             <Image
               alt=""
               fetchPriority="high"
-              width="500"
+              width="800"
               height="500"
               decoding="async"
               data-nimg="1"
               className="h-screen w-full"
-              style={{color: "transparent", objectFit: "contain"}}
+              style={{color: "transparent", objectFit: "cover"}}
               srcSet={"/assets/brokerImage1.webp"}
               src={"/assets/brokerImage1.webp"}
             />
@@ -67,17 +67,19 @@ function Content() {
                 className="imgLoaded"
                 style={{
                   visibility: "visible",
-                  height: 600,
+                  height: 700,
                   marginLeft: -84.5,
                   marginRight: -84.5,
                   marginTop: 0,
                   position: "absolute",
-                  width: 900,
+                  width: 1440,
+                  objectFit: "cover",
+                  pixelRatio: "1/2",
                 }}
                 data-alignment=""
                 data-portrait=""
-                width="4098"
-                height="2732"
+                width="4000"
+                height="4000"
               />
               <div
                 className="camerarelative"

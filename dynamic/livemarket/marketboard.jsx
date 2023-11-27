@@ -6,21 +6,21 @@ function MarketBoard() {
       <div className="p-4">
         <div className="dash-boards w-full my-2 text-sm grid md:grid-cols-2 grid-cols-2 lg:grid-cols-3 gap-2">
           <div>
-            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-[#111]">
-              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-[#111] text-white">
+            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-black/5">
+              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-black/5 text-black/70">
                 <div className="cont flex justify-between rounded-xl">
                   <div className="deets w-full">
-                    <div className="name capitalize text-sm font-bold text-white/70">
+                    <div className="name capitalize text-sm font-bold text-black/70">
                       live
                     </div>
-                    <div className="bal font-bold text-xl my-2 md:text-2xl text-white">
+                    <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
                       <span>148</span>
                     </div>
                   </div>
                   <div className="icon">
                     <div>
                       <div className="live">
-                        <div className="live-info p-1 flex items-center bg-green-700 text-xs text-white rounded-full">
+                        <div className="live-info p-1 flex items-center bg-green-700 text-xs text-black/70rounded-full">
                           <div className="dot w-1 h-1 animate-ping bg-white rounded-full"></div>
                         </div>
                       </div>
@@ -34,14 +34,14 @@ function MarketBoard() {
             </div>
           </div>
           <div>
-            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-[#111]">
-              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-[#111] text-white">
+            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-black/5">
+              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-black/5 text-black/70">
                 <div className="cont flex justify-between rounded-xl">
                   <div className="deets w-full">
-                    <div className="name capitalize text-sm font-bold text-white/70">
+                    <div className="name capitalize text-sm font-bold text-black/70">
                       last profit
                     </div>
-                    <div className="bal font-bold text-xl my-2 md:text-2xl text-white">
+                    <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
                       $0.00
                     </div>
                   </div>
@@ -69,14 +69,14 @@ function MarketBoard() {
             </div>
           </div>
           <div>
-            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-[#111]">
-              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-[#111] text-white">
+            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-black/5">
+              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-black/5 text-black/70">
                 <div className="cont flex justify-between rounded-xl">
                   <div className="deets w-full">
-                    <div className="name capitalize text-sm font-bold text-white/70">
+                    <div className="name capitalize text-sm font-bold text-black/70">
                       balance
                     </div>
-                    <div className="bal font-bold text-xl my-2 md:text-2xl text-white">
+                    <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
                       $0
                     </div>
                   </div>
@@ -104,14 +104,14 @@ function MarketBoard() {
             </div>
           </div>
           <div>
-            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-[#111]">
-              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-[#111] text-white">
+            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-black/5">
+              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-black/5 text-black/70">
                 <div className="cont flex justify-between rounded-xl">
                   <div className="deets w-full">
-                    <div className="name capitalize text-sm font-bold text-white/70">
+                    <div className="name capitalize text-sm font-bold text-black/70">
                       trades
                     </div>
-                    <div className="bal font-bold text-xl my-2 md:text-2xl text-white">
+                    <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
                       0
                     </div>
                   </div>
@@ -139,14 +139,14 @@ function MarketBoard() {
             </div>
           </div>
           <div>
-            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-[#111]">
-              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-[#111] text-white">
+            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-black/5">
+              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-black/5 text-black/70">
                 <div className="cont flex justify-between rounded-xl">
                   <div className="deets w-full">
-                    <div className="name capitalize text-sm font-bold text-white/70">
+                    <div className="name capitalize text-sm font-bold text-black/70">
                       total won
                     </div>
-                    <div className="bal font-bold text-xl my-2 md:text-2xl text-white">
+                    <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
                       0
                     </div>
                   </div>
@@ -174,14 +174,14 @@ function MarketBoard() {
             </div>
           </div>
           <div>
-            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-[#111]">
-              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-[#111] text-white">
+            <div className="text-card-foreground shadow-sm rounded-xl border-0 bg-black/5">
+              <div className="p-4 rounded-xl overflow-hidden /border-0 bg-black/5 text-black/70">
                 <div className="cont flex justify-between rounded-xl">
                   <div className="deets w-full">
-                    <div className="name capitalize text-sm font-bold text-white/70">
+                    <div className="name capitalize text-sm font-bold text-black/70">
                       total loss
                     </div>
-                    <div className="bal font-bold text-xl my-2 md:text-2xl text-white">
+                    <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
                       0
                     </div>
                   </div>
