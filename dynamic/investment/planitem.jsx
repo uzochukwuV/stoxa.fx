@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function PlanItem() {
   return (
@@ -8,7 +9,7 @@ function PlanItem() {
         style={{ border: "2px solid rgba(107, 75, 201, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"
@@ -28,7 +29,7 @@ function PlanItem() {
           className="text-xl font-bold mb-5 text-center flex items-center justify-center #6B4BC9"
           style={{ color: "rgb(107, 75, 201)" }}
         >
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"
@@ -195,7 +196,7 @@ function PlanItem() {
         style={{ border: "2px solid rgba(207, 155, 3, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"
@@ -215,7 +216,7 @@ function PlanItem() {
           className="text-xl font-bold mb-5 text-center flex items-center justify-center #CF9B03"
           style={{ color: "rgb(207, 155, 3)" }}
         >
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"
@@ -361,7 +362,7 @@ function PlanItem() {
         style={{ border: "2px solid rgba(192, 192, 192, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"
@@ -381,7 +382,7 @@ function PlanItem() {
           className="text-xl font-bold mb-5 text-center flex items-center justify-center #C0C0C0"
           style={{ color: "rgb(192, 192, 192)" }}
         >
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"
@@ -527,7 +528,7 @@ function PlanItem() {
         style={{ border: "2px solid rgba(205, 127, 50, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"
@@ -547,7 +548,7 @@ function PlanItem() {
           className="text-xl font-bold mb-5 text-center flex items-center justify-center #CD7F32"
           style={{ color: "rgb(205, 127, 50)" }}
         >
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="1000"

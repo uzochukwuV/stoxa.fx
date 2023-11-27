@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Staking() {
   return (
@@ -68,7 +69,7 @@ function Staking() {
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -130,7 +131,7 @@ function Staking() {
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -192,7 +193,7 @@ function Staking() {
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -254,7 +255,7 @@ function Staking() {
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -316,7 +317,7 @@ function Staking() {
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -378,7 +379,7 @@ function Staking() {
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -440,7 +441,7 @@ function Staking() {
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"

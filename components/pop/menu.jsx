@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 
 function PopMenu() {
   return (
@@ -27,7 +29,7 @@ function PopMenu() {
         <div class="content1 grid grid-cols-3 gap-y-4 py-3 pt-5 gap-x-3 px-3">
           <a href="/dashboard/account">
             <div class="deposit flex flex-col items-center text-xs justify-center rounded-md font-bold p-3 bg-white/5 hite/5 hover:bg-white/10">
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"
@@ -47,7 +49,7 @@ function PopMenu() {
           </a>
           <a href="/dashboard/deposits">
             <div class="deposit flex flex-col items-center text-xs justify-center rounded-md font-bold p-3 bg-white/5 hite/5 hover:bg-white/10">
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"
@@ -67,7 +69,7 @@ function PopMenu() {
           </a>
           <a href="/dashboard/withdrawals">
             <div class="deposit flex flex-col items-center text-xs justify-center rounded-md font-bold p-3 bg-white/5 hite/5 hover:bg-white/10">
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"
@@ -92,7 +94,7 @@ function PopMenu() {
                   Live
                 </div>
               </div>
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"
@@ -112,7 +114,7 @@ function PopMenu() {
           </a>
           <a href="/dashboard/investments">
             <div class="deposit flex flex-col items-center text-xs justify-center rounded-md font-bold p-3 bg-white/5 hite/5 hover:bg-white/10">
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"
@@ -146,7 +148,7 @@ function PopMenu() {
                   ></path>
                 </svg>
               </div>
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"

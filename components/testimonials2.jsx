@@ -116,7 +116,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Fdumm.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Fdumm.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/dumm.jpg"
                         />
                       </div>
                     </div>
@@ -227,7 +227,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Fnellyaran.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Fnellyaran.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/nellyaran.jpg"
                         />
                       </div>
                     </div>
@@ -336,7 +336,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Ftestiii.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Ftestiii.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/testiii.jpg"
                         />
                       </div>
                     </div>
@@ -445,7 +445,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Fmurat.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Fmurat.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/murat.jpg"
                         />
                       </div>
                     </div>
@@ -554,7 +554,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Fdumm.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Fdumm.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/dumm.jpg"
                         />
                       </div>
                     </div>
@@ -663,7 +663,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Fnellyaran.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Fnellyaran.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/nellyaran.jpg"
                         />
                       </div>
                     </div>
@@ -772,7 +772,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Ftestiii.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Ftestiii.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/testiii.jpg"
                         />
                       </div>
                     </div>
@@ -881,7 +881,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Fmurat.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Fmurat.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/murat.jpg"
                         />
                       </div>
                     </div>
@@ -990,7 +990,7 @@ function Testimonials2() {
                         //     /_next/image?url=%2Fassets%2Fdumm.jpg&amp;w=64&amp;q=75  1x,
                         //     /_next/image?url=%2Fassets%2Fdumm.jpg&amp;w=128&amp;q=75 2x
                         //   "
-                          src=""
+                          src="/assets/dumm.jpg"
                         />
                       </div>
                     </div>

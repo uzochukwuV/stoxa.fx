@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 function Contact() {
   return (
     <div className="p-4">
@@ -19,7 +19,7 @@ function Contact() {
               <div className="border border-green-500/40 rounded-md p-3 bg-green-500/5">
                 <div className="flex justify-center">
                   <div className="image w-24 h-24">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -63,7 +63,7 @@ function Contact() {
               <div className="border border-red-500/40 rounded-md p-3 bg-red-600/5">
                 <div className="flex justify-center">
                   <div className="image w-24 h-24">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"

@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 
 function SignupOne({props}) {
     const {lid, setlid} = props;
@@ -245,7 +247,7 @@ function SignupOne({props}) {
               </select>
             </div>
             <div className="flag ml-2 p-4 bg-[#111111] rounded-lg">
-              <img
+              <Image
                 className="mr-1"
                 alt="US"
                 width="21"

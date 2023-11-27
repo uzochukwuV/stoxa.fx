@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Dashsidebar() {
   return (
@@ -114,7 +115,7 @@ function Dashsidebar() {
                 </div>
                 <div class="nav">Deposit</div>
                 <div class="ml-2">
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="1000"
@@ -197,7 +198,7 @@ function Dashsidebar() {
                 </div>
                 <div class="nav">Trading Experts</div>
                 <div class="ml-2">
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="1000"
@@ -280,7 +281,7 @@ function Dashsidebar() {
                 </div>
                 <div class="nav">Subscriptions</div>
                 <div class="ml-2">
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="1000"
@@ -321,7 +322,7 @@ function Dashsidebar() {
                 </div>
                 <div class="nav">Purchase Crypto</div>
                 <div class="ml-2">
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="1000"
@@ -420,7 +421,7 @@ function Dashsidebar() {
                 </div>
                 <div class="nav">Support</div>
                 <div class="ml-2">
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="1000"

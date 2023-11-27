@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Crypto() {
   return (
@@ -33,7 +34,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -72,7 +73,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -111,7 +112,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -150,7 +151,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -189,7 +190,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -228,7 +229,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -267,7 +268,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -306,7 +307,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -345,7 +346,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -384,7 +385,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -423,7 +424,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -462,7 +463,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -501,7 +502,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -540,7 +541,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -579,7 +580,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -618,7 +619,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -657,7 +658,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -696,7 +697,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -735,7 +736,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -774,7 +775,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -813,7 +814,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -852,7 +853,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -891,7 +892,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -930,7 +931,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -969,7 +970,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1008,7 +1009,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1047,7 +1048,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1086,7 +1087,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1125,7 +1126,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1164,7 +1165,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1203,7 +1204,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1242,7 +1243,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1281,7 +1282,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1320,7 +1321,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1359,7 +1360,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1398,7 +1399,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1437,7 +1438,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1476,7 +1477,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1515,7 +1516,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1554,7 +1555,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1593,7 +1594,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1632,7 +1633,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1671,7 +1672,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1710,7 +1711,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1749,7 +1750,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1788,7 +1789,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1827,7 +1828,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1866,7 +1867,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1905,7 +1906,7 @@ function Crypto() {
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-sm">
                 <div className="flex items-center gap-x-2 text-color-change /80">
                   <div className="crypto-image">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"

@@ -1,12 +1,12 @@
 import React from "react";
-
+import Image from "next/image";
 function Plans() {
   return (
     <div className="">
       <div className="grid md:grid-cols-2 grid-cols-1 w-full gap-3">
         <div className="flex relative overflow-hidden justify-between items-center p-4 rounded-md wfull bg-black/5 border">
           <div className="absolute z-20 -bottom-2 right-40">
-            <img
+            <Image
               alt=""
               loading="lazy"
               width="1000"
@@ -24,7 +24,7 @@ function Plans() {
           </div>
           <div className="flex items-center gap-x-3">
             <div className="image_cont rounded-full h-full p-3 bg-black/10">
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"
@@ -57,7 +57,7 @@ function Plans() {
         </div>
         <div className="bg-black/5 border p-4 rounded-md relative overflow-hidden">
           <div className="absolute z-20 -bottom-5 right-5">
-            <img
+            <Image
               alt=""
               loading="lazy"
               width="1000"
@@ -75,7 +75,7 @@ function Plans() {
           </div>
           <div className="flex gap-x-3">
             <div className="image_cont rounded-full h-full p-3 bg-black/10">
-              <img
+              <Image
                 alt=""
                 loading="lazy"
                 width="1000"

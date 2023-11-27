@@ -2,6 +2,7 @@
 
 import React, { useMemo } from "react";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 function SideBar() {
   const pathname = usePathname();
@@ -134,7 +135,7 @@ function SideBar() {
                             Deposit
                           </div>
                           <div className="ml-2">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -178,7 +179,7 @@ function SideBar() {
                             Trading Experts
                           </div>
                           <div className="ml-2">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
@@ -289,7 +290,7 @@ function SideBar() {
                             Purchase Crypto
                           </div>
                           <div className="ml-2">
-                            <img
+                            <Image
                               alt=""
                               loading="lazy"
                               width="1000"
