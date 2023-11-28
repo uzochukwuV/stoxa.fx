@@ -589,9 +589,9 @@ div>.VIpgJd-yAWNEb-L7lbkb {
 }
 
 .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-jOfkMb-Ne3sFf {
-    background: -webkit-linear-gradient(top,#29910d 0,#20af0e 100%);
+    background: -webkit-linear-gradient(to top,#29910d 0,#20af0e 100%);
     /* background: -webkit-gradient(linear,left top,left bottom,from(#29910d),to(#20af0e)); */
-    background: linear-gradient(top,#29910d 0,#20af0e 100%);
+    background: linear-gradient(to top,#29910d 0,#20af0e 100%);
     background: #29910d;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -675,8 +675,8 @@ div>.VIpgJd-yAWNEb-L7lbkb {
     transition: all .218s;
     background-color: #f5f5f5;
     /* background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1)); */
-    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -webkit-linear-gradient(to top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(to top,#f5f5f5,#f1f1f1);
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select:none;
@@ -690,8 +690,8 @@ div>.VIpgJd-yAWNEb-L7lbkb {
     transition: all 0s;
     background-color: #f8f8f8;
     /* background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1)); */
-    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
-    background-image: linear-gradient(top,#f8f8f8,#f1f1f1)
+    background-image: -webkit-linear-gradient(to top,#f8f8f8,#f1f1f1);
+    background-image: linear-gradient(to top,#f8f8f8,#f1f1f1)
 }
 
 .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:active {
@@ -699,8 +699,8 @@ div>.VIpgJd-yAWNEb-L7lbkb {
     color: #333;
     background-color: #f6f6f6;
     /* background-image: -webkit-gradient(linear,left top,left bottom,from(#f6f6f6),to(#f1f1f1)); */
-    background-image: -webkit-linear-gradient(top,#f6f6f6,#f1f1f1);
-    background-image: linear-gradient(top,#f6f6f6,#f1f1f1)
+    background-image: -webkit-linear-gradient(to top,#f6f6f6,#f1f1f1);
+    background-image: linear-gradient(to top,#f6f6f6,#f1f1f1)
 }
 
 .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:focus .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input.AHmuwe .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:active,.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input:focus:active {
@@ -718,8 +718,8 @@ div>.VIpgJd-yAWNEb-L7lbkb {
 .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input.gk6SMd {
     background-color: #eee;
     /* background-image: -webkit-gradient(linear,left top,left bottom,from(#eee),to(#e0e0e0)); */
-    background-image: -webkit-linear-gradient(top,#eee,#e0e0e0);
-    background-image: linear-gradient(top,#eee,#e0e0e0);
+    background-image: -webkit-linear-gradient(to top,#eee,#e0e0e0);
+    background-image: linear-gradient(to top,#eee,#e0e0e0);
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     border: 1px solid #ccc;
     color: #333
@@ -730,16 +730,16 @@ div>.VIpgJd-yAWNEb-L7lbkb {
     border-color: #3079ed;
     background-color: #4d90fe;
     /* background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed)); */
-    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
-    background-image: linear-gradient(top,#4d90fe,#4787ed)
+    background-image: -webkit-linear-gradient(to top,#4d90fe,#4787ed);
+    background-image: linear-gradient(to top,#4d90fe,#4787ed)
 }
 
 .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf:hover .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf:focus,.VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf.AHmuwe .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf:active {
     border-color: #3079ed;
     background-color: #357ae8;
     /* background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#357ae8)); */
-    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
-    background-image: linear-gradient(top,#4d90fe,#357ae8)
+    background-image: -webkit-linear-gradient(to top,#4d90fe,#357ae8);
+    background-image: linear-gradient(to top,#4d90fe,#357ae8)
 }
 
 .VIpgJd-yAWNEb-L7lbkb .VIpgJd-yAWNEb-L4Nn5e-I9GLp .VIpgJd-yAWNEb-Z0Arqf-I9GLp input .VIpgJd-yAWNEb-Z0Arqf-sFeBqf:hover {

@@ -11,7 +11,7 @@ function Loading() {
     >
       <div
         className="progressbar absolute rounded-full h-full top-0 left-0 transition-all bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700"
-        style={{width: "91%"}}
+        style={{width: "91%", height:300}}
       >
         Loading........
       </div>

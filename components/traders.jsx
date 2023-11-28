@@ -1,6 +1,5 @@
 import React from "react";
-import 'jquery-easing'
-const jQuery = require('jquery')
+
 
 
 function Traders() {

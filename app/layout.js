@@ -3,7 +3,6 @@ import "./globals.css";
 import Script from "next/script";
 import "@/css/tailwindcss.css";
 import AppContext from "./appContext";
-import '@/plugins/loader'
 
 
 

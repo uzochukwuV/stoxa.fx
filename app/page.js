@@ -27,7 +27,7 @@ import "@/css/tailwindcss.css";
 export default function Home() {
   return (
     <>
-      <main className="relative transition-all /duration-1000 bg-[#0a0a0a]">
+      <main className="relative transition-all /duration-1000">
         <Main />
 
         <div className="w-full left-0 right-0 absolute top-0 ">
