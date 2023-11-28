@@ -4,6 +4,7 @@ import "./page.css";
 import SideBar from "@/dynamic/dashboard/sidebar";
 import PopMenu from "@/components/pop/menu";
 import PopNotifications from "@/components/pop/notifications";
+import Image from "next/image";
 
 function Content({ children }) {
   
@@ -144,7 +145,7 @@ export default function layout({ children }) {
           </div>
           <div className="title hidden md:flex">
             <h2 className="font-bold">
-              <img src="/title.svg" alt="placeholder" height={90} width={150} />
+              <Image src="/title.svg" alt="placeholder" height={90} width={150} />
             </h2>
           </div>
           <div className="nav-tools text-sm flex items-center">
@@ -161,7 +162,7 @@ export default function layout({ children }) {
               <span style={{ pointerEvents: "none" }}>
                 <div className="flex items-center py-2">
                   <div className="w-5 h-5">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"

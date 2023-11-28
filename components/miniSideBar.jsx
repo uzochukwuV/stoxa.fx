@@ -44,7 +44,7 @@ function MiniSideBar({ props }) {
             className="text-lg font-semibold text-foreground"
           >
             <div className="font-bold">
-              <img src="close.svg" alt="x" />
+              <Image width='20' height='20' src="close.svg" alt="x" />
             </div>
           </h2>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Withdrawals() {
   return (
@@ -9,7 +10,7 @@ function Withdrawals() {
             <div className="not-verified-container rounded-xl p-6 text-color-change-90">
               <div className="header-text text-lg uppe/rcase font-bold w-full text-center">
                 <div className="flex justify-center">
-                  <img
+                  <Image
                     alt=""
                     loading="lazy"
                     width="1000"

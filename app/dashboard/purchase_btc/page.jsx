@@ -1,11 +1,12 @@
 import React from "react";
+import Image from "next/image";
 
 function Purchase() {
   return (
     <div className="md:grid-cols-3 grid grid-cols-1 p-4">
       <div className="border rounded-xl p-4 m-2">
         <div className="image lg:h-40 w-full">
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="300"
@@ -31,7 +32,7 @@ function Purchase() {
       </div>
       <div className="border rounded-xl p-4 m-2">
         <div className="image lg:h-40 w-full">
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="300"
@@ -57,7 +58,7 @@ function Purchase() {
       </div>
       <div className="border rounded-xl p-4 m-2">
         <div className="image lg:h-40 w-full">
-          <img
+          <Image
             alt=""
             loading="lazy"
             width="300"

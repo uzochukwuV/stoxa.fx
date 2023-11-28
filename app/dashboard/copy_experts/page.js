@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function page() {
   return (
@@ -42,7 +43,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="US"
                       width="21"
                       height="21"
@@ -52,7 +53,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -173,7 +174,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="US"
                       width="21"
                       height="21"
@@ -183,7 +184,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -292,7 +293,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="GB"
                       width="21"
                       height="21"
@@ -302,7 +303,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -423,7 +424,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="US"
                       width="21"
                       height="21"
@@ -433,7 +434,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -542,7 +543,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="AU"
                       width="21"
                       height="21"
@@ -552,7 +553,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -673,7 +674,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="CH"
                       width="21"
                       height="21"
@@ -683,7 +684,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -804,7 +805,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="US"
                       width="21"
                       height="21"
@@ -814,7 +815,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -923,7 +924,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="SG"
                       width="21"
                       height="21"
@@ -933,7 +934,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1054,7 +1055,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="US"
                       width="21"
                       height="21"
@@ -1064,7 +1065,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1173,7 +1174,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="DE"
                       width="21"
                       height="21"
@@ -1183,7 +1184,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1304,7 +1305,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="JP"
                       width="21"
                       height="21"
@@ -1314,7 +1315,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1423,7 +1424,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="IN"
                       width="21"
                       height="21"
@@ -1433,7 +1434,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1554,7 +1555,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="BR"
                       width="21"
                       height="21"
@@ -1564,7 +1565,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1673,7 +1674,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="EG"
                       width="21"
                       height="21"
@@ -1683,7 +1684,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"
@@ -1804,7 +1805,7 @@ function page() {
               <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
-                    <img
+                    <Image
                       alt="MX"
                       width="21"
                       height="21"
@@ -1814,7 +1815,7 @@ function page() {
                 </div>
                 <div class="image-region overflow-hidden flex justify-center w-full">
                   <div class="img-container w-20 h-20 rounded-full overflow-hidden">
-                    <img
+                    <Image
                       alt=""
                       loading="lazy"
                       width="1000"

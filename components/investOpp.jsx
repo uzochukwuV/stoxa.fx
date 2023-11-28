@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function InvestmentOpp() {
   return (
@@ -6,7 +7,7 @@ function InvestmentOpp() {
       <div className="mt-container grid grid-cols-1 md:grid-cols-2 md:px-10 px-5 py-8 md:py-5">
         <section className="image_section flex w-full h-full items-center justify-center">
           <div className="img_container aos-init" data-aos="fade-down">
-            <img
+            <Image
               alt=""
               loading="lazy"
               width="1000"
