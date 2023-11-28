@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useRef, useMemo } from "react";
+import Image from "next/image";
 
 function MiniSideBar({ props }) {
   const { sidebarOpen, setSidebarOpen } = props;
