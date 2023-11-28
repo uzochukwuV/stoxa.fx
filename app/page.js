@@ -30,7 +30,7 @@ export default function Home() {
       <main className="relative transition-all /duration-1000">
         <Main />
 
-        <div className="w-full left-0 right-0 absolute top-0 ">
+        <div className="left-0 right-0 absolute top-0 ">
           <Content />
           <GettingStarted />
           <div className="bg-[#0a0a0a]">

@@ -35,7 +35,7 @@ function InvestmentOpp() {
               <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent">
                 Investment
               </span>
-              Opportunities with Capital Nexus &lsquo; s Versatile
+             <p> Opportunities with</p> Capital Nexus &lsquo; s Versatile
               <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent">
                 CFD Trading
               </span>
