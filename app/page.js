@@ -1,3 +1,5 @@
+'use client'
+
 import Main from "@/components/dubbedmain";
 import Content from "@/components/dubbedcontent";
 import GettingStarted from "@/components/gettingStarted";
@@ -20,17 +22,37 @@ import "@/css/main.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "@/css/tailwindcss.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect, useMemo } from "react";
+import { useRouter } from "next/navigation";
+import { userLoggedIn } from "@/utils/isAuthenticated";
 
 
 
 
 export default function Home() {
+  const router = useRouter()
+
+  useMemo(() => {
+    var isLoggedIn = userLoggedIn()
+    if (isLoggedIn){
+      router.push('/dashboard');
+    }
+  }, [])
+  useEffect(() => {
+   
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
   return (
     <>
-      <main className="relative transition-all /duration-1000">
+      <main  className="relative reveal transition-all /duration-1000">
         <Main />
 
-        <div className="left-0 right-0 absolute top-0 ">
+        <div  className="left-0 right-0 absolute top-0 ">
           <Content />
           <GettingStarted />
           <div className="bg-[#0a0a0a]">
@@ -55,3 +77,5 @@ export default function Home() {
     </>
   );
 }
+
+

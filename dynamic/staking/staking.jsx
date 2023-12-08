@@ -64,8 +64,8 @@ function Staking() {
                   </div>
                 </div>
                 <div className="text-black/70">
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-3">
-                    <div className="p-4 rounded-sm border bg-white border-white/5">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-3 ">
+                    <div className="p-4 rounded-sm shadow-lg  border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -121,13 +121,13 @@ function Staking() {
                           data-state="closed"
                           className="w-full"
                         >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 w-full py-3 text-center font-bold text-sm">
+                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
                             Stake Bitcoin
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div className="p-4 rounded-sm border bg-white border-white/5">
+                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -183,13 +183,13 @@ function Staking() {
                           data-state="closed"
                           className="w-full"
                         >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 w-full py-3 text-center font-bold text-sm">
+                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
                             Stake Ethereum
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div className="p-4 rounded-sm border bg-white border-white/5">
+                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -245,13 +245,13 @@ function Staking() {
                           data-state="closed"
                           className="w-full"
                         >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 w-full py-3 text-center font-bold text-sm">
+                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
                             Stake Solana
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div className="p-4 rounded-sm border bg-white border-white/5">
+                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -307,13 +307,13 @@ function Staking() {
                           data-state="closed"
                           className="w-full"
                         >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 w-full py-3 text-center font-bold text-sm">
+                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
                             Stake Dogecoin
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div className="p-4 rounded-sm border bg-white border-white/5">
+                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -369,13 +369,13 @@ function Staking() {
                           data-state="closed"
                           className="w-full"
                         >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 w-full py-3 text-center font-bold text-sm">
+                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
                             Stake Cardano
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div className="p-4 rounded-sm border bg-white border-white/5">
+                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -431,13 +431,13 @@ function Staking() {
                           data-state="closed"
                           className="w-full"
                         >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 w-full py-3 text-center font-bold text-sm">
+                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
                             Stake Tether
                           </div>
                         </button>
                       </div>
                     </div>
-                    <div className="p-4 rounded-sm border bg-white border-white/5">
+                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -493,7 +493,7 @@ function Staking() {
                           data-state="closed"
                           className="w-full"
                         >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 w-full py-3 text-center font-bold text-sm">
+                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
                             Stake Tron
                           </div>
                         </button>

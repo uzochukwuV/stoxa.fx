@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
+    "framer-motion": "^10.16.12",
     "jquery": "^3.7.1",
     "jquery-easing": "^0.0.1",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "react-parallax": "^3.5.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

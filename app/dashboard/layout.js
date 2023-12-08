@@ -59,7 +59,7 @@ function Content({ children }) {
                         </div>
                         <button
                           type="button"
-                          className="inline-flex shrink-0 items-center justify-center rounded-md px-3 text-sm ring-offset-background transition-colors hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 group-[.destructive]:border-muted/40 group-[.destructive]:hover:border-destructive/30 group-[.destructive]:hover:bg-destructive group-[.destructive]:hover:text-destructive-foreground group-[.destructive]:focus:ring-destructive font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] h-11 border-0/ from-red-800 via-red-600 to-orange-500 text-white"
+                          className="inline-flex shrink-0 items-center justify-center rounded-md px-3 text-sm ring-offset-background transition-colors hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 group-[.destructive]:border-muted/40 group-[.destructive]:hover:border-destructive/30 group-[.destructive]:hover:bg-destructive group-[.destructive]:hover:text-destructive-foreground group-[.destructive]:focus:ring-destructive font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] h-11 border-0/ from-blue-800 via-blue-600 to-blue-500 text-white"
                           data-radix-toast-announce-exclude=""
                           data-radix-toast-announce-alt="Deposit"
                         >
@@ -67,7 +67,7 @@ function Content({ children }) {
                         </button>
                         <button
                           type="button"
-                          className="absolute right-2 top-2 rounded-md p-1 text-foreground/50 opacity-0 transition-opacity hover:text-foreground focus:opacity-100 focus:outline-none focus:ring-2 group-hover:opacity-100 group-[.destructive]:text-red-300 group-[.destructive]:hover:text-red-50 group-[.destructive]:focus:ring-red-400 group-[.destructive]:focus:ring-offset-red-600"
+                          className="absolute right-2 top-2 rounded-md p-1 text-foreground/50 opacity-0 transition-opacity hover:text-foreground focus:opacity-100 focus:outline-none focus:ring-2 group-hover:opacity-100 group-[.destructive]:text-blue-300 group-[.destructive]:hover:text-blue-50 group-[.destructive]:focus:ring-blue-400 group-[.destructive]:focus:ring-offset-blue-600"
                           toast-close=""
                           data-radix-toast-announce-exclude=""
                         >
@@ -144,8 +144,21 @@ export default function layout({ children }) {
             </button>
           </div>
           <div className="title hidden md:flex">
-            <h2 className="font-bold">
-              <Image src="/title.svg" alt="placeholder" height={90} width={150} />
+            <h2 className="font-bold text-4xl font-mono">
+            <svg
+                width="198"
+                height="32"
+                viewBox="0 0 198 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                            
+              <text x="0" y="30"  fill="rgba(0,122,225)">STOXA</text>
+
+
+
+
+              </svg>
             </h2>
           </div>
           <div className="nav-tools text-sm flex items-center">
@@ -247,7 +260,7 @@ export default function layout({ children }) {
               aria-controls="radix-:rh:"
               data-state="closed"
             >
-              <div className="flex font-bold text-red-600 rounded-full md:p-3 md:bg-red-50 md:mr-5 text-sm">
+              <div className="flex font-bold text-blue-600 rounded-full md:p-3 md:bg-blue-50 md:mr-5 text-sm">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"

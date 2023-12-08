@@ -98,7 +98,7 @@ function AccountInfo() {
           data-disabled=""
           disabled=""
           value="on"
-          className="peer inline-flex h-[24px] w-[44px] shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-input bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500 mr-3"
+          className="peer inline-flex h-[24px] w-[44px] shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-input bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 mr-3"
         >
           <span
             data-state="checked"
@@ -115,10 +115,10 @@ function AccountInfo() {
         >
         <div className="progress-cont w-2/3">
           <div
-            className="progress-underlay h-2 w-full rounded-full relative overflow-hidden bg-red-500/10"
+            className="progress-underlay h-2 w-full rounded-full relative overflow-hidden bg-blue-500/10"
           >
             <div
-              className="progress-line h-full transition-all top-0 left-0 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500 rounded-full"
+              className="progress-line h-full transition-all top-0 left-0 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 rounded-full"
               style={{width: "99%"}}
             ></div>
           </div>
@@ -133,10 +133,10 @@ function AccountInfo() {
         >
         <div className="progress-cont w-2/3">
           <div
-            className="progress-underlay h-2 w-full rounded-full relative overflow-hidden bg-red-500/10"
+            className="progress-underlay h-2 w-full rounded-full relative overflow-hidden bg-blue-500/10"
           >
             <div
-              className="progress-line h-full transition-all top-0 left-0 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500 rounded-full"
+              className="progress-line h-full transition-all top-0 left-0 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 rounded-full"
               style={{width: "98%"}}
             ></div>
           </div>

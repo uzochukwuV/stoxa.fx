@@ -9,7 +9,7 @@ const componentStyle = {
 
 function FAQ() {
   return (
-    <div id="FAQ" className="my-20 text-white py-5">
+    <div id="FAQ" className="my-20 bg-[#222] text-white py-5">
     <div className="inner-cont mx-10 mb-10 lg:w-1/2 md:w-2/3">
       <div className="smallertex aos-init" data-aos="fade-up">
         <div
@@ -19,7 +19,7 @@ function FAQ() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="w-5 h-5 mr-2 text-red-700"
+            className="w-5 h-5 mr-2 text-blue-700"
           >
             <path
               fillRule="evenodd"
@@ -37,8 +37,8 @@ function FAQ() {
         className="larger-text text-2xl font-bold capitalize aos-init"
         data-aos="fade-left"
       >
-        You Got <span className="text-red-700">questions?</span> we got
-        <span className="text-red-700">answers!</span>
+        You Got <span className="text-blue-700">questions?</span> we got
+        <span className="text-blue-700">answers!</span>
       </div>
       <div className="text-writeUp text-sm my-3 aos-init" data-aos="fade-left">
         <p>

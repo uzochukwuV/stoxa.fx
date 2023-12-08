@@ -1,8 +1,10 @@
+
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import "@/css/tailwindcss.css";
 import AppContext from "./appContext";
+
 
 
 
@@ -15,8 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="">
-      
+    <html lang="en" className="">    
       <body className={`${poppins.className}`}>
         {/* <Header /> */}
         <AppContext>

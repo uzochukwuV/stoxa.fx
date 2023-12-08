@@ -8,7 +8,7 @@ function Assets() {
           <h2 className="text-lg font-bold">My Assets</h2>
           <a href="dashboard/deposits">
             <div>
-              <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500 rounded-full py-3 px-5 text-white font-bold text-xs md:text-sm">
+              <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 rounded-full py-3 px-5 text-white font-bold text-xs md:text-sm">
                 Deposit
               </button>
             </div>
@@ -84,7 +84,7 @@ function Assets() {
           <h2 className="text-lg font-bold">Trendy Stock Markets</h2>
           <a href="dashboard/deposits">
             <div>
-              <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500 rounded-full py-3 px-5 text-white font-bold text-xs md:text-sm">
+              <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 rounded-full py-3 px-5 text-white font-bold text-xs md:text-sm">
                 Deposit
               </button>
             </div>

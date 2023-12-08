@@ -42,7 +42,7 @@ function Dashsidebar() {
   <div class="mt-10 nav-menus">
     <div
       dir="ltr"
-      class="relative overflow-hidden h-[80vh] border-red-600"
+      class="relative overflow-hidden h-[80vh] border-blue-600"
       style={{position: "relative"}}
     >
       <div
@@ -72,7 +72,7 @@ function Dashsidebar() {
             <div>Quick Access</div>
           </div>
           <a
-            class="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-white bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700"
+            class="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-white bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700"
             href="/dashboard"
             ><button type="button" class="w-full">
               <div class="w-full flex items-center py-1">

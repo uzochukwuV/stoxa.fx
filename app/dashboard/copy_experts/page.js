@@ -40,7 +40,7 @@ function page() {
           </div>
           <div class="traders-region mt-6">
             <div class="grid grid-cols-1 w-full md:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50  border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -76,7 +76,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -132,7 +132,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -166,12 +166,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -251,7 +251,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -285,12 +285,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -326,7 +326,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -382,7 +382,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -416,12 +416,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -501,7 +501,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -535,12 +535,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -576,7 +576,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -632,7 +632,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -666,12 +666,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -707,7 +707,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -763,7 +763,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -797,12 +797,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -882,7 +882,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -916,12 +916,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class="w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -957,7 +957,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -1013,7 +1013,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1047,12 +1047,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -1132,7 +1132,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1166,12 +1166,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -1207,7 +1207,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -1263,7 +1263,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1297,12 +1297,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -1382,7 +1382,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1416,12 +1416,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -1457,7 +1457,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -1513,7 +1513,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1547,12 +1547,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -1632,7 +1632,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1666,12 +1666,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -1707,7 +1707,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -1763,7 +1763,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1797,12 +1797,12 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>
               </div>
-              <div class="border w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
+              <div class=" w-full p-3 relative rounded-md text-black/50 border border-white/5 bg-black/5">
                 <div class="flag absolute top-2 right-2">
                   <div class="rounded-sm p-3 bg-black/5">
                     <Image
@@ -1838,7 +1838,7 @@ function page() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    class="w-5 h-5 ml-1 text-red-500"
+                    class="w-5 h-5 ml-1 text-blue-500"
                   >
                     <path
                       fill-rule="evenodd"
@@ -1894,7 +1894,7 @@ function page() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      class="w-5 h-5 text-red-600"
+                      class="w-5 h-5 text-blue-600"
                     >
                       <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z"></path>
                     </svg>
@@ -1928,7 +1928,7 @@ function page() {
                   </div>
                 </div>
                 <div class="btn flex justify-center mt-8">
-                  <button class="text-black/50 rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 text-black/50">
+                  <button class=" rounded-md px-4 py-3 text-sm font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 text-black/50">
                     Copy Trader Strategy
                   </button>
                 </div>

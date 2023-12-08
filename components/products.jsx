@@ -12,7 +12,7 @@ function Products() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
-            className="w-5 h-5 mr-2 text-red-600"
+            className="w-5 h-5 mr-2 text-blue-600"
           >
             <path
               fillRule="evenodd"
@@ -29,7 +29,7 @@ function Products() {
       >
         Trade with world-wide accepted
         <span
-          className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent"
+          className="text-blue-accent2 bg-clip-text text-transparent"
           >Product</span
         >
       </div>
@@ -52,7 +52,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +123,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -172,7 +172,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +195,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -219,7 +219,7 @@ function Products() {
           className="cm1 s rounded-md p-3 8 flex items-center bg-[#111] aos-init"
         >
           <div
-            className="innercont p-3 rounded-md mr-2 bg-gradient-to-br from-orange-400 to-rose-400"
+            className="innercont p-3 rounded-md mr-2 text-blue-accent2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

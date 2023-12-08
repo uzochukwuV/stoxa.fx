@@ -26,14 +26,14 @@ function Withdrawals() {
                     style={{ color: "transparent" }}
                   />
                 </div>
-                <div className="font-bold">Verification Required</div>
+                <div className="font-bold">Verification Requiblue</div>
               </div>
               <div className="message py-1 text-sm font-bold text-center text-color-change-60">
                 You need to be verified to make a withdrawal.
               </div>
               <div className="cta pt-2 flex justify-center">
                 <a href="/dashboard/verify">
-                  <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500 text-white py-3 px-9 text-sm font-bold rounded-full hover:bg-slate-600">
+                  <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 text-white py-3 px-9 text-sm font-bold rounded-full hover:bg-slate-600">
                     Verify Now
                   </button>
                 </a>

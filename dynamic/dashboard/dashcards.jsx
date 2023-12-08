@@ -1,4 +1,10 @@
+'use client'
+import { userAccountContext } from "@/app/dashboard/page";
+import { useContext } from "react";
+
+
 export default function DashCards() {
+  const {userAcc, user} = useContext(userAccountContext)
   return (
     <>
       <div className="dash-boards w-full my-2 text-sm grid md:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-2">
@@ -11,7 +17,7 @@ export default function DashCards() {
                     deposited
                   </div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    $0.00
+                    ${userAcc.total_deposited}.00
                   </div>
                 </div>
                 <div className="icon">
@@ -20,7 +26,7 @@ export default function DashCards() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      className="w-5 h-5 text-red-600"
+                      className="w-5 h-5 text-blue-600"
                     >
                       <path
                         fillRule="evenodd"
@@ -46,7 +52,7 @@ export default function DashCards() {
                     withdrawn
                   </div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    $0.00
+                    ${userAcc.total_withdrawn}.00
                   </div>
                 </div>
                 <div className="icon">
@@ -81,7 +87,7 @@ export default function DashCards() {
                     Stakings
                   </div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    $0
+                    ${userAcc.stake}.00
                   </div>
                 </div>
                 <div className="icon">
@@ -114,7 +120,7 @@ export default function DashCards() {
                 <div className="deets w-full">
                   <div className="name capitalize text-sm font-bold">trade</div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    0
+                    ${userAcc.trade}.00
                   </div>
                 </div>
                 <div className="icon">

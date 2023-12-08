@@ -24,7 +24,7 @@ export default function TradingProgress() {
             <div className="progress mt-2">
               <div className="progresstrack overflow-hidden w-full relative h-1.5 rounded-full bg-black/5">
                 <div
-                  className="bar absolute top-0 left-0 h-full rounded-full bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500"
+                  className="bar absolute top-0 left-0 h-full rounded-full bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500"
                   style={{ width: "2%" }}
                 ></div>
               </div>

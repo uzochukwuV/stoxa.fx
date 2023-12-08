@@ -1,12 +1,21 @@
-"use client"
+"use client";
 import React from "react";
 import { useRouter } from "next/navigation";
 
-function SignupX({props}) {
-  const {lid, setlid} = props;
-  const router = useRouter()
+function SignupX({ props }) {
+  const {
+    lid,
+    setlid,
+    password,
+    setPassword,
+    passwordConfirm,
+    setPasswordConfirm,
+    createAccount,
+    loading
+  } = props;
+  const router = useRouter();
   return (
-    <form className={lid=== 3 ? "": "hidden"}>
+    <form className={lid === 3 ? "" : "hidden"}>
       <div className="message mb-5">
         <div className="text-gray-200 font-bold text-lg">
           <span className="text-red-700 font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent">
@@ -29,7 +38,7 @@ function SignupX({props}) {
         <div className="progress-cont w-full h-1 rounded-full bg-[#11111180] relative">
           <div
             className="progress-bar h-full w-1/2 transition-all duration-500 absolute bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 rounded-full top-0 left-0"
-            style={{width: "100%"}}
+            style={{ width: "100%" }}
           ></div>
         </div>
       </div>
@@ -38,7 +47,7 @@ function SignupX({props}) {
           <div className="label_controller mb-2 flex items-center justify-between">
             <label
               className="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 block font-bold text-sm"
-              for="password"
+              htmlFor="password"
             >
               Password
             </label>
@@ -63,30 +72,32 @@ function SignupX({props}) {
             id="password"
             placeholder="Create a password"
             type="password"
-            value=""
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             name="password"
           />
         </div>
         <div className="mb-5">
           <label
             className="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 block font-bold text-sm mb-2"
-            for="confirmPassword"
+            htmlFor="confirmPassword"
           >
             Confirm Password
           </label>
           <input
             className="flex border border-input ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-0 disabled:cursor-not-allowed disabled:opacity-50 w-full px-4 py-1 bg-[#111111] text-gray-200 border-none h-11 focus:border-none transition-all rounded-lg text-sm"
             type="password"
-            value=""
             name="confirmPassword"
             id="confirmPassword"
             placeholder="Confirm password"
+            value={passwordConfirm}
+            onChange={(e) => setPasswordConfirm(e.target.value)}
           />
         </div>
       </div>
       <div className="flex justify-between">
         <button
-        onClick={()=>setlid(2)}
+          onClick={() => setlid(2)}
           className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 px-4 py-2 mr-2 bg-[#111] text-gray-200 hover:bg-[#11111180] h-12 rounded-lg"
           type="button"
         >
@@ -104,15 +115,17 @@ function SignupX({props}) {
           </svg>
         </button>
         <button
-        onClick={(e)=>{
-          e.preventDefault();
-          router.push("/dashboard")
-        }}
+          onClick={(e) => {
+            e.preventDefault();
+            createAccount();
+          }}
           className="text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 w-full flex items-center justify-center bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 text-white h-12 font-bold rounded-lg"
           type="submit"
+          disabled={loading}
         >
           <div className="py-2 flex items-center justify-center">
-            Create my account
+            
+            {loading ? "........ ":"Create my account"}
           </div>
         </button>
       </div>

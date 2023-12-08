@@ -116,3 +116,12 @@ body.dark {
 span {
   padding: 0 5px;
 }
+
+
+.text-blue-accent {
+  background: rgba(0, 122, 225, 0.15);
+}
+
+.text-blue-accent2 {
+  background: rgba(0, 122, 225);
+}

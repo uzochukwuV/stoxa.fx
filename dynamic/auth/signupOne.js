@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
-
-function SignupOne({props}) {
-    const {lid, setlid} = props;
+function SignupOne({ props }) {
+  const { lid, setlid, country, setCountry, number, setNumber } = props;
 
   return (
-    <form className={lid=== 1 ? "": "hidden"}>
+    <form className={lid === 1 ? "" : "hidden"}>
       <div className="message mb-5">
         <div className="text-gray-200 font-bold text-lg">
           <span className="text-red-700 font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent">
@@ -37,7 +36,7 @@ function SignupOne({props}) {
         <div className="mb-5">
           <label
             className="peer-disabled:cursor-not-allowed peer-disabled:opacity-70 block font-bold text-sm mb-2"
-            for="country"
+            htmlFor="country"
           >
             Country
           </label>
@@ -47,7 +46,11 @@ function SignupOne({props}) {
                 id="country"
                 className="bg-inherit text-white w-full ml-1 mr-3"
               >
-                <option value="" disabled="">
+                <option
+                  disabled=""
+                  value={country}
+                  onSelect={(e) => setCountry(e.target.value)}
+                >
                   Select country
                 </option>
                 <option value="US">United States</option>
@@ -262,9 +265,10 @@ function SignupOne({props}) {
             <div className="special-label">Phone</div>
             <input
               className="form-control w-full px-4 py-3 bg-[#111111] text-gray-200 text-sm rounded-lg"
-              placeholder="1 (702) 123-4567"
+              placeholder="+1 (702) 123-4567"
               type="tel"
-              value="+1"
+              value={number}
+              onChange={(e) => setNumber(e.target.value)}
             />
             <div className="flag-dropdown">
               <div
@@ -284,7 +288,7 @@ function SignupOne({props}) {
       </div>
       <div className="flex justify-between">
         <button
-        onClick={()=>setlid(0)}
+          onClick={() => setlid(0)}
           className="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 px-4 py-2 mr-2 bg-[#111] text-gray-200 hover:bg-[#11111180] h-12 rounded-lg"
           type="button"
         >
@@ -295,14 +299,14 @@ function SignupOne({props}) {
             className="w-5 h-5"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M18 10a.75.75 0 01-.75.75H4.66l2.1 1.95a.75.75 0 11-1.02 1.1l-3.5-3.25a.75.75 0 010-1.1l3.5-3.25a.75.75 0 111.02 1.1l-2.1 1.95h12.59A.75.75 0 0118 10z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
         </button>
         <button
-        onClick={()=>setlid(2)}
+          onClick={() => setlid(2)}
           className="rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 w-full flex items-center justify-center bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 text-white h-12 font-bold roundd-lg"
           type="button"
           disabled=""

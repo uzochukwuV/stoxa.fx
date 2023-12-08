@@ -32,11 +32,11 @@ function InvestmentOpp() {
               data-aos="fade-up"
             >
               Enhancing
-              <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent">
+              <span className="text-blue-accent2 bg-clip-text text-transparent">
                 Investment
               </span>
              <p> Opportunities with</p> Capital Nexus &lsquo; s Versatile
-              <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent">
+              <span className="text-blue-accent2 bg-clip-text text-transparent">
                 CFD Trading
               </span>
             </div>
@@ -49,14 +49,14 @@ function InvestmentOpp() {
               Nexus also offers a diverse range of CFD trading options. With
               Capital Nexus, you can engage in CFD trading across various asset
               classNamees, including
-              <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent font-bold">
+              <span className="text-blue-accent2 bg-clip-text text-transparent font-bold">
                 Forex, Indices, Shares, Commodities, Metals, Digital Currencies,
                 Bonds, and ETFs
               </span>
               . Our CFD trading platform provides you with access to the biggest
               global exchanges, including the NASDAQ and NYSE in the United
               States, along with the
-              <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent font-bold">
+              <span className="text-blue-accent2 bg-clip-text text-transparent font-bold">
                 Australian Stock Exchange (ASX)
               </span>
               . This means you can trade some of the world &lsquo; s largest and most

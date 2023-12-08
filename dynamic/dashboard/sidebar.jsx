@@ -50,7 +50,7 @@ function SideBar() {
                         <div
                           className={
                             pathname === "/dashboard"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500"
+                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
                               : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
                           }
                         >
@@ -78,7 +78,7 @@ function SideBar() {
                         <div
                           className={
                             pathname === "/dashboard/markets"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500"
+                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
                               : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
                           }
                         >
@@ -219,7 +219,7 @@ function SideBar() {
                         <div
                           className={
                             pathname === "/dashboard/history"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500"
+                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
                               : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
                           }
                         >
@@ -246,7 +246,7 @@ function SideBar() {
                         <div
                           className={
                             pathname === "/dashboard/investments"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500"
+                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
                               : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
                           }
                         >
@@ -313,7 +313,7 @@ function SideBar() {
                         <div
                           className={
                             pathname === "/dashboard/account"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500"
+                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
                               : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
                           }
                         >
@@ -340,7 +340,7 @@ function SideBar() {
                         <div
                           className={
                             pathname === "/dashboard/verify"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500"
+                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
                               : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
                           }
                         >
@@ -367,7 +367,7 @@ function SideBar() {
                         <div
                           className={
                             pathname === "/dashboard/support"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500"
+                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
                               : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
                           }
                         >

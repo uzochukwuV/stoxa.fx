@@ -48,13 +48,13 @@ function AdvancedTrading() {
           >
             Advanced
             <span
-              className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent"
+              className="text-blue-accent2 bg-clip-text text-transparent"
               >Trading</span
             >
             <br />
             Platforms &amp;
             <span
-              className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent"
+              className="text-blue-accent2 bg-clip-text text-transparent"
               >Financial Technology</span
             >
           </div>
@@ -82,16 +82,16 @@ function AdvancedTrading() {
               </div>
               <div className="message">
                 <span
-                  className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
                   >MetaTrader 4 </span
                 >(MT4) &amp;
                 <span
-                  className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
                   >MetaTrader 5
                 </span>
                 (MT5) , IRESS,
                 <span
-                  className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
                   >cTrader</span
                 >
                 and WebTrader &amp; mobile apps for iPhone and Android
@@ -147,7 +147,7 @@ function AdvancedTrading() {
               <div className="message">
                 Superior
                 <span
-                  className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
                   >Virtual Private Servers (VPS)</span
                 >
                 solutions for Expert Advisors (EAs) , scalping and

@@ -1,10 +1,8 @@
-import React from 'react'
+import React from "react";
 
 function Achievements() {
   return (
-    <div
-      className="bg-[#0a0a0a] text-white lg:-translate-y-16 mx-auto lg:w-[80vw] rounded-xl lg:shadow-[0_8px_30px_rgb(0,0,0,0.12)] overflow-hidden"
-    >
+    <div className="bg-[#0a0a0a] text-white lg:-translate-y-16 mx-auto lg:w-[80vw] rounded-xl lg:shadow-[0_8px_30px_rgb(0,0,0,0.12)] overflow-hidden">
       <div
         className="flexed-container grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 w-full h-full aos-init"
         data-aos="fade-up"
@@ -20,7 +18,7 @@ function Achievements() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6 text-red-700"
+                  className="w-6 h-6 text-blue-700"
                 >
                   <path
                     fillRule="evenodd"
@@ -31,11 +29,13 @@ function Achievements() {
               </div>
             </div>
             <div className="text-count my-3 font-bold text-xl">
-              <span className="font-extrabold">0</span
-              ><span className="font-extrabold text-ed-700">K+</span>
+              <span className="font-extrabold">0</span>
+              <span className="font-extrabold text-ed-700">K+</span>
             </div>
             <div className="count-res uppercase text-sm font-bld text-gray-400">
-              <p>Successfull <span className="text-rd-700">Trades</span></p>
+              <p>
+                Successfull <span className="text-rd-700">Trades</span>
+              </p>
             </div>
           </div>
         </div>
@@ -51,25 +51,25 @@ function Achievements() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6 text-red-700"
+                  className="w-6 h-6 text-blue-700"
                 >
                   <path
                     fillRule="evenodd"
                     d="M8.25 6.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 116 0 3 3 0 01-6 0zM2.25 9.75a3 3 0 116 0 3 3 0 01-6 0zM6.31 15.117A6.745 6.745 0 0112 12a6.745 6.745 0 016.709 7.498.75.75 0 01-.372.568A12.696 12.696 0 0112 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 01-.372-.568 6.787 6.787 0 011.019-4.38z"
                     clipRule="evenodd"
                   ></path>
-                  <path
-                    d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z"
-                  ></path>
+                  <path d="M5.082 14.254a8.287 8.287 0 00-1.308 5.135 9.687 9.687 0 01-1.764-.44l-.115-.04a.563.563 0 01-.373-.487l-.01-.121a3.75 3.75 0 013.57-4.047zM20.226 19.389a8.287 8.287 0 00-1.308-5.135 3.75 3.75 0 013.57 4.047l-.01.121a.563.563 0 01-.373.486l-.115.04c-.567.2-1.156.349-1.764.441z"></path>
                 </svg>
               </div>
             </div>
             <div className="text-count my-3 font-bold text-xl">
-              <span className="font-extrabold">0</span
-              ><spzn className="font-extrabold text-gren-700">K+</spzn>
+              <span className="font-extrabold">0</span>
+              <span className="font-extrabold text-gren-700">K+</span>
             </div>
             <div className="count-res uppercase text-sm font-bld text-gray-400">
-              <p><span>Happy</span> Customers</p>
+              <p>
+                <span>Happy</span> Customers
+              </p>
             </div>
           </div>
         </div>
@@ -85,11 +85,9 @@ function Achievements() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6 text-red-700"
+                  className="w-6 h-6 text-blue-700"
                 >
-                  <path
-                    d="M16.881 4.346A23.112 23.112 0 018.25 6H7.5a5.25 5.25 0 00-.88 10.427 21.593 21.593 0 001.378 3.94c.464 1.004 1.674 1.32 2.582.796l.657-.379c.88-.508 1.165-1.592.772-2.468a17.116 17.116 0 01-.628-1.607c1.918.258 3.76.75 5.5 1.446A21.727 21.727 0 0018 11.25c0-2.413-.393-4.735-1.119-6.904zM18.26 3.74a23.22 23.22 0 011.24 7.51 23.22 23.22 0 01-1.24 7.51c-.055.161-.111.322-.17.482a.75.75 0 101.409.516 24.555 24.555 0 001.415-6.43 2.992 2.992 0 00.836-2.078c0-.806-.319-1.54-.836-2.078a24.65 24.65 0 00-1.415-6.43.75.75 0 10-1.409.516c.059.16.116.321.17.483z"
-                  ></path>
+                  <path d="M16.881 4.346A23.112 23.112 0 018.25 6H7.5a5.25 5.25 0 00-.88 10.427 21.593 21.593 0 001.378 3.94c.464 1.004 1.674 1.32 2.582.796l.657-.379c.88-.508 1.165-1.592.772-2.468a17.116 17.116 0 01-.628-1.607c1.918.258 3.76.75 5.5 1.446A21.727 21.727 0 0018 11.25c0-2.413-.393-4.735-1.119-6.904zM18.26 3.74a23.22 23.22 0 011.24 7.51 23.22 23.22 0 01-1.24 7.51c-.055.161-.111.322-.17.482a.75.75 0 101.409.516 24.555 24.555 0 001.415-6.43 2.992 2.992 0 00.836-2.078c0-.806-.319-1.54-.836-2.078a24.65 24.65 0 00-1.415-6.43.75.75 0 10-1.409.516c.059.16.116.321.17.483z"></path>
                 </svg>
               </div>
             </div>
@@ -97,7 +95,9 @@ function Achievements() {
               <span className="font-extrabold">1960</span>
             </div>
             <div className="count-res uppercase text-sm font-bld text-gray-400">
-              <p>Trading <span className="text-re-700">Since</span></p>
+              <p>
+                Trading <span className="text-re-700">Since</span>
+              </p>
             </div>
           </div>
         </div>
@@ -113,26 +113,26 @@ function Achievements() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-6 h-6 text-red-700"
+                  className="w-6 h-6 text-blue-700"
                 >
-                  <path
-                    d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"
-                  ></path>
+                  <path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z"></path>
                 </svg>
               </div>
             </div>
             <div className="text-count my-3 font-bold text-xl">
-              <span className="font-extrabold">0</span
-              ><spzn className="font-extrabold text-red-70">%</spzn>
+              <span className="font-extrabold">0</span>
+              <spzn className="font-extrabold text-blue-70">%</spzn>
             </div>
             <div className="count-res uppercase text-sm font-bld text-gray-400">
-              <p>Client <span className="text-rd-700">Satisfaction</span></p>
+              <p>
+                Client <span className="text-rd-700">Satisfaction</span>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Achievements
+export default Achievements;

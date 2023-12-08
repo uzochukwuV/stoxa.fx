@@ -1,4 +1,12 @@
+'use client'
+import { userAccountContext } from "@/app/dashboard/page";
+import { useContext } from "react";
+
 export default function AccountBoard() {
+  const {userAcc, user} = useContext(userAccountContext)
+
+  console.log(userAcc);
+  
   return (
     <>
       <div className="account-boards w-full my-3 text-sm">
@@ -31,7 +39,7 @@ export default function AccountBoard() {
                   </div>
                 </div>
                 <div className="mt-2 md:mt-0 bg-gay-200 rounded-lg md:ml-2 text-lg md:text-sm text-left text-black">
-                  $0.00
+                  ${userAcc.trade}.00
                 </div>
                 <div className="live hidden md:block">
                   <div className="live-info py-1 px-2 flex items-center bg-green-700 text-xs mx-3 text-white rounded-full">
@@ -56,7 +64,7 @@ export default function AccountBoard() {
                 </div>
               </a>
               <a href="dashboard/deposits">
-                <div className="mx-1 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-700 via-red-600 to-orange-500 text-white flex font-bold text-xs items-center cursor-pointer md:px-4 md:py-3 p-3 rounded-full md:rounded-lg">
+                <div className="mx-1 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-600 to-blue-500 text-blue-accent flex font-bold text-xs items-center cursor-pointer md:px-4 md:py-3 p-3 rounded-full md:rounded-lg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"

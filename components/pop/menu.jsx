@@ -139,7 +139,7 @@ function PopMenu() {
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5 text-red-500"
+                  class="w-5 h-5 text-blue-500"
                 >
                   <path
                     fill-rule="evenodd"
@@ -170,7 +170,7 @@ function PopMenu() {
         <div class="relative w-full flex items-center justify-center pt-4">
           <div class="line h-0.5 w-1/2 mx-auto top-0 left-0 bg-white/5 rounded-full"></div>
         </div>
-        <div class="logout flex items-center text-sm py-3 mb-4 mx-3 rounded-md text-red-600 mt-4 bg-red-500/10 /border /border-red-600 font-bold px-2 cursor-pointer">
+        <div class="logout flex items-center text-sm py-3 mb-4 mx-3 rounded-md text-blue-600 mt-4 bg-blue-500/10 /border /border-blue-600 font-bold px-2 cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"

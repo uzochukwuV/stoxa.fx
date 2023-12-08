@@ -60,7 +60,7 @@ function Contact() {
               </div>
             </div>
             <div className="whatsapp">
-              <div className="border border-red-500/40 rounded-md p-3 bg-red-600/5">
+              <div className="border border-blue-500/40 rounded-md p-3 bg-blue-600/5">
                 <div className="flex justify-center">
                   <div className="image w-24 h-24">
                     <Image

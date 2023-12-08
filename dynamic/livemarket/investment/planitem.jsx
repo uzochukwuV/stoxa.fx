@@ -184,7 +184,7 @@ function PlanItem() {
             Purchase Plan
           </button>
         </div>
-        <div className="text-sm text-red-500 w-full text-center">
+        <div className="text-sm text-blue-500 w-full text-center">
           Insufficient Balance to activate this plan.
           <span className="font-bold">
             <a href="/dashboard/deposits">Deposit now</a>
@@ -300,7 +300,7 @@ function PlanItem() {
                 clipRule="evenodd"
               ></path>
             </svg>
-            <div>Reduced trading fees</div>
+            <div>blueuced trading fees</div>
           </div>
           <div className="text-sm flex p-2 font-bold items-center text-right">
             <svg

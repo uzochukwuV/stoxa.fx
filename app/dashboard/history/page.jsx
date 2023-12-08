@@ -4,7 +4,7 @@ function History() {
   return (
     <div>
       <div className="p-4 overflow-x-hidden max-w-[100vw] mt-10">
-        <div className="font-bold textsm mb-3 ml-2 text-white border-0">
+        <div className="font-bold textsm mb-3 ml-2 text-black-500 border-0 p-4 rounded-md text-blue-accent">
           Select a transaction history
         </div>
         <button
@@ -15,7 +15,7 @@ function History() {
           aria-autocomplete="none"
           dir="ltr"
           data-state="closed"
-          className="flex h-12 w-full items-center justify-between rounded-md border-input px-3 py-4 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring /focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 font-bold bg-[#222] text-white border-0"
+          className="flex h-12 w-full items-center justify-between rounded-md border-input px-3 py-4 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring /focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 font-bold text-blue-accent  text-black-500 border-0"
         >
           <span style={{ pointerEvents: "none" }}>All Transactions</span>
           <svg
@@ -34,24 +34,24 @@ function History() {
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <div className="rounded-xl my-4 py-3 border border-white/10 bg-[#111]">
-          <div className="w-full overflow-auto">
+        <div className="rounded-xl my-4 py-3 border border-white/10 text-blue-accent">
+          <div className="w-full overflow-auto ">
             <table className="w-full caption-bottom text-sm p-0">
               <caption className="mt-4 text-sm text-muted-foreground">
                 All History
               </caption>
               <thead className="[&amp;_tr]:border-b border-b border-white/10">
                 <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none hover:bg-transparent">
-                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-white/80 font-bold">
+                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-black-500/80 font-bold">
                     Date Added
                   </th>
-                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-white/80 font-bold">
+                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-black-500/80 font-bold">
                     Transaction Method
                   </th>
-                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-white/80 font-bold">
+                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-black-500/80 font-bold">
                     Amount
                   </th>
-                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-white/80 font-bold">
+                  <th className="h-12 px-4 text-left align-middle [&amp;:has([role=checkbox])]:pr-0 text-black-500/80 font-bold">
                     Transaction Status
                   </th>
                 </tr>
@@ -59,7 +59,7 @@ function History() {
               <tbody className="[&amp;_tr:last-child]:border-0">
                 <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none hover:bg-transparent">
                   <td
-                    className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center font-bold text-white/80"
+                    className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center font-bold text-black-500/80"
                     colspan="4"
                   >
                     No all history

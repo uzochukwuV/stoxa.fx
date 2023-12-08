@@ -44,13 +44,13 @@ function AccountSetting() {
       /><button
         disabled=""
         type="submit"
-        className="w-full px-4 py-3 cursor-pointer mt-4 text-sm rounded-lg bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-500 text-white font-bold focus:outline-none"
+        className="w-full px-4 py-3 cursor-pointer mt-4 text-sm rounded-lg bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 text-white font-bold focus:outline-none"
       >
         Save Changes
       </button>
     </form>
     <div
-      className="message border border-red-600 text-red-600 rounded-md p-3 mt-4 text-sm bg-red-50"
+      className="message border border-blue-600 text-blue-600 rounded-md p-3 mt-4 text-sm bg-blue-50"
     >
       <article>
         <b className="font-bold">Note:</b> You're not able to change your password
