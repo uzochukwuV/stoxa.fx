@@ -25,7 +25,7 @@ function Dashboard() {
     user = JSON.parse(user)
     var userToken = user.res.token
     var auth = `Token ${userToken}`
-    var link = `http://127.0.0.1:8000/snippets/${user.res.user.user_account}/`
+    var link = `https://stoxafx.vercel.app/snippets/${user.res.user.user_account}/`
     setUser(user.res.user)
 
 
