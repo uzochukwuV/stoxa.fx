@@ -39,7 +39,7 @@ function Contact() {
                   Whatsapp
                 </div>
                 <div className="cta">
-                  <a href="#">
+                  <Link href="#">
                     <button className="flex items-center gap-3 justify-center rounded-md w-full py-3 px-3 font-bold text-white text-sm bg-[#29A61A]">
                       <div>Chat on whatsapp</div>
                       <svg
@@ -55,7 +55,7 @@ function Contact() {
                         ></path>
                       </svg>
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ function Contact() {
                   Email
                 </div>
                 <div className="cta">
-                  <a href="mailto:">
+                  <Link href="mailto:">
                     <button className="flex items-center gap-3 justify-center rounded-md w-full py-3 px-3 font-bold text-white text-sm bg-[#F54336]">
                       <div>Send Email</div>
                       <svg
@@ -99,7 +99,7 @@ function Contact() {
                         ></path>
                       </svg>
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

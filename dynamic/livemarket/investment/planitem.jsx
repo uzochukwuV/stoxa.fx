@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function PlanItem() {
   return (
@@ -187,7 +188,7 @@ function PlanItem() {
         <div className="text-sm text-blue-500 w-full text-center">
           Insufficient Balance to activate this plan.
           <span className="font-bold">
-            <a href="/dashboard/deposits">Deposit now</a>
+            <Link href="/dashboard/deposits">Deposit now</Link>
           </span>
         </div>
       </div>

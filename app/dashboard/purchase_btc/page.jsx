@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Purchase() {
   return (
@@ -23,11 +24,11 @@ function Purchase() {
           />
         </div>
         <div className="button flex justify-center">
-          <a href="https://www.moonpay.com">
+          <Link href="https://www.moonpay.com">
             <button className="bg-[#7B00FF] font-bold text-white rounded-full px-8 py-3 mt-6 text-sm">
               Purchase from Moonpay
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="border rounded-xl p-4 m-2">
@@ -49,11 +50,11 @@ function Purchase() {
           />
         </div>
         <div className="button flex justify-center">
-          <a href="https://www.binance.us">
+          <Link href="https://www.binance.us">
             <button className="bg-[#E9B72B] font-bold text-white rounded-full px-8 py-3 mt-6 text-sm">
               Purchase from Binance
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="border rounded-xl p-4 m-2">
@@ -75,11 +76,11 @@ function Purchase() {
           />
         </div>
         <div className="button flex justify-center">
-          <a href="https://www.coinbase.com">
+          <Link href="https://www.coinbase.com">
             <button className="bg-[#0051FE] font-bold text-white rounded-full px-8 py-3 mt-6 text-sm">
               Purchase from Coinbase
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

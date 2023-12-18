@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Withdrawals() {
   return (
@@ -32,11 +33,11 @@ function Withdrawals() {
                 You need to be verified to make a withdrawal.
               </div>
               <div className="cta pt-2 flex justify-center">
-                <a href="/dashboard/verify">
+                <Link href="/dashboard/verify">
                   <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 text-white py-3 px-9 text-sm font-bold rounded-full hover:bg-slate-600">
                     Verify Now
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

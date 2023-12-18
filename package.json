@@ -16,7 +16,8 @@
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.29",

@@ -1,13 +1,30 @@
-"use client"
-import React from "react";
+"use client";
+import React, { useEffect, useMemo, useState } from "react";
 import "./page.css";
 import SideBar from "@/dynamic/dashboard/sidebar";
 import PopMenu from "@/components/pop/menu";
 import PopNotifications from "@/components/pop/notifications";
 import Image from "next/image";
+import SideBarMini from "@/dynamic/dashboard/sidebarmini";
+import { useRouter } from "next/navigation";
 
 function Content({ children }) {
-  
+  const router = useRouter();
+  const window = globalThis.window;
+  useEffect(() => {
+    if (typeof window === "undefined") {
+    } else {
+      let user = JSON.parse(localStorage.getItem("user")) || null;
+      let time = new Date().getTime() / 1000;
+      let userTime = new Date(user?.time).getTime() / 100 || null;
+
+      if (user && userTime && time - userTime <= 9000) {
+      } else {
+        localStorage.removeItem("user");
+        return () => router.push("/auth");
+      }
+    }
+  }, []);
   return (
     <>
       <div className="main-bar w-full relative overflow-hidden /overflow-y-scroll">
@@ -63,7 +80,7 @@ function Content({ children }) {
                           data-radix-toast-announce-exclude=""
                           data-radix-toast-announce-alt="Deposit"
                         >
-                          <a href="/dashboard/deposits">Deposit</a>
+                          <Link href="/dashboard/deposits">Deposit</Link>
                         </button>
                         <button
                           type="button"
@@ -103,11 +120,17 @@ function Content({ children }) {
   );
 }
 
-export default function layout({ children }) {
+function LayoutApp({ children }) {
+  const [Nav, setNav] = useState(false);
+  const [menu, setMenu] = useState(false);
+  const [popNof, setPopNof] = useState(false);
+
   return (
     <main className="h-screen  overflow-hidden relative overflow-y-scroll w-screen">
-      {/* <PopMenu />
-      <PopNotifications /> */}
+      {menu && <PopMenu />}
+
+      {popNof && <PopNotifications />}
+
       <div
         style={{
           position: "fixed",
@@ -117,10 +140,11 @@ export default function layout({ children }) {
         }}
       ></div>
       <div className="fixed top-0 left-0 w-full   z-30">
+        {Nav && <SideBarMini props={{ setNav, Nav }} />}
         <div className="nav-container flex justify-between  border border-white/5 duration-300 items-center py-3 px-5 transition-colors">
           <div className="burger md:hidden cursor-pointer">
             <button
-           
+              onClick={() => setNav((nav) => !nav)}
               type="button"
               aria-haspopup="dialog"
               aria-expanded="false"
@@ -145,19 +169,16 @@ export default function layout({ children }) {
           </div>
           <div className="title hidden md:flex">
             <h2 className="font-bold text-4xl font-mono">
-            <svg
+              <svg
                 width="198"
                 height="32"
                 viewBox="0 0 198 32"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                            
-              <text x="0" y="30"  fill="rgba(0,122,225)">STOXA</text>
-
-
-
-
+                <text x="0" y="30" fill="rgba(0,122,225)">
+                  STOXA
+                </text>
               </svg>
             </h2>
           </div>
@@ -219,7 +240,10 @@ export default function layout({ children }) {
               aria-controls="radix-:rg:"
               data-state="closed"
             >
-              <div className="notif-cont ml-3 relative">
+              <div
+                className="notif-cont ml-3 relative"
+                onClick={() => setPopNof((prev) => !prev)}
+              >
                 <div className="flex font-bold md:bg-green-800/30 text-green-600 rounded-full md:rounded-lg md:px-3 md:py-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -239,7 +263,10 @@ export default function layout({ children }) {
                 </div>
               </div>
             </button>
-            <button className="theme-toggler  md:p-3  md:bg-white/10 text-white  rounded-full mx-5 md:mx-2">
+            <button
+              onClick={() => console.log("navigation bar")}
+              className="theme-toggler  md:p-3  md:bg-white/10 text-white  rounded-full mx-5 md:mx-2"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -254,6 +281,7 @@ export default function layout({ children }) {
               </svg>
             </button>
             <button
+              onClick={() => setMenu((prev) => !prev)}
               type="button"
               aria-haspopup="dialog"
               aria-expanded="false"
@@ -278,7 +306,7 @@ export default function layout({ children }) {
           </div>
         </div>
         <div className="content-container relative md:flex h-full">
-          <SideBar />
+          <SideBar props={Nav} />
           <Content>{children}</Content>
         </div>
       </div>
@@ -286,4 +314,40 @@ export default function layout({ children }) {
   );
 }
 
+import { userAccountContext } from "./context";
+import Loading from "../loading";
+import Link from "next/link";
 
+function Layout({ children }) {
+  const [account, setAccount] = useState(null);
+  const [user, setUser] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() =>
+    console.log(user)
+  )
+  return (
+    <>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <>
+          <userAccountContext.Provider
+            value={{
+              account,
+              user,
+              setUser,
+              setAccount,
+              setIsLoading,
+              isLoading,
+            }}
+          >
+            <LayoutApp>{children}</LayoutApp>
+          </userAccountContext.Provider>
+        </>
+      )}
+    </>
+  );
+}
+
+export default Layout;

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 
 import "@/css/main.css";
@@ -14,9 +14,14 @@ import Alert from "@/components/pop/alert";
 import Emailverification from "@/components/pop/emailverification";
 import LoginAlert from "@/components/pop/loginAlert";
 import PopNotifications from "@/components/pop/notifications";
+import { url, AuthUrl } from "@/utils/static";
+import { appContext } from "../appContext";
+import { useContext } from "react";
+
 
 export function StateBlur({ props }) {
   const { setAuthPage } = props;
+  
   return (
     <div
       onClick={() => setAuthPage(false)}
@@ -51,37 +56,58 @@ function Login({ props }) {
   const [LoginPop, setLoginPop] = useState(false)
 
   const requestOptions = {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      username: name,
-      email: email,
-      password: password,
-    }),
-  };
+    method: 'POST',
+    headers: {'content-type':'application/json'},
+    body: JSON.stringify({username:"Holand",password:"hellodear", user_account:"1", "email":"sel@gmail.com" }),
+};
 
-  const createAccount = () => {
+  let genderValue = gender === 'male'? 'M':'F' ;
+  
+  const createAccount = async() => {
+    console.log({
+      country: country,
+      gender:gender,
+      phone:number,
+      date_of_birth: date,
+      password:password,
+      username: passwordConfirm,
+      fullname:name,
+      email:email
+     });
     setLoading(true);
-    fetch("http://127.0.0.1:8000/api/signup", requestOptions)
+    console.log("started .....", name, password);
+    await fetch(`${AuthUrl}api/signup`, {
+      method: 'POST',
+      headers: {'content-type':'application/json'},
+      body: JSON.stringify({
+        country: country,
+        gender:genderValue,
+        phone:number,
+        date_of_birth: date,
+        password:password,
+        username: passwordConfirm,
+        fullname:name,
+        email:email
+       }),
+  })
       .then((response) => response.json())
       .then((res) => {
-        if (res.username) {
-          setErr(res.username[0]);
-          setLoading(false);
-        } else {
-         
-          setEmailPop(true);
-          
-          setLoading(false);
-        }
         console.log(res);
       })
       .catch(e=>{
         setErr(e.message);
         setLoading(false);
       });
-      
+      setLoading(false);
   };
+
+  let context = useContext(appContext)
+
+
+  useMemo(() => console.log(context), [context])
+
+
+  
 
   return (
     <div
@@ -300,6 +326,23 @@ export default function page() {
   const [authPage, setAuthPage] = useState(null);
   const [emailPop, setEmailPop] = useState(false);
   const [email, setEmail] = useState("");
+  const router = useRouter()
+
+  useEffect(() => {
+    let user = JSON.parse(localStorage.getItem('user')) || null
+    let time =  (new Date().getTime()) /1000
+    let userTime = (new Date(user?.time).getTime())/100 || null
+    console.log(userTime);
+    if (userTime && time - userTime <= 9000){
+      return () => router.push('/dashboard')
+      
+    }else {
+      localStorage.removeItem('user')
+    }
+  
+    
+  }, [])
+  
 
   return (
     <>

@@ -8,18 +8,18 @@ function SignupOne({ props }) {
     <form className={lid === 1 ? "" : "hidden"}>
       <div className="message mb-5">
         <div className="text-gray-200 font-bold text-lg">
-          <span className="text-red-700 font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent">
+          <span className="text-blue-700 font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-orange-500 bg-clip-text text-transparent">
             Create
           </span>
           a new account
         </div>
         <p className="text-sm font-normal text-gray-200 mt-3">
           Create a new
-          <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bord fonttb from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent font-bold">
+          <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] bord fonttb from-blue-600 via-blue-500 to-orange-500 bg-clip-text text-transparent font-bold">
             account
           </span>
           to enjoy immense benefits and financial freedom, it's easy, it's
-          <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent font-bold">
+          <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-orange-500 bg-clip-text text-transparent font-bold">
             simple
           </span>
         </p>
@@ -27,7 +27,7 @@ function SignupOne({ props }) {
       <div className="progress w-full mt-2 mb-8">
         <div className="progress-cont w-full h-1 rounded-full bg-[#11111180] relative">
           <div
-            className="progress-bar h-full w-1/2 transition-all duration-500 absolute bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 rounded-full top-0 left-0"
+            className="progress-bar h-full w-1/2 transition-all duration-500 absolute bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-orange-700 rounded-full top-0 left-0"
             style={{ width: "33.3333%" }}
           ></div>
         </div>
@@ -307,7 +307,7 @@ function SignupOne({ props }) {
         </button>
         <button
           onClick={() => setlid(2)}
-          className="rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 w-full flex items-center justify-center bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 text-white h-12 font-bold roundd-lg"
+          className="rounded-md text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 px-4 py-2 w-full flex items-center justify-center bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-orange-700 text-white h-12 font-bold roundd-lg"
           type="button"
           disabled=""
         >

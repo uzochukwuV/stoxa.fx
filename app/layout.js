@@ -7,7 +7,6 @@ import AppContext from "./appContext";
 
 
 
-
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
@@ -17,6 +16,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    
     <html lang="en" className="">    
       <body className={`${poppins.className}`}>
         {/* <Header /> */}
@@ -28,18 +28,6 @@ export default function RootLayout({ children }) {
           async
         ></Script>
 
-        <Script
-          src={"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"}
-          async
-        ></Script>
-         <Script
-          src={"https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"}
-          async
-        ></Script>
-         <Script
-          src={"https://raw.githubusercontent.com/pixedelic/Camera/master/scripts/camera.js"}
-        ></Script>
-        
       </body>
     </html>
   );

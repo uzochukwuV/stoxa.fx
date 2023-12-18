@@ -1,6 +1,15 @@
+'use client'
+
 import React from "react";
+import { useStore } from "@/app/dashboard/context";
 
 function MarketBoard() {
+  const user = useStore((state) => state.user);
+  const setUser = useStore((state) => state.setUser);
+  const account = useStore((state) => state.account);
+  const setAccount = useStore((state) => state.setAccount);
+
+  console.log(account);
   return (
     <div>
       <div className="p-4">
@@ -77,7 +86,7 @@ function MarketBoard() {
                       balance
                     </div>
                     <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
-                      $0
+                      ${account.total_balance}
                     </div>
                   </div>
                   <div className="icon">
@@ -112,7 +121,7 @@ function MarketBoard() {
                       trades
                     </div>
                     <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
-                      0
+                      ${account.trade}
                     </div>
                   </div>
                   <div className="icon">

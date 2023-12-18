@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function Assets() {
   return (
@@ -6,13 +7,13 @@ function Assets() {
       <div className="shadow[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-lg my-4">
         <div className="header p-5 flex w-full items-center justify-between">
           <h2 className="text-lg font-bold">My Assets</h2>
-          <a href="dashboard/deposits">
+          <Link href="dashboard/deposits">
             <div>
               <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 rounded-full py-3 px-5 text-white font-bold text-xs md:text-sm">
                 Deposit
               </button>
             </div>
-          </a>
+          </Link>
         </div>
         <div>
           <div style={{ width: "100%", height: 660 }}>
@@ -82,13 +83,13 @@ function Assets() {
       <div className="shadow[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] rounded-lg">
         <div className="header p-5 flex w-full items-center justify-between">
           <h2 className="text-lg font-bold">Trendy Stock Markets</h2>
-          <a href="dashboard/deposits">
+          <Link href="dashboard/deposits">
             <div>
               <button className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500 rounded-full py-3 px-5 text-white font-bold text-xs md:text-sm">
                 Deposit
               </button>
             </div>
-          </a>
+          </Link>
         </div>
         <div id="symbol-overview-widget-container">
           <iframe

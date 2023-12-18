@@ -1,5 +1,11 @@
-'use client'
-import React from "react";
+"use client";
+import React, {
+  useEffect,
+  useState,
+  useTransition,
+  useContext,
+  useMemo,
+} from "react";
 import Greeting from "@/dynamic/dashboard/greetings";
 import AccountBoard from "@/dynamic/dashboard/accountboard";
 import TradingProgress from "@/dynamic/dashboard/tradingProgress";
@@ -8,50 +14,75 @@ import Plans from "@/dynamic/dashboard/plans";
 import Staking from "@/dynamic/dashboard/staking";
 import Trades from "@/dynamic/dashboard/trades";
 import Assets from "@/dynamic/dashboard/assets";
-import { getData } from "@/utils/fetch";
-import { useMemo, useEffect, useState, createContext } from "react";
-
+import { url, AuthUrl } from "@/utils/static";
+import { userAccountContext } from "./context";
+import Loading from "../loading";
+import { useStore } from "./context";
 import "@/css/tailwindcss.css";
-export const userAccountContext = createContext({})
+import { appContext } from "../appContext";
+
+
+
 
 function Dashboard() {
-  const [userAcc, setUserAcc] = useState({})
-  const [user, setUser] = useState({})
-  
-  
+  const [isLoading, setIsLoading] = useState(true);
+  const [isPending, startTransition] = useTransition();
+
+  let appcontext = useContext(appContext);
+  let { user, setUser, account, setAccount } = useContext(userAccountContext);
+
   useEffect(() => {
+    let Localuser = JSON.parse(window?.localStorage?.getItem("user")) || null;
 
-    var user = window.localStorage.getItem('user')
-    user = JSON.parse(user)
-    var userToken = user.res.token
-    var auth = `Token ${userToken}`
-    var link = `https://stoxafx.vercel.app/snippets/${user.res.user.user_account}/`
-    setUser(user.res.user)
+    if (!Localuser?.res?.token) {
+      return startTransition(() => router.push("/auth"));
+    }
 
+    setUser(Localuser);
 
-    fetch(link)
-    .then(res=>res.json())
-    .then(res=>{
-      console.log(res);
-      setUserAcc(res);
-    })
-    .catch(e=>console.log(e))
+    let id = Localuser?.res?.user?.id;
+
+    var newurl = new URL(`${AuthUrl}user/account`),
+      params = { id: id };
+    Object.keys(params).forEach((key) =>
+      newurl.searchParams.append(key, params[key])
+    );
+    if (account === null){
+      fetch(newurl)
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res)
+        console.log('setting account');
+        setAccount(res.user);
+
+        setIsLoading(false);
+
+      })
+      .catch((err) => console.log(err));
     
+  
+    }
+    setIsLoading(false);
 
-  }, [])
+  }, [isLoading])
+
   return (
-    <userAccountContext.Provider value={{userAcc,user}}>
-    <div>
-      <Greeting />
-      <AccountBoard />
-      <TradingProgress />
-      <DashCards />
-      <Plans />
-      <Staking />
-      <Trades />
-      <Assets />
-    </div>
-    </userAccountContext.Provider>
+    <>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <div>
+          <Greeting />
+          <AccountBoard />
+          <TradingProgress />
+          <DashCards />
+          <Plans />
+          <Staking />
+          <Trades />
+          <Assets />
+        </div>
+      )}
+    </>
   );
 }
 

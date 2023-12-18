@@ -3,10 +3,12 @@
 import React from "react";
 import Image from "next/image";
 
-import { userAccountContext } from "@/app/dashboard/page";
+import Link from "next/link";
 import { useContext } from "react";
+import { userAccountContext } from "@/app/dashboard/context";
+
 function Plans() {
-  const {userAcc, user} = useContext(userAccountContext)
+  let {user, setUser, account, setAccount} = useContext(userAccountContext)
   return (
     <div className="">
       <div className="grid md:grid-cols-2 grid-cols-1 w-full gap-3">
@@ -54,11 +56,11 @@ function Plans() {
             </div>
           </div>
           <div className="action">
-            <a href="/dashboard/investments">
+            <Link href="/dashboard/investments">
               <button className="py-3 z-50 text-white px-4 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-600 to-blue-700 rounded-md text-sm font-bold">
                 Purchase Plan
               </button>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="bg-black/5 border p-4 rounded-md relative overflow-hidden">
@@ -100,7 +102,7 @@ function Plans() {
             <div className="text">
               <div className="currentplan_name text-sm">Plan Bonus</div>
               <div className="currentplan_name font-bold text-lg capitalize">
-                ${userAcc.plan_bonus}.00
+                ${account?.plan_bonus}.00
               </div>
             </div>
           </div>

@@ -1,7 +1,16 @@
-import React from "react";
+'use client'
+
+import React, { useState } from "react";
 import Image from "next/image";
+import Stake from "./stake";
+import { coinJson } from "@/utils/static";
+import Link from "next/link";
 
 function Staking() {
+  const [item, setItem] = useState(null)
+  const LoadCard = (item)=> {
+    setItem(item)
+  }
   return (
     <div style={{minWidth: "100%", display: "table"}}>
       <div>
@@ -15,29 +24,34 @@ function Staking() {
           </div>
           <div className="currency-tabs-container w-full font-bold">
             <div className="flex items-center mt-4">
-              <a href="/dashboard/stake">
+              <Link  href="/dashboard/stake">
                 <div className="py-2 px-3 e rounded-sm font-bold bg-black/5 mr-1 text-sm cursor-pointer hover:bg-[#333] transition-all">
                   Crypto
                 </div>
-              </a>
-              <a href="/dashboard/stake/stock">
+              </Link  >
+              <Link  href="/dashboard/stake/stock">
                 <div className="py-2 px-3 rounded-sm mx-1 text-sm cursor-pointer hover:bg-[#333] transition-all">
                   Stock
                 </div>
-              </a>
-              <a href="/dashboard/stake/currencies">
+              </Link  >
+              <Link  href="/dashboard/stake/currencies">
                 <div className="py-2 px-3 rounded-sm mx-1 text-sm cursor-pointer hover:bg-[#333] transition-all">
                   Currencies
                 </div>
-              </a>
-              <a href="/dashboard/stake/mystakings">
+              </Link  >
+              <Link  href="/dashboard/stake/mystakings">
                 <div className="py-2 px-3 rounded-sm mx-1 text-sm cursor-pointer hover:bg-[#333] transition-all">
                   My stakings
                 </div>
-              </a>
+              </Link  >
             </div>
           </div>
         </div>
+        {/*  */}
+            {
+              item && item.name && <Stake props={{item, setItem}} />
+            }
+        {/*  */}
         <div className="px-4">
           <div>
             <div className="">
@@ -65,7 +79,9 @@ function Staking() {
                 </div>
                 <div className="text-black/70">
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 mt-3 ">
-                    <div className="p-4 rounded-sm shadow-lg  border bg-white border-white/5">
+                    
+                    
+                    {  coinJson.map((item)=> <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
                       <div className="header-section flex gap-x-2 items-center justify-between">
                         <div className="header-section flex gap-x-3 items-center">
                           <div className="image rounded-full overflow-hidden">
@@ -77,84 +93,22 @@ function Staking() {
                               decoding="async"
                               data-nimg="1"
                               className="w-11 h-11"
-                              src="/assets/markets/crypto/BTC.svg"
+                              src={`/assets/markets/crypto/${item.id}.svg`}
                               style={{color: "transparent"}}
                             />
                           </div>
                           <div className="description">
                             <div className="bigtext text-lg font-semibold">
-                              Bitcoin
+                              {item.name}
                             </div>
                             <div className="smalltext font-bold opacity-60 text-sm">
-                              BTC
-                            </div>
-                          </div>
-                        </div>
-                        <div className="price">
-                          <div className="border bg-white text-black/70  border-white/5 font-bold text-sm py-1 px-2 rounded-sm">
-                            $37,549
-                          </div>
-                        </div>
-                      </div>
-                      <div className="detail-section mt-5">
-                        <div className="deet-cont grid grid-cols-3 gap-x-3 md:grid-cols-2 md:gap-3 lg:grid-cols-3 mt-2">
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Minimum</p>
-                            <p className="text-sm font-bold opacity-80">$100</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">ROI</p>
-                            <p className="text-sm font-bold opacity-80">5% - 12%</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Cycle</p>
-                            <p className="text-sm font-bold opacity-80">Monthly</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="btn-section mt-5">
-                        <button
-                          type="button"
-                          aria-haspopup="dialog"
-                          aria-expanded="false"
-                          aria-controls="radix-:rm:"
-                          data-state="closed"
-                          className="w-full"
-                        >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
-                            Stake Bitcoin
-                          </div>
-                        </button>
-                      </div>
-                    </div>
-                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
-                      <div className="header-section flex gap-x-2 items-center justify-between">
-                        <div className="header-section flex gap-x-3 items-center">
-                          <div className="image rounded-full overflow-hidden">
-                            <Image
-                              alt=""
-                              loading="lazy"
-                              width="1000"
-                              height="1000"
-                              decoding="async"
-                              data-nimg="1"
-                              className="w-11 h-11"
-                              src="/assets/markets/crypto/ETH.svg"
-                              style={{color: "transparent"}}
-                            />
-                          </div>
-                          <div className="description">
-                            <div className="bigtext text-lg font-semibold">
-                              Ethereum
-                            </div>
-                            <div className="smalltext font-bold opacity-60 text-sm">
-                              ETH
+                              {item.id}
                             </div>
                           </div>
                         </div>
                         <div className="price">
                           <div className="border bg-white text-black/70 border-white/5 font-bold text-sm py-1 px-2 rounded-sm">
-                            $2,068.96
+                            ${item.rate}
                           </div>
                         </div>
                       </div>
@@ -166,7 +120,7 @@ function Staking() {
                           </div>
                           <div className=" border border-white/5 rounded-sm p-3 /text-center">
                             <p className="font-bold text-sm">ROI</p>
-                            <p className="text-sm font-bold opacity-80">4% - 10%</p>
+                            <p className="text-sm font-bold opacity-80">{item.roi}</p>
                           </div>
                           <div className=" border border-white/5 rounded-sm p-3 /text-center">
                             <p className="font-bold text-sm">Cycle</p>
@@ -176,130 +130,7 @@ function Staking() {
                       </div>
                       <div className="btn-section mt-5">
                         <button
-                          type="button"
-                          aria-haspopup="dialog"
-                          aria-expanded="false"
-                          aria-controls="radix-:rp:"
-                          data-state="closed"
-                          className="w-full"
-                        >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
-                            Stake Ethereum
-                          </div>
-                        </button>
-                      </div>
-                    </div>
-                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
-                      <div className="header-section flex gap-x-2 items-center justify-between">
-                        <div className="header-section flex gap-x-3 items-center">
-                          <div className="image rounded-full overflow-hidden">
-                            <Image
-                              alt=""
-                              loading="lazy"
-                              width="1000"
-                              height="1000"
-                              decoding="async"
-                              data-nimg="1"
-                              className="w-11 h-11"
-                              src="/assets/markets/crypto/SOL.svg"
-                              style={{color: "transparent"}}
-                            />
-                          </div>
-                          <div className="description">
-                            <div className="bigtext text-lg font-semibold">
-                              Solana
-                            </div>
-                            <div className="smalltext font-bold opacity-60 text-sm">
-                              SOL
-                            </div>
-                          </div>
-                        </div>
-                        <div className="price">
-                          <div className="border bg-white text-black/70 border-white/5 font-bold text-sm py-1 px-2 rounded-sm">
-                            $57.93
-                          </div>
-                        </div>
-                      </div>
-                      <div className="detail-section mt-5">
-                        <div className="deet-cont grid grid-cols-3 gap-x-3 md:grid-cols-2 md:gap-3 lg:grid-cols-3 mt-2">
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Minimum</p>
-                            <p className="text-sm font-bold opacity-80">$100</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">ROI</p>
-                            <p className="text-sm font-bold opacity-80">4% - 9%</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Cycle</p>
-                            <p className="text-sm font-bold opacity-80">Monthly</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="btn-section mt-5">
-                        <button
-                          type="button"
-                          aria-haspopup="dialog"
-                          aria-expanded="false"
-                          aria-controls="radix-:rs:"
-                          data-state="closed"
-                          className="w-full"
-                        >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
-                            Stake Solana
-                          </div>
-                        </button>
-                      </div>
-                    </div>
-                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
-                      <div className="header-section flex gap-x-2 items-center justify-between">
-                        <div className="header-section flex gap-x-3 items-center">
-                          <div className="image rounded-full overflow-hidden">
-                            <Image
-                              alt=""
-                              loading="lazy"
-                              width="1000"
-                              height="1000"
-                              decoding="async"
-                              data-nimg="1"
-                              className="w-11 h-11"
-                              src="/assets/markets/crypto/DOGE.svg"
-                              style={{color: "transparent"}}
-                            />
-                          </div>
-                          <div className="description">
-                            <div className="bigtext text-lg font-semibold">
-                              Dogecoin
-                            </div>
-                            <div className="smalltext font-bold opacity-60 text-sm">
-                              DOGE
-                            </div>
-                          </div>
-                        </div>
-                        <div className="price">
-                          <div className="border bg-white text-black/70 border-white/5 font-bold text-sm py-1 px-2 rounded-sm">
-                            $0.079
-                          </div>
-                        </div>
-                      </div>
-                      <div className="detail-section mt-5">
-                        <div className="deet-cont grid grid-cols-3 gap-x-3 md:grid-cols-2 md:gap-3 lg:grid-cols-3 mt-2">
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Minimum</p>
-                            <p className="text-sm font-bold opacity-80">$100</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">ROI</p>
-                            <p className="text-sm font-bold opacity-80">4% - 9%</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Cycle</p>
-                            <p className="text-sm font-bold opacity-80">Monthly</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="btn-section mt-5">
-                        <button
+                          onClick={()=>LoadCard(item)}
                           type="button"
                           aria-haspopup="dialog"
                           aria-expanded="false"
@@ -308,197 +139,13 @@ function Staking() {
                           className="w-full"
                         >
                           <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
-                            Stake Dogecoin
+                            Stake {item.name}
                           </div>
                         </button>
                       </div>
-                    </div>
-                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
-                      <div className="header-section flex gap-x-2 items-center justify-between">
-                        <div className="header-section flex gap-x-3 items-center">
-                          <div className="image rounded-full overflow-hidden">
-                            <Image
-                              alt=""
-                              loading="lazy"
-                              width="1000"
-                              height="1000"
-                              decoding="async"
-                              data-nimg="1"
-                              className="w-11 h-11"
-                              src="/assets/markets/crypto/ADA.svg"
-                              style={{color: "transparent"}}
-                            />
-                          </div>
-                          <div className="description">
-                            <div className="bigtext text-lg font-semibold">
-                              Cardano
-                            </div>
-                            <div className="smalltext font-bold opacity-60 text-sm">
-                              ADA
-                            </div>
-                          </div>
-                        </div>
-                        <div className="price">
-                          <div className="border bg-white text-black/70 border-white/5 font-bold text-sm py-1 px-2 rounded-sm">
-                            $0.391
-                          </div>
-                        </div>
-                      </div>
-                      <div className="detail-section mt-5">
-                        <div className="deet-cont grid grid-cols-3 gap-x-3 md:grid-cols-2 md:gap-3 lg:grid-cols-3 mt-2">
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Minimum</p>
-                            <p className="text-sm font-bold opacity-80">$100</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">ROI</p>
-                            <p className="text-sm font-bold opacity-80">2% - 9%</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Cycle</p>
-                            <p className="text-sm font-bold opacity-80">Monthly</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="btn-section mt-5">
-                        <button
-                          type="button"
-                          aria-haspopup="dialog"
-                          aria-expanded="false"
-                          aria-controls="radix-:r12:"
-                          data-state="closed"
-                          className="w-full"
-                        >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
-                            Stake Cardano
-                          </div>
-                        </button>
-                      </div>
-                    </div>
-                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
-                      <div className="header-section flex gap-x-2 items-center justify-between">
-                        <div className="header-section flex gap-x-3 items-center">
-                          <div className="image rounded-full overflow-hidden">
-                            <Image
-                              alt=""
-                              loading="lazy"
-                              width="1000"
-                              height="1000"
-                              decoding="async"
-                              data-nimg="1"
-                              className="w-11 h-11"
-                              src="/assets/markets/crypto/USDT.svg"
-                              style={{color: "transparent"}}
-                            />
-                          </div>
-                          <div className="description">
-                            <div className="bigtext text-lg font-semibold">
-                              Tether
-                            </div>
-                            <div className="smalltext font-bold opacity-60 text-sm">
-                              USDT
-                            </div>
-                          </div>
-                        </div>
-                        <div className="price">
-                          <div className="border bg-white text-black/70 border-white/5 font-bold text-sm py-1 px-2 rounded-sm">
-                            $1
-                          </div>
-                        </div>
-                      </div>
-                      <div className="detail-section mt-5">
-                        <div className="deet-cont grid grid-cols-3 gap-x-3 md:grid-cols-2 md:gap-3 lg:grid-cols-3 mt-2">
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Minimum</p>
-                            <p className="text-sm font-bold opacity-80">$100</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">ROI</p>
-                            <p className="text-sm font-bold opacity-80">2% - 9%</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Cycle</p>
-                            <p className="text-sm font-bold opacity-80">Monthly</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="btn-section mt-5">
-                        <button
-                          type="button"
-                          aria-haspopup="dialog"
-                          aria-expanded="false"
-                          aria-controls="radix-:r15:"
-                          data-state="closed"
-                          className="w-full"
-                        >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
-                            Stake Tether
-                          </div>
-                        </button>
-                      </div>
-                    </div>
-                    <div className="p-4 rounded-sm shadow-lg border bg-white border-white/5">
-                      <div className="header-section flex gap-x-2 items-center justify-between">
-                        <div className="header-section flex gap-x-3 items-center">
-                          <div className="image rounded-full overflow-hidden">
-                            <Image
-                              alt=""
-                              loading="lazy"
-                              width="1000"
-                              height="1000"
-                              decoding="async"
-                              data-nimg="1"
-                              className="w-11 h-11"
-                              src="/assets/markets/crypto/TRX.svg"
-                              style={{color: "transparent"}}
-                            />
-                          </div>
-                          <div className="description">
-                            <div className="bigtext text-lg font-semibold">
-                              Tron
-                            </div>
-                            <div className="smalltext font-bold opacity-60 text-sm">
-                              TRX
-                            </div>
-                          </div>
-                        </div>
-                        <div className="price">
-                          <div className="border bg-white text-black/70 border-white/5 font-bold text-sm py-1 px-2 rounded-sm">
-                            $0.108
-                          </div>
-                        </div>
-                      </div>
-                      <div className="detail-section mt-5">
-                        <div className="deet-cont grid grid-cols-3 gap-x-3 md:grid-cols-2 md:gap-3 lg:grid-cols-3 mt-2">
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Minimum</p>
-                            <p className="text-sm font-bold opacity-80">$100</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">ROI</p>
-                            <p className="text-sm font-bold opacity-80">2% - 9%</p>
-                          </div>
-                          <div className=" border border-white/5 rounded-sm p-3 /text-center">
-                            <p className="font-bold text-sm">Cycle</p>
-                            <p className="text-sm font-bold opacity-80">Monthly</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="btn-section mt-5">
-                        <button
-                          type="button"
-                          aria-haspopup="dialog"
-                          aria-expanded="false"
-                          aria-controls="radix-:r18:"
-                          data-state="closed"
-                          className="w-full"
-                        >
-                          <div className="btn rounded-sm cursor-pointer text-black/70 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 w-full py-3 text-center font-bold text-sm">
-                            Stake Tron
-                          </div>
-                        </button>
-                      </div>
-                    </div>
+                    </div>)
+                    }
+                    
                   </div>
                 </div>
               </div>

@@ -2,15 +2,15 @@ import React from "react";
 
 function PopNotifications() {
   return (
-    <div data-radix-popper-content-wrapper="" id="popnotif">
+    <div data-radix-popper-content-wrapper="" id="" className=" float-right right-0 top-0">
       <div
         data-side="bottom"
         data-align="center"
         data-state="open"
         role="dialog"
         id="radix-:r4:"
-        className="z-50 rounded-md border fixed top-0 right-0 w-80 p-4 shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[350px] md:w-[400px] mx-3 pb-0 pt-4 px-1  overflow-hidden bg-[#222] border-white/5 text-gray-200"
-        tabIndex="-1"
+        className="z-50 fixed rounded-md border top-20 right-0 w-80 p-4 shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[350px] md:w-[400px] mx-3 pb-0 pt-4 px-1  overflow-hidden bg-[#222] border-white/5 text-gray-200"
+        tabIndex="1"
       >
         <div className="tit px-3">
           <div className="flex w-full justify-between items-center pb-4">

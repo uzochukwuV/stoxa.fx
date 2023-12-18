@@ -3,8 +3,10 @@
 import React, { useMemo } from "react";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 
-function SideBar() {
+function SideBar({Nav}) {
+
   const pathname = usePathname();
 
   useMemo(() => {
@@ -46,7 +48,7 @@ function SideBar() {
                     style={{ overflow: "hidden scroll" }}
                   >
                     <div style={{ minWidth: "100%", display: "table" }}>
-                      <a href="/dashboard">
+                      <Link href="/dashboard">
                         <div
                           className={
                             pathname === "/dashboard"
@@ -73,8 +75,8 @@ function SideBar() {
                             Dashboard
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/markets">
+                      </Link>
+                      <Link href="/dashboard/markets">
                         <div
                           className={
                             pathname === "/dashboard/markets"
@@ -96,8 +98,8 @@ function SideBar() {
                             Live Markets
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/stake">
+                      </Link>
+                      <Link href="/dashboard/stake">
                         <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
                           <div className="mx-2 font-bold">
                             <svg
@@ -114,8 +116,8 @@ function SideBar() {
                             Stake
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/deposits">
+                      </Link>
+                      <Link href="/dashboard/deposits">
                         <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
                           <div className="mx-2 font-bold">
                             <svg
@@ -153,8 +155,8 @@ function SideBar() {
                             />
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/copy_experts">
+                      </Link>
+                      <Link href="/dashboard/copy_experts">
                         <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
                           <div className="mx-2 font-bold">
                             <svg
@@ -197,8 +199,8 @@ function SideBar() {
                             />
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/withdrawals">
+                      </Link>
+                      <Link href="/dashboard/withdrawals">
                         <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
                           <div className="mx-2 font-bold">
                             <svg
@@ -214,8 +216,8 @@ function SideBar() {
                             Withdraw
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/history">
+                      </Link>
+                      <Link href="/dashboard/history">
                         <div
                           className={
                             pathname === "/dashboard/history"
@@ -241,8 +243,8 @@ function SideBar() {
                             History
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/investments">
+                      </Link>
+                      <Link href="/dashboard/investments">
                         <div
                           className={
                             pathname === "/dashboard/investments"
@@ -268,8 +270,8 @@ function SideBar() {
                             Subscriptions
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/purchase_btc">
+                      </Link>
+                      <Link href="/dashboard/purchase_btc">
                         <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
                           <div className="mx-2 font-bold">
                             <svg
@@ -308,8 +310,8 @@ function SideBar() {
                             />
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/account">
+                      </Link>
+                      <Link href="/dashboard/account">
                         <div
                           className={
                             pathname === "/dashboard/account"
@@ -335,8 +337,8 @@ function SideBar() {
                             Account
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/verify">
+                      </Link>
+                      <Link href="/dashboard/verify">
                         <div
                           className={
                             pathname === "/dashboard/verify"
@@ -362,8 +364,8 @@ function SideBar() {
                             Verification
                           </div>
                         </div>
-                      </a>
-                      <a href="/dashboard/support">
+                      </Link>
+                      <Link href="/dashboard/support">
                         <div
                           className={
                             pathname === "/dashboard/support"
@@ -385,7 +387,7 @@ function SideBar() {
                             Support
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

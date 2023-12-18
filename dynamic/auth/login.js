@@ -2,63 +2,58 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import Alert from "@/components/pop/alert";
-
-
-function LoginAuth({props}) {
-  var {LoginPop, setLoginPop} = props
+import { url, AuthUrl } from "@/utils/static";
+function LoginAuth({ props }) {
+  var { LoginPop, setLoginPop } = props;
   const router = useRouter();
 
   const [name, setName] = useState("");
   const [disabled, setDisabled] = useState(false);
   const [password, setPassword] = useState("");
   const [err, setErr] = useState([]);
-  
 
   const requestOptions = {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "content-type": "application/json" },
     body: JSON.stringify({
       username: name,
       password: password,
     }),
   };
 
-  const loginAccount = () => {
+  const loginAccount = async () => {
     setDisabled(true);
-    console.log(err);
-    fetch("http://127.0.0.1:8000/api/login", requestOptions)
+    console.log(name);
+    await fetch(`${AuthUrl}api/login`, requestOptions)
       .then((response) => response.json())
       .then((res) => {
-        if(res.detail){
+        if (res.detail) {
           console.log(res);
-          setDisabled(false)
-          setErr((l)=> [...l, res.detail])
-        }else{
-          var date = new Date()
+          setDisabled(false);
+          setErr((l) => [...l, res.detail]);
+        } else {
+          var date = new Date();
           var response = {
-            res:res,
-            'time': date.toLocaleTimeString(date.getTime())
-          }
+            res: res,
+            time: date,
+          };
           var string_res = JSON.stringify(response);
           window.localStorage.setItem("user", string_res);
-          
-          
+
           setDisabled(false);
-          setLoginPop(true)
+          setLoginPop(true);
 
           setTimeout(() => {
             router.push("/dashboard");
-            
-          }, 6000);
+          }, 5000);
         }
-        
-        
       })
-      .catch((e)=> {
+      .catch((e) => {
         console.log(e.message);
         setDisabled(false);
-        setErr((l)=> [...l, e.message])
-      })
+        setErr((err) => [...err, e.message]);
+        
+      });
   };
 
   return (
@@ -71,19 +66,19 @@ function LoginAuth({props}) {
       tabIndex="0"
       className="/ring-offset-background focus-visible:outline-none /focus-visible:ring-2 /focus-visible:ring-ring /focus-visible:ring-offset-2 mt-8"
     >
-      {err && err.map((x)=> <Alert props={{message:x}} />)}
-      
+      {err && err.map((x) => <Alert props={{ message: x }} />)}
+
       <form className="">
         <div className="message mb-5">
           <div className="font-bold">
-            <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent font-black">
-              Sign-In  
+            <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 bg-clip-text text-transparent font-black">
+              Sign-In
             </span>
             to your account
           </div>
           <p className="text-sm font-normal mt-3 text-gray-200">
             Continue where you left off by logging in, we keep
-            <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-600 via-red-500 to-orange-500 bg-clip-text text-transparent font-black">
+            <span className="bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500 bg-clip-text text-transparent font-black">
               track
             </span>
             of your every progress.
@@ -145,7 +140,7 @@ function LoginAuth({props}) {
             e.preventDefault();
             loginAccount();
           }}
-          className="inline-flex items-center justify-center text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 w-full h-11 font-bold mt-5 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-red-800 via-red-600 to-orange-700 text-white py-3 px-4 rounded-lg"
+          className="inline-flex items-center justify-center text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 w-full h-11 font-bold mt-5 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-700 text-white py-3 px-4 rounded-lg"
           type="submit"
           disabled={disabled}
         >

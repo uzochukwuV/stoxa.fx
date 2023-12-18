@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Crypto() {
   return (
@@ -59,11 +60,11 @@ function Crypto() {
                 $0.072428
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/DOGE/KRAKEN/0.072428">
+                <Link href="/dashboard/trade/en/crypto/DOGE/KRAKEN/0.072428">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -98,11 +99,11 @@ function Crypto() {
                 $1.35
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/APE/KRAKEN/1.35">
+                <Link href="/dashboard/trade/en/crypto/APE/KRAKEN/1.35">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -137,11 +138,11 @@ function Crypto() {
                 $85.01
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/AAVE/KRAKEN/85.01">
+                <Link href="/dashboard/trade/en/crypto/AAVE/KRAKEN/85.01">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -176,11 +177,11 @@ function Crypto() {
                 $0.02917731
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/STEP/KRAKEN/0.02917731">
+                <Link href="/dashboard/trade/en/crypto/STEP/KRAKEN/0.02917731">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -215,11 +216,11 @@ function Crypto() {
                 $0.00498941
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/WXT/CRYPTO/0.00498941">
+                <Link href="/dashboard/trade/en/crypto/WXT/CRYPTO/0.00498941">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -254,11 +255,11 @@ function Crypto() {
                 $0.01945072
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/VET/BINANCE/0.01945072">
+                <Link href="/dashboard/trade/en/crypto/VET/BINANCE/0.01945072">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -293,11 +294,11 @@ function Crypto() {
                 $1.17
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/RARI/KRAKEN/1.17">
+                <Link href="/dashboard/trade/en/crypto/RARI/KRAKEN/1.17">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -332,11 +333,11 @@ function Crypto() {
                 $18.21
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/ETC/KRAKEN/18.21">
+                <Link href="/dashboard/trade/en/crypto/ETC/KRAKEN/18.21">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -371,11 +372,11 @@ function Crypto() {
                 $0.124829
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/ALGO/KRAKEN/0.124829">
+                <Link href="/dashboard/trade/en/crypto/ALGO/KRAKEN/0.124829">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -410,11 +411,11 @@ function Crypto() {
                 $0.113919
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/XLM/KRAKEN/0.113919">
+                <Link href="/dashboard/trade/en/crypto/XLM/KRAKEN/0.113919">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -449,11 +450,11 @@ function Crypto() {
                 $0.0001289
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/AURORA/CRYPTO/0.0001289">
+                <Link href="/dashboard/trade/en/crypto/AURORA/CRYPTO/0.0001289">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -488,11 +489,11 @@ function Crypto() {
                 $1945.71
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/ETH/KRAKEN/1945.71">
+                <Link href="/dashboard/trade/en/crypto/ETH/KRAKEN/1945.71">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -527,11 +528,11 @@ function Crypto() {
                 $0.00015541
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/GT/CRYPTO/0.00015541">
+                <Link href="/dashboard/trade/en/crypto/GT/CRYPTO/0.00015541">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -566,11 +567,11 @@ function Crypto() {
                 $159.31
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/XMR/KRAKEN/159.31">
+                <Link href="/dashboard/trade/en/crypto/XMR/KRAKEN/159.31">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -605,11 +606,11 @@ function Crypto() {
                 $28.43
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/DASH/KRAKEN/28.43">
+                <Link href="/dashboard/trade/en/crypto/DASH/KRAKEN/28.43">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -644,11 +645,11 @@ function Crypto() {
                 $0.774949
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/XTZ/KRAKEN/0.774949">
+                <Link href="/dashboard/trade/en/crypto/XTZ/KRAKEN/0.774949">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -683,11 +684,11 @@ function Crypto() {
                 $4.89
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/DOT/KRAKEN/4.89">
+                <Link href="/dashboard/trade/en/crypto/DOT/KRAKEN/4.89">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -722,11 +723,11 @@ function Crypto() {
                 $0.00088201
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/XPR/CRYPTO/0.00088201">
+                <Link href="/dashboard/trade/en/crypto/XPR/CRYPTO/0.00088201">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -761,11 +762,11 @@ function Crypto() {
                 $0.380777
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/MANA/KRAKEN/0.380777">
+                <Link href="/dashboard/trade/en/crypto/MANA/KRAKEN/0.380777">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -800,11 +801,11 @@ function Crypto() {
                 $1
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/DAI/KRAKEN/1">
+                <Link href="/dashboard/trade/en/crypto/DAI/KRAKEN/1">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -839,11 +840,11 @@ function Crypto() {
                 $1.61
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/OP/KRAKEN/1.61">
+                <Link href="/dashboard/trade/en/crypto/OP/KRAKEN/1.61">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -878,11 +879,11 @@ function Crypto() {
                 $0.09599
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/TRX/KRAKEN/0.09599">
+                <Link href="/dashboard/trade/en/crypto/TRX/KRAKEN/0.09599">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -917,11 +918,11 @@ function Crypto() {
                 $0.00000779
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/SHIB/KRAKEN/0.00000779">
+                <Link href="/dashboard/trade/en/crypto/SHIB/KRAKEN/0.00000779">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -956,11 +957,11 @@ function Crypto() {
                 $0.00435468
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/GO/BITTREX/0.00435468">
+                <Link href="/dashboard/trade/en/crypto/GO/BITTREX/0.00435468">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -995,11 +996,11 @@ function Crypto() {
                 $66.45
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/LTC/KRAKEN/66.45">
+                <Link href="/dashboard/trade/en/crypto/LTC/KRAKEN/66.45">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1034,11 +1035,11 @@ function Crypto() {
                 $36143
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/BTC/KRAKEN/36143">
+                <Link href="/dashboard/trade/en/crypto/BTC/KRAKEN/36143">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1073,11 +1074,11 @@ function Crypto() {
                 $0.00010174
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/CRO/BITTREX/0.00010174">
+                <Link href="/dashboard/trade/en/crypto/CRO/BITTREX/0.00010174">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1112,11 +1113,11 @@ function Crypto() {
                 $0.075258
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/EVMOS/PYTH/0.075258">
+                <Link href="/dashboard/trade/en/crypto/EVMOS/PYTH/0.075258">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1151,11 +1152,11 @@ function Crypto() {
                 $0.360173
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/ADA/KRAKEN/0.360173">
+                <Link href="/dashboard/trade/en/crypto/ADA/KRAKEN/0.360173">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1190,11 +1191,11 @@ function Crypto() {
                 $6
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/WING/CRYPTO/6">
+                <Link href="/dashboard/trade/en/crypto/WING/CRYPTO/6">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1229,11 +1230,11 @@ function Crypto() {
                 $56.45
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/OKB/CRYPTO/56.45">
+                <Link href="/dashboard/trade/en/crypto/OKB/CRYPTO/56.45">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1268,11 +1269,11 @@ function Crypto() {
                 $0.093763
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/TLOS/BITFINEX/0.093763">
+                <Link href="/dashboard/trade/en/crypto/TLOS/BITFINEX/0.093763">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1307,11 +1308,11 @@ function Crypto() {
                 $27.28
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/ZEC/KRAKEN/27.28">
+                <Link href="/dashboard/trade/en/crypto/ZEC/KRAKEN/27.28">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1346,11 +1347,11 @@ function Crypto() {
                 $0.01079773
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/ANC/PYTH/0.01079773">
+                <Link href="/dashboard/trade/en/crypto/ANC/PYTH/0.01079773">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1385,11 +1386,11 @@ function Crypto() {
                 $0.621482
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/SFP/CRYPTO/0.621482">
+                <Link href="/dashboard/trade/en/crypto/SFP/CRYPTO/0.621482">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1424,11 +1425,11 @@ function Crypto() {
                 $5.56
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/AXS/KRAKEN/5.56">
+                <Link href="/dashboard/trade/en/crypto/AXS/KRAKEN/5.56">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1463,11 +1464,11 @@ function Crypto() {
                 $0.12691
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/GRT/KRAKEN/0.12691">
+                <Link href="/dashboard/trade/en/crypto/GRT/KRAKEN/0.12691">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1502,11 +1503,11 @@ function Crypto() {
                 $0.257834
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/GMT/KRAKEN/0.257834">
+                <Link href="/dashboard/trade/en/crypto/GMT/KRAKEN/0.257834">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1541,11 +1542,11 @@ function Crypto() {
                 $52.18
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/SOL/KRAKEN/52.18">
+                <Link href="/dashboard/trade/en/crypto/SOL/KRAKEN/52.18">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1580,11 +1581,11 @@ function Crypto() {
                 $109.44
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/XCN/KRAKEN/109.44">
+                <Link href="/dashboard/trade/en/crypto/XCN/KRAKEN/109.44">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1619,11 +1620,11 @@ function Crypto() {
                 $0.942945
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/SUSHI/KRAKEN/0.942945">
+                <Link href="/dashboard/trade/en/crypto/SUSHI/KRAKEN/0.942945">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1658,11 +1659,11 @@ function Crypto() {
                 $13.56
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/LINK/KRAKEN/13.56">
+                <Link href="/dashboard/trade/en/crypto/LINK/KRAKEN/13.56">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1697,11 +1698,11 @@ function Crypto() {
                 $0.723174
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/NEXO/CRYPTO/0.723174">
+                <Link href="/dashboard/trade/en/crypto/NEXO/CRYPTO/0.723174">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1736,11 +1737,11 @@ function Crypto() {
                 $4.91
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/UNI/KRAKEN/4.91">
+                <Link href="/dashboard/trade/en/crypto/UNI/KRAKEN/4.91">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1775,11 +1776,11 @@ function Crypto() {
                 $0.11075
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/OGN/KRAKEN/0.11075">
+                <Link href="/dashboard/trade/en/crypto/OGN/KRAKEN/0.11075">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1814,11 +1815,11 @@ function Crypto() {
                 $1.001
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/USDT/KRAKEN/1.001">
+                <Link href="/dashboard/trade/en/crypto/USDT/KRAKEN/1.001">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1853,11 +1854,11 @@ function Crypto() {
                 $0.595522
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/ORN/CRYPTO/0.595522">
+                <Link href="/dashboard/trade/en/crypto/ORN/CRYPTO/0.595522">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1892,11 +1893,11 @@ function Crypto() {
                 $0.997779
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/USDC/KRAKEN/0.997779">
+                <Link href="/dashboard/trade/en/crypto/USDC/KRAKEN/0.997779">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
             <tr className="border-b transition-colors data-[state=selected]:bg-muted border-none cursor-pointer bg-color-change[#111] font-bold text-color-change  hover:bg-white/5">
@@ -1931,11 +1932,11 @@ function Crypto() {
                 $216.45
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <a href="/dashboard/trade/en/crypto/BCH/KRAKEN/216.45">
+                <Link href="/dashboard/trade/en/crypto/BCH/KRAKEN/216.45">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
-                </a>
+                </Link>
               </td>
             </tr>
           </tbody>

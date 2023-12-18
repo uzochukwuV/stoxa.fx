@@ -1,10 +1,12 @@
 'use client'
-import { userAccountContext } from "@/app/dashboard/page";
+
 import { useContext } from "react";
+import { userAccountContext } from "@/app/dashboard/context";
+
 
 
 export default function DashCards() {
-  const {userAcc, user} = useContext(userAccountContext)
+  let {user, setUser, account, setAccount} = useContext(userAccountContext)
   return (
     <>
       <div className="dash-boards w-full my-2 text-sm grid md:grid-cols-2 grid-cols-2 lg:grid-cols-4 gap-2">
@@ -17,7 +19,7 @@ export default function DashCards() {
                     deposited
                   </div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    ${userAcc.total_deposited}.00
+                    ${account?.total_deposited}.00
                   </div>
                 </div>
                 <div className="icon">
@@ -52,7 +54,7 @@ export default function DashCards() {
                     withdrawn
                   </div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    ${userAcc.total_withdrawn}.00
+                    ${account?.total_withdrawn}.00
                   </div>
                 </div>
                 <div className="icon">
@@ -87,7 +89,7 @@ export default function DashCards() {
                     Stakings
                   </div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    ${userAcc.stake}.00
+                    ${account?.stake}.00
                   </div>
                 </div>
                 <div className="icon">
@@ -120,7 +122,7 @@ export default function DashCards() {
                 <div className="deets w-full">
                   <div className="name capitalize text-sm font-bold">trade</div>
                   <div className="bal font-bold text-xl my-2 md:text-2xl text-black">
-                    ${userAcc.trade}.00
+                    ${account?.trade}.00
                   </div>
                 </div>
                 <div className="icon">

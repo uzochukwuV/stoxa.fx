@@ -26,7 +26,7 @@ function Verify() {
           </p>
         </div>
         <div className="EntryPrice mb-2 mt-1 rounded text-sm bg-black/5 text-black/80">
-          <button
+          <select
             type="button"
             role="combobox"
             aria-controls="radix-:raf:"
@@ -35,11 +35,11 @@ function Verify() {
             dir="ltr"
             data-state="closed"
             data-placeholder=""
-            className="flex h-12 w-full items-center justify-between border-input bg-transparent px-3 py-4 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring /focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 rounded-sm border-0 font-bold"
+            className="flex h-12 w-full items-center justify-between border-input bg-transparent px-3 py-4 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:border-blue-500 focus:ring-ring /focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 rounded-sm border-0 font-bold"
           >
-            <span style={{ pointerEvents: "none" }}>
+            <option style={{ pointerEvents: "none" }}>
               Select a document type
-            </span>
+            </option>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -55,7 +55,11 @@ function Verify() {
             >
               <polyline points="6 9 12 15 18 9"></polyline>
             </svg>
-          </button>
+            <option value='1'>State id</option>
+            <option value='2'>SOD</option>
+            <option value='3'>ID card</option>
+            <option value='4'>Drivers Lincence</option>
+          </select>
         </div>
         <div className="flex justify-center items-center font-bold text-lg my-4">
           <p>Please select an a document to upload</p>
