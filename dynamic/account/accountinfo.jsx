@@ -5,7 +5,7 @@ import React from "react";
 import { userAccountContext } from "@/app/dashboard/context";
 
 function AccountInfo() {
-  const {userAcc, user} = useContext(userAccountContext)
+  const {user, account} = useContext(userAccountContext)
   return (
     <div className="p-4">
       <div className="card-container bg-color-change[#111] border-white/10 text-color-change /90 p-4 border grid grid-cols-1 lg:grid-cols-2 gap-2 rounded-xl">
@@ -26,7 +26,7 @@ function AccountInfo() {
                 clipRule="evenodd"
               ></path>
             </svg>
-            <div className="userName ml-2 font-bold">{user.username}</div>
+            <div className="userName ml-2 font-bold">{user?.username}</div>
           </div>
           <div className="email-cont my-4 flex items-center text-sm py-1">
             <div className="flex items-center">
@@ -41,7 +41,7 @@ function AccountInfo() {
               </svg>
               <div className="ml-2 font-bold">Email:</div>
             </div>
-            <div className="email mx-2">{user.email}</div>
+            <div className="email mx-2">{user?.email}</div>
           </div>
           <div className="inventment-cont my-4 flex items-center text-sm py-1">
             <div className="flex items-center">
@@ -59,7 +59,7 @@ function AccountInfo() {
               </svg>
               <div className="ml-2 font-bold">Investment:</div>
             </div>
-            <div className="plan font-bold mx-2 capitalize">${userAcc.total_deposited}</div>
+            <div className="plan font-bold mx-2 capitalize">${account?.total_deposited}</div>
           </div>
           <div className="email-cont my-4 flex items-center text-sm py-1">
             <div className="flex items-center">
@@ -78,7 +78,7 @@ function AccountInfo() {
               </svg>
               <div className="ml-2 font-bold">Plan Bonus</div>
             </div>
-            <div className="plan font-bold mx-2 capitalize">${userAcc.plan_bonus}</div>
+            <div className="plan font-bold mx-2 capitalize">${account?.plan_bonus}</div>
           </div>
         </div>
         <div className="settingGuage col-span2 text-sm pr-3">
