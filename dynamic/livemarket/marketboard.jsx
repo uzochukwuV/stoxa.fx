@@ -83,7 +83,7 @@ function MarketBoard() {
                       balance
                     </div>
                     <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
-                      ${account.total_balance}
+                      ${account?.total_balance}
                     </div>
                   </div>
                   <div className="icon">
@@ -118,7 +118,7 @@ function MarketBoard() {
                       trades
                     </div>
                     <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
-                      ${account.trade}
+                      ${account?.trade}
                     </div>
                   </div>
                   <div className="icon">

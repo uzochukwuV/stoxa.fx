@@ -64,7 +64,7 @@ function Dashboard() {
     }
     setIsLoading(false);
 
-  }, [isLoading])
+  }, [isLoading, account, setAccount, setUser, user])
 
   return (
     <>

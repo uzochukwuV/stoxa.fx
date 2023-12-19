@@ -39,7 +39,7 @@ export default function Home() {
     if (isLoggedIn){
       router.push('/dashboard');
     }
-  }, [])
+  }, [router])
   useEffect(() => {
    
     AOS.init({

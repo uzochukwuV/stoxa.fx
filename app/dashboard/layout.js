@@ -24,7 +24,7 @@ function Content({ children }) {
         return () => router.push("/auth");
       }
     }
-  }, []);
+  }, [router, window]);
   return (
     <>
       <div className="main-bar w-full relative overflow-hidden /overflow-y-scroll">
