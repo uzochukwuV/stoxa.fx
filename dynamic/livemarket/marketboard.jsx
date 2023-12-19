@@ -1,15 +1,12 @@
 'use client'
 
 import React from "react";
-import { useStore } from "@/app/dashboard/context";
+import { useContext } from "react";
+import { userAccountContext } from "@/app/dashboard/context";
 
 function MarketBoard() {
-  const user = useStore((state) => state.user);
-  const setUser = useStore((state) => state.setUser);
-  const account = useStore((state) => state.account);
-  const setAccount = useStore((state) => state.setAccount);
-
-  console.log(account);
+  
+  let {user, setUser, account, setAccount} = useContext(userAccountContext)
   return (
     <div>
       <div className="p-4">

@@ -64,18 +64,9 @@ function Login({ props }) {
   let genderValue = gender === 'male'? 'M':'F' ;
   
   const createAccount = async() => {
-    console.log({
-      country: country,
-      gender:gender,
-      phone:number,
-      date_of_birth: date,
-      password:password,
-      username: passwordConfirm,
-      fullname:name,
-      email:email
-     });
+    
     setLoading(true);
-    console.log("started .....", name, password);
+    
     await fetch(`${AuthUrl}api/signup`, {
       method: 'POST',
       headers: {'content-type':'application/json'},
@@ -92,7 +83,8 @@ function Login({ props }) {
   })
       .then((response) => response.json())
       .then((res) => {
-        console.log(res);
+        setLoading(false)
+        setLogin(true);
       })
       .catch(e=>{
         setErr(e.message);
@@ -101,10 +93,10 @@ function Login({ props }) {
       setLoading(false);
   };
 
-  let context = useContext(appContext)
+  
 
 
-  useMemo(() => console.log(context), [context])
+  
 
 
   
@@ -332,7 +324,7 @@ export default function Page() {
     let user = JSON.parse(localStorage.getItem('user')) || null
     let time =  (new Date().getTime()) /1000
     let userTime = (new Date(user?.time).getTime())/100 || null
-    console.log(userTime);
+    
     if (userTime && time - userTime <= 9000){
       return () => router.push('/dashboard')
       

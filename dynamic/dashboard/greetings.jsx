@@ -8,7 +8,7 @@ export default function Greeting() {
  
 let {user, setUser, account, setAccount} = useContext(userAccountContext)
 
-console.log(account);
+
   return (
     <>
       <div className="flex items-center gap-x-2">
