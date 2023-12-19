@@ -6,7 +6,7 @@ function Loading() {
       className=" fixed top-0 right-0 left-0 bottom-0 bg-white flex flex-col gap-4 "
       style={{ height: "100vh" }}
     >
-      <div className=" h-20 w-100 flex justify-between shadow-sm items-center p-5  ">
+      <div className=" h-20 w-100 sm:hidden flex justify-between shadow-sm items-center p-5  ">
         <div className=" h-10 rounded w-28 bg-gray-200 animate-pulse "></div>
         <div className="flex justify-between items-center gap-5">
           <div className=" h-10 rounded w-40 bg-gray-200 animate-pulse "></div>
