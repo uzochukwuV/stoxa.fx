@@ -322,7 +322,7 @@ function Login({ props }) {
   );
 }
 
-export default function page() {
+export default function Page() {
   const [authPage, setAuthPage] = useState(null);
   const [emailPop, setEmailPop] = useState(false);
   const [email, setEmail] = useState("");

@@ -7,7 +7,7 @@ import Crypto from '@/dynamic/deposit/crypto'
 import BankWire from '@/dynamic/deposit/bankwire'
 import { appContext } from '@/app/appContext'
 
-function page() {
+function Page() {
   const context = useContext(appContext)
 
   useEffect(() => {
@@ -26,4 +26,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
