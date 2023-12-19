@@ -1,8 +1,9 @@
 
 'use client'
-import { userAccountContext } from "@/app/dashboard/template";
+
 import { useContext } from "react";
 import React from "react";
+import { userAccountContext } from "@/app/dashboard/context";
 
 function AccountInfo() {
   const {userAcc, user} = useContext(userAccountContext)
