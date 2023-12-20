@@ -7,6 +7,7 @@ import { userAccountContext } from "@/app/dashboard/context";
 function MarketBoard() {
   
   let {user, setUser, account, setAccount} = useContext(userAccountContext)
+  console.log(account);
   return (
     <div>
       <div className="p-4">
@@ -83,7 +84,7 @@ function MarketBoard() {
                       balance
                     </div>
                     <div className="bal font-bold text-xl my-2 md:text-2xl text-black/70">
-                      ${account?.total_balance}
+                      ${account?.total_deposited + account?.trade - account?.total_withdrawn}
                     </div>
                   </div>
                   <div className="icon">

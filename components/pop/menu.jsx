@@ -45,10 +45,10 @@ function PopMenu() {
                 data-nimg="1"
                 class="w-8 h-8"
                 srcset="
-              /_next/image?url=%2Fassets%2Fprofile.png&amp;w=1080&amp;q=75 1x,
-              /_next/image?url=%2Fassets%2Fprofile.png&amp;w=2048&amp;q=75 2x
+              /assets/profile.png&amp;w=1080&amp;q=75 1x,
+              /assets/profile.webp 2x
             "
-                src="/_next/image?url=%2Fassets%2Fprofile.png&amp;w=2048&amp;q=75"
+                src="/assets/profile.webp"
                 style={{ color: "transparent" }}
               />
               <p class="pt-2">Profile</p>
@@ -65,10 +65,10 @@ function PopMenu() {
                 data-nimg="1"
                 class="w-8 h-8"
                 srcset="
-              /_next/image?url=%2Fassets%2Fwallet.png&amp;w=1080&amp;q=75 1x,
-              /_next/image?url=%2Fassets%2Fwallet.png&amp;w=2048&amp;q=75 2x
+              /assets/wallet.png&amp;w=1080&amp;q=75 1x,
+              /assets/wallet.webp 2x
             "
-                src="/_next/image?url=%2Fassets%2Fwallet.png&amp;w=2048&amp;q=75"
+                src="/assets/wallet.webp"
                 style={{ color: "transparent" }}
               />
               <p class="pt-2">Deposit</p>
@@ -85,10 +85,10 @@ function PopMenu() {
                 data-nimg="1"
                 class="w-8 h-8"
                 srcset="
-              /_next/image?url=%2Fassets%2Fwithdraw.png&amp;w=1080&amp;q=75 1x,
-              /_next/image?url=%2Fassets%2Fwithdraw.png&amp;w=2048&amp;q=75 2x
+              /assets/withdraw.png&amp;w=1080&amp;q=75 1x,
+              /assets/withdraw.webp 2x
             "
-                src="/_next/image?url=%2Fassets%2Fwithdraw.png&amp;w=2048&amp;q=75"
+                src="/assets/withdraw.webp"
                 style={{ color: "transparent" }}
               />
               <p class="pt-2">Withdraw</p>
@@ -110,10 +110,10 @@ function PopMenu() {
                 data-nimg="1"
                 class="w-8 h-8"
                 srcset="
-              /_next/image?url=%2Fassets%2Fincrease.png&amp;w=1080&amp;q=75 1x,
-              /_next/image?url=%2Fassets%2Fincrease.png&amp;w=2048&amp;q=75 2x
+              /assets/increase.png&amp;w=1080&amp;q=75 1x,
+              /assets/increase.webp 2x
             "
-                src="/_next/image?url=%2Fassets%2Fincrease.png&amp;w=2048&amp;q=75"
+                src="/assets/increase.webp"
                 style={{ color: "transparent" }}
               />
               <p class="pt-2">Tradings</p>
@@ -130,10 +130,10 @@ function PopMenu() {
                 data-nimg="1"
                 class="w-8 h-8"
                 srcset="
-              /_next/image?url=%2Fassets%2Fmoney.png&amp;w=1080&amp;q=75 1x,
-              /_next/image?url=%2Fassets%2Fmoney.png&amp;w=2048&amp;q=75 2x
+              /assets/money.png&amp;w=1080&amp;q=75 1x,
+              /assets/money.webp 2x
             "
-                src="/_next/image?url=%2Fassets%2Fmoney.png&amp;w=2048&amp;q=75"
+                src="/assets/money.webp"
                 style={{ color: "transparent" }}
               />
               <p class="pt-2">Subscription</p>
@@ -164,10 +164,10 @@ function PopMenu() {
                 data-nimg="1"
                 class="w-8 h-8"
                 srcset="
-              /_next/image?url=%2Fassets%2Fveraccount.png&amp;w=1080&amp;q=75 1x,
-              /_next/image?url=%2Fassets%2Fveraccount.png&amp;w=2048&amp;q=75 2x
+              /assets/veraccount.png&amp;w=1080&amp;q=75 1x,
+              /assets/veraccount.webp 2x
             "
-                src="/_next/image?url=%2Fassets%2Fveraccount.png&amp;w=2048&amp;q=75"
+                src="/assets/veraccount.webp"
                 style={{ color: "transparent" }}
               />
               <p class="pt-2">Verification</p>

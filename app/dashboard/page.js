@@ -51,8 +51,7 @@ function Dashboard() {
       fetch(newurl)
       .then((res) => res.json())
       .then((res) => {
-        console.log(res)
-        console.log('setting account');
+        
         setAccount(res.user);
 
         setIsLoading(false);
@@ -64,7 +63,7 @@ function Dashboard() {
     }
     setIsLoading(false);
 
-  }, [isLoading, account, setAccount, setUser, user])
+  }, [account])
 
   return (
     <>

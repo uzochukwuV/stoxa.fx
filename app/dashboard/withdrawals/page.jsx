@@ -20,10 +20,10 @@ function Withdrawals() {
                     data-nimg="1"
                     className="w-14 h-14 mb-4"
                     srcset="
-                /_next/image?url=%2Fassets%2Fveraccount.png&amp;w=1080&amp;q=75 1x,
-                /_next/image?url=%2Fassets%2Fveraccount.png&amp;w=2048&amp;q=75 2x
+                /assets/veraccount.png&amp;w=1080&amp;q=75 1x,
+                /assets/veraccount.webp 2x
               "
-                    src="/_next/image?url=%2Fassets%2Fveraccount.png&amp;w=2048&amp;q=75"
+                    src="/assets/veraccount.webp"
                     style={{ color: "transparent" }}
                   />
                 </div>

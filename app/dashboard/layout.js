@@ -24,7 +24,7 @@ function Content({ children }) {
         return () => router.push("/auth");
       }
     }
-  }, [router, window]);
+  }, []);
   return (
     <>
       <div className="main-bar w-full relative overflow-hidden /overflow-y-scroll">
@@ -159,27 +159,17 @@ function LayoutApp({ children }) {
                   className="w-6 h-6"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </div>
             </button>
           </div>
           <div className="title hidden md:flex">
-            <h2 className="font-bold text-4xl font-mono">
-              <svg
-                width="198"
-                height="32"
-                viewBox="0 0 198 32"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <text x="0" y="30" fill="rgba(0,122,225)">
-                  STOXA
-                </text>
-              </svg>
+            <h2 className="font-bold font text-4xl font-mono bg-clip-text text-transparent bg-gradient-to-r  to-blue-600 from-gray-600 ">
+              StoxaFx
             </h2>
           </div>
           <div className="nav-tools text-sm flex items-center">
@@ -252,9 +242,9 @@ function LayoutApp({ children }) {
                     className="md:w-5 md:h-5 w-5 h-5 md:mr-1"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M4 8a6 6 0 1112 0c0 1.887.454 3.665 1.257 5.234a.75.75 0 01-.515 1.076 32.903 32.903 0 01-3.256.508 3.5 3.5 0 01-6.972 0 32.91 32.91 0 01-3.256-.508.75.75 0 01-.515-1.076A11.448 11.448 0 004 8zm6 7c-.655 0-1.305-.02-1.95-.057a2 2 0 003.9 0c-.645.038-1.295.057-1.95.057zM8.75 6a.75.75 0 000 1.5h1.043L8.14 9.814A.75.75 0 008.75 11h2.5a.75.75 0 000-1.5h-1.043l1.653-2.314A.75.75 0 0011.25 6h-2.5z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <div className="hidden md:block text-green-600">
@@ -275,8 +265,8 @@ function LayoutApp({ children }) {
               >
                 <path
                   d="M7.455 2.004a.75.75 0 01.26.77 7 7 0 009.958 7.967.75.75 0 011.067.853A8.5 8.5 0 116.647 1.921a.75.75 0 01.808.083z"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </button>
@@ -296,9 +286,9 @@ function LayoutApp({ children }) {
                   className="w-5 h-5"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M4.25 2A2.25 2.25 0 002 4.25v2.5A2.25 2.25 0 004.25 9h2.5A2.25 2.25 0 009 6.75v-2.5A2.25 2.25 0 006.75 2h-2.5zm0 9A2.25 2.25 0 002 13.25v2.5A2.25 2.25 0 004.25 18h2.5A2.25 2.25 0 009 15.75v-2.5A2.25 2.25 0 006.75 11h-2.5zm9-9A2.25 2.25 0 0011 4.25v2.5A2.25 2.25 0 0013.25 9h2.5A2.25 2.25 0 0018 6.75v-2.5A2.25 2.25 0 0015.75 2h-2.5zm0 9A2.25 2.25 0 0011 13.25v2.5A2.25 2.25 0 0013.25 18h2.5A2.25 2.25 0 0018 15.75v-2.5A2.25 2.25 0 0015.75 11h-2.5z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </div>
@@ -323,9 +313,7 @@ function Layout({ children }) {
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() =>
-    console.log(user)
-  )
+  
   return (
     <>
       {isLoading ? (

@@ -138,7 +138,7 @@ function Crypto() {
                 $85.01
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <Link href="/dashboard/trade/en/crypto/AAVE/KRAKEN/85.01">
+                <Link href="/dashboard/trade/en/crypto/AAVE/BINANCE/85.01">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
@@ -216,7 +216,7 @@ function Crypto() {
                 $0.00498941
               </td>
               <td className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">
-                <Link href="/dashboard/trade/en/crypto/WXT/CRYPTO/0.00498941">
+                <Link href="/dashboard/trade/en/crypto/WXT/OKX/0.00498941">
                   <button className="px-3 py-2 bg-green-600/10 text-green-600 rounded-sm text-sm">
                     Trade
                   </button>
@@ -238,7 +238,7 @@ function Crypto() {
                       decoding="async"
                       data-nimg="1"
                       className="w-6 h-6"
-                      src="/assets/markets/crypto/VET.svg"
+                      src="assets/markets/crypto/VET.svg"
                       style={{ color: "transparent" }}
                     />
                   </div>

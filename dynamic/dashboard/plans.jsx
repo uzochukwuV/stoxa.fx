@@ -41,10 +41,10 @@ function Plans() {
                 data-nimg="1"
                 className="w-7 h-7"
                 srcset="
-                                /_next/image?url=%2Fassets%2Fempty-box.png&amp;w=1080&amp;q=75 1x,
-                                /_next/image?url=%2Fassets%2Fempty-box.png&amp;w=2048&amp;q=75 2x
+                                /_next/image?url=%2Fassets%2Fempty-box.jpg&amp;w=1080&amp;q=75 1x,
+                                /_next/image?url=%2Fassets%2Fempty-box.jpg&amp;w=2048&amp;q=75 2x
                               "
-                src="/_next/image?url=%2Fassets%2Fempty-box.png&amp;w=2048&amp;q=75"
+                src="/assets/empty-box.jpg"
                 style={{ color: "transparent" }}
               />
             </div>
@@ -92,10 +92,10 @@ function Plans() {
                 data-nimg="1"
                 className="w-7 h-7"
                 srcset="
-                                /_next/image?url=%2Fassets%2Fcoin.png&amp;w=1080&amp;q=75 1x,
-                                /_next/image?url=%2Fassets%2Fcoin.png&amp;w=2048&amp;q=75 2x
+                                /_next/image?url=%2Fassets%2Fcoin.jpg&amp;w=1080&amp;q=75 1x,
+                                /_next/image?url=%2Fassets%2Fcoin.jpg&amp;w=2048&amp;q=75 2x
                               "
-                src="/_next/image?url=%2Fassets%2Fcoin.png&amp;w=2048&amp;q=75"
+                src="/assets/coin.jpg"
                 style={{ color: "transparent" }}
               />
             </div>

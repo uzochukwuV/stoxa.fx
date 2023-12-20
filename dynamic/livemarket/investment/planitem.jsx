@@ -6,7 +6,7 @@ function PlanItem() {
   return (
     <div className="p-4 grid-cols-1 grid md:grid-cols-2 gap-4">
       <div
-        className="p-4 rounded-xl border relative bg-[#111] text-white/80"
+        className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(107, 75, 201, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
@@ -17,12 +17,12 @@ function PlanItem() {
             height="1000"
             decoding="async"
             data-nimg="1"
-            className="opacity-40 w-32 h-32"
+            className="opacity-40 w-32 h-32 bg-white"
             srcset="
-          /_next/image?url=%2Fassets%2Fpremiumm.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fpremiumm.png&amp;w=2048&amp;q=75 2x
+          /assets/premium.jpg 1x,
+          /assets/premium.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fpremiumm.png&amp;w=2048&amp;q=75"
+            src="/assets/premiumm.jpg"
             style={{ color: "transparent" }}
           />
         </div>
@@ -37,12 +37,12 @@ function PlanItem() {
             height="1000"
             decoding="async"
             data-nimg="1"
-            className="w-8 h-8"
+            className="w-8 h-8 bg-white"
             srcset="
-          /_next/image?url=%2Fassets%2Fpremiumm.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fpremiumm.png&amp;w=2048&amp;q=75 2x
+          /assets/premium.jpg 1x,
+          /assets/premium.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fpremiumm.png&amp;w=2048&amp;q=75"
+            src="/assets/premium.jpg"
             style={{ color: "transparent" }}
           />
           <div className="capitalize">premium plan</div>
@@ -61,7 +61,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -76,7 +76,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -91,7 +91,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -106,7 +106,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -121,7 +121,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -136,7 +136,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -151,7 +151,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -166,7 +166,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -193,7 +193,7 @@ function PlanItem() {
         </div>
       </div>
       <div
-        className="p-4 rounded-xl border relative bg-[#111] text-white/80"
+        className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(207, 155, 3, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
@@ -204,12 +204,12 @@ function PlanItem() {
             height="1000"
             decoding="async"
             data-nimg="1"
-            className="opacity-40 w-32 h-32"
+            className="opacity-40 w-32 h-32 bg-white"
             srcset="
-          /_next/image?url=%2Fassets%2Fgold.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fgold.png&amp;w=2048&amp;q=75 2x
+          /assets/gold.jpg 1x,
+          /assets/gold.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fgold.png&amp;w=2048&amp;q=75"
+            src="/assets/gold.jpg"
             style={{ color: "transparent" }}
           />
         </div>
@@ -226,10 +226,10 @@ function PlanItem() {
             data-nimg="1"
             className="w-8 h-8"
             srcset="
-          /_next/image?url=%2Fassets%2Fgold.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fgold.png&amp;w=2048&amp;q=75 2x
+          /assets/gold.jpg 1x,
+          /assets/gold.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fgold.png&amp;w=2048&amp;q=75"
+            src="/assets/gold.jpg"
             style={{ color: "transparent" }}
           />
           <div className="capitalize">gold plan</div>
@@ -248,7 +248,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -263,7 +263,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -278,7 +278,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -293,7 +293,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -308,7 +308,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -323,7 +323,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -338,7 +338,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -359,7 +359,7 @@ function PlanItem() {
         </div>
       </div>
       <div
-        className="p-4 rounded-xl border relative bg-[#111] text-white/80"
+        className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(192, 192, 192, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
@@ -370,12 +370,12 @@ function PlanItem() {
             height="1000"
             decoding="async"
             data-nimg="1"
-            className="opacity-40 w-32 h-32"
+            className="opacity-40 w-32 h-32 bg-white bg-transparent"
             srcset="
-          /_next/image?url=%2Fassets%2Fsilverr.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fsilverr.png&amp;w=2048&amp;q=75 2x
+          /assets/silverr.jpg 1x,
+          /assets/silverr.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fsilverr.png&amp;w=2048&amp;q=75"
+            src="/assets/silverr.jpg"
             style={{ color: "transparent" }}
           />
         </div>
@@ -392,10 +392,10 @@ function PlanItem() {
             data-nimg="1"
             className="w-8 h-8"
             srcset="
-          /_next/image?url=%2Fassets%2Fsilverr.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fsilverr.png&amp;w=2048&amp;q=75 2x
+          /assets/silverr.jpg 1x,
+          /assets/silverr.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fsilverr.png&amp;w=2048&amp;q=75"
+            src="/assets/silverr.jpg"
             style={{ color: "transparent" }}
           />
           <div className="capitalize">silver plan</div>
@@ -414,7 +414,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -429,7 +429,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -444,7 +444,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -459,7 +459,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -474,7 +474,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -489,7 +489,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -504,7 +504,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -525,7 +525,7 @@ function PlanItem() {
         </div>
       </div>
       <div
-        className="p-4 rounded-xl border relative bg-[#111] text-white/80"
+        className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(205, 127, 50, 0.19)" }}
       >
         <div className="absolute bottom-20 right-0 mb-3">
@@ -536,12 +536,12 @@ function PlanItem() {
             height="1000"
             decoding="async"
             data-nimg="1"
-            className="opacity-40 w-32 h-32"
+            className="opacity-40 w-32 h-32 bg-white"
             srcset="
-          /_next/image?url=%2Fassets%2Fbronze.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fbronze.png&amp;w=2048&amp;q=75 2x
+          /assets/bronze.jpg 1x,
+          /assets/bronze.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fbronze.png&amp;w=2048&amp;q=75"
+            src="/assets/bronze.jpg"
             style={{ color: "transparent" }}
           />
         </div>
@@ -558,10 +558,10 @@ function PlanItem() {
             data-nimg="1"
             className="w-8 h-8"
             srcset="
-          /_next/image?url=%2Fassets%2Fbronze.png&amp;w=1080&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fbronze.png&amp;w=2048&amp;q=75 2x
+          /assets/bronze.jpg 1x,
+          /assets/bronze.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fbronze.png&amp;w=2048&amp;q=75"
+            src="/assets/bronze.jpg"
             style={{ color: "transparent" }}
           />
           <div className="capitalize">bronze plan</div>
@@ -580,7 +580,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -595,7 +595,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -610,7 +610,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -625,7 +625,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -640,7 +640,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -655,7 +655,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"
@@ -670,7 +670,7 @@ function PlanItem() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-white/80"
+              className="w-5 h-5 mr-2 text-black/80"
             >
               <path
                 fillRule="evenodd"

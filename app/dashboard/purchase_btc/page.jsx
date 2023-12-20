@@ -16,10 +16,10 @@ function Purchase() {
             data-nimg="1"
             className="rounded-lg w-full"
             srcset="
-          /_next/image?url=%2Fassets%2Fmoonpay.gif&amp;w=384&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fmoonpay.gif&amp;w=640&amp;q=75 2x
+          /assets/moonpay.gif&amp;w=384&amp;q=75 1x,
+          /assets/moonpay.gif 2x
         "
-            src="/_next/image?url=%2Fassets%2Fmoonpay.gif&amp;w=640&amp;q=75"
+            src="/assets/moonpay.gif"
             style={{ color: "transparent" }}
           />
         </div>
@@ -42,10 +42,10 @@ function Purchase() {
             data-nimg="1"
             className="rounded-lg w-full"
             srcset="
-          /_next/image?url=%2Fassets%2Fbinance.png&amp;w=384&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fbinance.png&amp;w=640&amp;q=75 2x
+          /assets/binance.png&amp;w=384&amp;q=75 1x,
+          /assets/binance.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fbinance.png&amp;w=640&amp;q=75"
+            src="/assets/binance.jpg"
             style={{ color: "transparent" }}
           />
         </div>
@@ -68,10 +68,10 @@ function Purchase() {
             data-nimg="1"
             className="rounded-lg w-full"
             srcset="
-          /_next/image?url=%2Fassets%2Fcoinbase.png&amp;w=384&amp;q=75 1x,
-          /_next/image?url=%2Fassets%2Fcoinbase.png&amp;w=640&amp;q=75 2x
+          /assets/coinbase.png&amp;w=384&amp;q=75 1x,
+          /assets/coinbase.jpg 2x
         "
-            src="/_next/image?url=%2Fassets%2Fcoinbase.png&amp;w=640&amp;q=75"
+            src="/assets/coinbase.jpg"
             style={{ color: "transparent" }}
           />
         </div>

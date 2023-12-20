@@ -28,10 +28,10 @@ function Contact() {
                       decoding="async"
                       data-nimg="1"
                       srcset="
-                    /_next/image?url=%2Fassets%2Fwhatsapp.png&amp;w=1080&amp;q=75 1x,
-                    /_next/image?url=%2Fassets%2Fwhatsapp.png&amp;w=2048&amp;q=75 2x
+                    /assets/whatsapp.png&amp;w=1080&amp;q=75 1x,
+                    /assets/whatsapp.webp 2x
                   "
-                      src="/_next/image?url=%2Fassets%2Fwhatsapp.png&amp;w=2048&amp;q=75"
+                      src="/assets/whatsapp.webp"
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -72,10 +72,10 @@ function Contact() {
                       decoding="async"
                       data-nimg="1"
                       srcset="
-                    /_next/image?url=%2Fassets%2Fgmail.png&amp;w=1080&amp;q=75 1x,
-                    /_next/image?url=%2Fassets%2Fgmail.png&amp;w=2048&amp;q=75 2x
+                    /assets/gmail.png&amp;w=1080&amp;q=75 1x,
+                    /assets/gmail.webp 2x
                   "
-                      src="/_next/image?url=%2Fassets%2Fgmail.png&amp;w=2048&amp;q=75"
+                      src="/assets/gmail.webp"
                       style={{ color: "transparent" }}
                     />
                   </div>
