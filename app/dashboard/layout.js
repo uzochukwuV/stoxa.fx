@@ -319,49 +319,46 @@ import { userAccountContext } from "./context";
 import Loading from "../loading";
 import Link from "next/link";
 import { AuthUrl } from "@/utils/static";
+import { useTransition } from "react";
 
 function Layout({ children }) {
   const [account, setAccount] = useState(null);
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+  const [isPending, startTransition] = useTransition();
 
-  let window = globalThis?.window
+  let window = globalThis?.window;
 
-  let Localuser = JSON.parse(window?.localStorage?.getItem("user")) || null;
-  
-  useEffect(()=>{
-    
+  useEffect(() => {
+    if (typeof window !== null) {
+      let Localuser = JSON.parse(window?.localStorage?.getItem("user")) || null;
+      if (!Localuser?.res?.token) {
+        return startTransition(() => router.push("/auth"));
+      }
 
-    if (!Localuser?.res?.token) {
-      return startTransition(() => router.push("/auth"));
+      setUser(Localuser);
+
+      let id = Localuser?.res?.user?.id;
+
+      var newurl = new URL(`${AuthUrl}user/account`),
+        params = { id: id };
+      Object.keys(params).forEach((key) =>
+        newurl.searchParams.append(key, params[key])
+      );
+      if (account === null) {
+        fetch(newurl)
+          .then((res) => res.json())
+          .then((res) => {
+            setAccount(res.user);
+            window.localStorage.setItem("account", JSON.stringify(res.user));
+            setIsLoading(false);
+          })
+          .catch((err) => console.log(err));
+      }
+      setIsLoading(false);
     }
+  }, [account, window]);
 
-    setUser(Localuser);
-
-    let id = Localuser?.res?.user?.id;
-
-    var newurl = new URL(`${AuthUrl}user/account`),
-      params = { id: id };
-    Object.keys(params).forEach((key) =>
-      newurl.searchParams.append(key, params[key])
-    );
-    if (account === null){
-      fetch(newurl)
-      .then((res) => res.json())
-      .then((res) => {
-        
-        setAccount(res.user);
-        window.localStorage.setItem('account', JSON.stringify(res.user))
-        setIsLoading(false);
-
-      })
-      .catch((err) => console.log(err));
-    
-  
-    }
-    setIsLoading(false);
-  },[account, window])
-  
   return (
     <>
       {isLoading ? (

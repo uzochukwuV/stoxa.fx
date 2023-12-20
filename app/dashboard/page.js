@@ -25,8 +25,8 @@ import { appContext } from "../appContext";
 
 
 function Dashboard() {
-  const [isLoading, setIsLoading] = useState(true);
-  const [isPending, startTransition] = useTransition();
+  const [isLoading, setIsLoading] = useState(false);
+  
 
   let appcontext = useContext(appContext);
   let { user, setUser, account, setAccount } = useContext(userAccountContext);
