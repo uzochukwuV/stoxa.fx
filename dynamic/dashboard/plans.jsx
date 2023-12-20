@@ -22,7 +22,7 @@ function Plans() {
               decoding="async"
               data-nimg="1"
               className="w-24 h-24 opacity-10"
-              srcset="
+              srcSet="
                               /_next/image?url=%2Fassets%2Fempty-box.png&amp;w=1080&amp;q=75 1x,
                               /_next/image?url=%2Fassets%2Fempty-box.png&amp;w=2048&amp;q=75 2x
                             "
@@ -40,7 +40,7 @@ function Plans() {
                 decoding="async"
                 data-nimg="1"
                 className="w-7 h-7"
-                srcset="
+                srcSet="
                                 /_next/image?url=%2Fassets%2Fempty-box.jpg&amp;w=1080&amp;q=75 1x,
                                 /_next/image?url=%2Fassets%2Fempty-box.jpg&amp;w=2048&amp;q=75 2x
                               "
@@ -73,7 +73,7 @@ function Plans() {
               decoding="async"
               data-nimg="1"
               className="w-24 h-24 opacity-10"
-              srcset="
+              srcSet="
                               /_next/image?url=%2Fassets%2Fcoin.png&amp;w=1080&amp;q=75 1x,
                               /_next/image?url=%2Fassets%2Fcoin.png&amp;w=2048&amp;q=75 2x
                             "
@@ -91,7 +91,7 @@ function Plans() {
                 decoding="async"
                 data-nimg="1"
                 className="w-7 h-7"
-                srcset="
+                srcSet="
                                 /_next/image?url=%2Fassets%2Fcoin.jpg&amp;w=1080&amp;q=75 1x,
                                 /_next/image?url=%2Fassets%2Fcoin.jpg&amp;w=2048&amp;q=75 2x
                               "

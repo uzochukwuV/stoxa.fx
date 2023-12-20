@@ -34,7 +34,7 @@ function Staking() {
                 <tr className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted border-none cursor-pointer">
                   <td
                     className="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-bold text-center"
-                    colspan="8"
+                    colSpan="8"
                   >
                     No stakings yet
                   </td>

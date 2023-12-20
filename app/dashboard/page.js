@@ -31,39 +31,7 @@ function Dashboard() {
   let appcontext = useContext(appContext);
   let { user, setUser, account, setAccount } = useContext(userAccountContext);
 
-  useEffect(() => {
-    let Localuser = JSON.parse(window?.localStorage?.getItem("user")) || null;
-
-    if (!Localuser?.res?.token) {
-      return startTransition(() => router.push("/auth"));
-    }
-
-    setUser(Localuser);
-
-    let id = Localuser?.res?.user?.id;
-
-    var newurl = new URL(`${AuthUrl}user/account`),
-      params = { id: id };
-    Object.keys(params).forEach((key) =>
-      newurl.searchParams.append(key, params[key])
-    );
-    if (account === null){
-      fetch(newurl)
-      .then((res) => res.json())
-      .then((res) => {
-        
-        setAccount(res.user);
-
-        setIsLoading(false);
-
-      })
-      .catch((err) => console.log(err));
-    
   
-    }
-    setIsLoading(false);
-
-  }, [account])
 
   return (
     <>

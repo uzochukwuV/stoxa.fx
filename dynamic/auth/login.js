@@ -23,14 +23,14 @@ function LoginAuth({ props }) {
 
   const loginAccount = async () => {
     setDisabled(true);
-    console.log(name);
+    
     await fetch(`${AuthUrl}api/login`, requestOptions)
       .then((response) => response.json())
       .then((res) => {
         if (res.detail) {
           console.log(res);
           setDisabled(false);
-          setErr((l) => [...l, res.detail]);
+          setErr((l) => [res.detail]);
         } else {
           var date = new Date();
           var response = {
@@ -49,9 +49,9 @@ function LoginAuth({ props }) {
         }
       })
       .catch((e) => {
-        console.log(e.message);
+        
         setDisabled(false);
-        setErr((err) => [...err, e.message]);
+        setErr((err) => [ e.message]);
         
       });
   };

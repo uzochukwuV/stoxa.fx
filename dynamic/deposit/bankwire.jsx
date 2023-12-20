@@ -31,7 +31,7 @@ function BankWire() {
               className="w-full px-4 py-4 text-sm placeholder:text-muted-foreground rounded-lg /bg-gray-50 font-bold bg-black/5"
               placeholder="Enter amount in USD"
               type="number"
-              value=""
+              defaultValue=""
             />
           </div>
         </div>

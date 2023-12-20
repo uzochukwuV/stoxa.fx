@@ -67,3 +67,14 @@ export const coinJson = [
         duration : 'one Month'
     }
 ]
+
+
+export const getAccount = ()=>{
+    let account = window.localStorage.getItem('account')
+    return JSON.parse(account)
+}
+
+export const getUser = ()=>{
+    let user = window.localStorage.getItem('user')
+    return JSON.parse(user)
+}
