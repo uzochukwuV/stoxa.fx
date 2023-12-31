@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 function BankWire() {
   return (
     <div className="p-4">

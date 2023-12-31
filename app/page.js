@@ -43,16 +43,16 @@ export default function Home() {
   useEffect(() => {
    
     AOS.init({
-         duration: 800,
-         once: false,
+         duration: 500,
+         once: true,
        })
  }, [])
   return (
     <>
-      <main  className="relative reveal transition-all /duration-1000">
+      <main  className=" left-0 right-0 absolute ">
         <Main />
 
-        <div  className="left-0 right-0 absolute top-0 ">
+        <div  className=" left-0 right-1 w-full z-20 bg-[#0a0a0a]  absolute top-0 ">
           <Content />
           <GettingStarted />
           <div className="bg-[#0a0a0a]">
@@ -69,7 +69,7 @@ export default function Home() {
 
           <Testimonials></Testimonials>
           <Testimonials2></Testimonials2>
-          <FAQ></FAQ>
+          {/* <FAQ></FAQ> */}
           <Footer></Footer>
         </div>
         

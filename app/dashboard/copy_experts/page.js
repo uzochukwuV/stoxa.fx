@@ -8,6 +8,9 @@ function page() {
         <div class="pt-4 px-4">
           <div class="title-region">
             <div class="text-black/50 text-sm">
+            <h1 class="text-xl mt-2 font-bold text-amber-700 mb-2 capitalize">
+                This segment is closed for the year and will resume activity on 26 January!!!
+              </h1>
               <h1 class="text-xl mt-2 font-bold mb-2 capitalize">
                 Copy expert traders
               </h1>
