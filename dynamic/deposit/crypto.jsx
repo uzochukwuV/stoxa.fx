@@ -64,6 +64,8 @@ function Crypto() {
                 placeholder="Enter amount in USD"
                 disabled=""
                 type="number"
+                min={100}
+                defaultValue={100}
                 onChange={(e) => setAmount(e.target.value)}
               />
             </div>
@@ -91,8 +93,8 @@ function DepositAddress({ setA, type, amount }) {
         <div className="deposits-cont p-3 rounded-lg transition-all border bg-gray-100 border-white/10 bg-black/50 text-black/90">
           <div className="pb-2 transition-all w-full text-center">
             <p className="py-3 text-lg text-black ">Make deposits to the generated address below</p>
-            <div className="grid grid-cols-2 gap-2">
-              <div className=" w-2/3 text-left  sm:min-w-full text-base">
+            <div className="grid  gap-2 md:grid-cols-none sm:grid-cols-none">
+              <div className="  text-left  sm:min-w-full text-base">
                 <Image
                   src={`/assets/markets/crypto/${type}.svg`}
                   width={140}
@@ -106,12 +108,16 @@ function DepositAddress({ setA, type, amount }) {
                     disabled={disabled}
                     type="number"
                     value={amount}
+                    min={100}
+                    defaultValue={100}
                     onChange={(e) => setA(e.target.value)}
                   />
-                  <button onClick={()=>setDisabled(true)}>change</button>
+                  <button 
+                  className=" mt-3 p-3 border bg-gray-300 "
+                  onClick={()=>setDisabled(true)}>change</button>
                 </div>
               </div>
-              <div className=" w-1/3 ">
+              <div className="  ">
                 <div className=" py-3 px-2 border-b mb-2 grid grid-cols-2">
                   <div className="w-2/3 text-left">Transaction Id</div>
                   <div className="w-1/3">Tuf76cv6ertyxc5</div>
@@ -126,7 +132,7 @@ function DepositAddress({ setA, type, amount }) {
                 </div>
                 <div className=" py-3 px-2 border-b mb-2 grid grid-cols-2">
                   <div className="w-2/3 text-left">Address</div>
-                  <div className="w-1/3 text-red-400">839yf79d23gc78f23tgf72</div>
+                  <div className="w-1/3 text-red-400 overflow-scroll">839yf79d23gc78f23tgf72</div>
                 </div>
               </div>
             </div>

@@ -52,7 +52,7 @@ function PlanItem() {
             className="text-2xl my-1 p-2 font-bold rounded-sm"
             style={{ backgroundColor: "rgba(107, 75, 201, 0.19)" }}
           >
-            <sup>$</sup> 100,000<span className="text-xs"> / 6mo</span>
+            <sup>$</sup> 1,000<span className="text-xs"> / 1mo</span>
           </div>
         </div>
         <div className="list-disc pl-5">
@@ -239,7 +239,7 @@ function PlanItem() {
             className="text-2xl my-1 p-2 font-bold rounded-sm"
             style={{ backgroundColor: "rgba(207, 155, 3, 0.19)" }}
           >
-            <sup>$</sup> 75,000<span className="text-xs"> / 6mo</span>
+            <sup>$</sup> 500<span className="text-xs"> / 1mo</span>
           </div>
         </div>
         <div className="list-disc pl-5">
@@ -405,7 +405,7 @@ function PlanItem() {
             className="text-2xl my-1 p-2 font-bold rounded-sm"
             style={{ backgroundColor: "rgba(192, 192, 192, 0.19)" }}
           >
-            <sup>$</sup> 50,000<span className="text-xs"> / 6mo</span>
+            <sup>$</sup> 200<span className="text-xs"> / 2wks</span>
           </div>
         </div>
         <div className="list-disc pl-5">
@@ -571,7 +571,7 @@ function PlanItem() {
             className="text-2xl my-1 p-2 font-bold rounded-sm"
             style={{ backgroundcolor: "rgba(205, 127, 50, 0.19)" }}
           >
-            <sup>$</sup> 25,000<span className="text-xs"> / 6mo</span>
+            <sup>$</sup> 50<span className="text-xs"> / 1wk</span>
           </div>
         </div>
         <div className="list-disc pl-5">
