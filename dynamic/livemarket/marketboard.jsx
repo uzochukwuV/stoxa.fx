@@ -7,7 +7,7 @@ import { userAccountContext } from "@/app/dashboard/context";
 function MarketBoard() {
   
   let {user, setUser, account, setAccount} = useContext(userAccountContext)
-  console.log(account);
+  
   return (
     <div>
       <div className="p-4">

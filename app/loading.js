@@ -17,7 +17,7 @@ function Loading() {
 
       {/*  */}
 
-      <div className="flex-1 flex gap-5 ">
+      <div className="flex-1 flex gap-5 flex-wrap">
         <div className="  shadow-current w-1/5  px-5 pt-5 flex gap-5 flex-col">
           <div className=" h-10 rounded w-60 bg-gray-200 animate-pulse "></div>
           <div className=" h-10 rounded w-60 bg-gray-200 animate-pulse "></div>

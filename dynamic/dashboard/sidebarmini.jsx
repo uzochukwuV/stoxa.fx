@@ -2,8 +2,7 @@
 import Link from "next/link";
 import React from "react";
 
-function SideBarMini(props) {
-
+function SideBarMini({setNav}) {
 
   
   return (
@@ -55,6 +54,9 @@ function SideBarMini(props) {
                 <div>Quick Access</div>
               </div>
               <Link
+              onClick={()=>setNav(false)}
+              
+              
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm px-3 rounded-xl text bg-[#0052FF] font-bold"
                 href={"/dashboard"}
                 loading="lazy"
@@ -82,6 +84,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href={"/dashboard/deposits"}
               >
@@ -123,6 +126,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/markets"
               >
@@ -143,6 +147,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/withdrawals"
               >
@@ -163,6 +168,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/copy_experts"
               >
@@ -209,6 +215,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/history"
               >
@@ -233,6 +240,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/stake"
               >
@@ -254,6 +262,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/investments"
               >
@@ -295,6 +304,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/purchase_btc"
               >
@@ -355,6 +365,7 @@ function SideBarMini(props) {
                 <div>User Actions</div>
               </div>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/account"
               >
@@ -379,6 +390,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/verify"
               >
@@ -403,6 +415,7 @@ function SideBarMini(props) {
                 </button>
               </Link>
               <Link
+              onClick={()=>setNav(false)}
                 className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
                 href="/dashboard/support"
               >

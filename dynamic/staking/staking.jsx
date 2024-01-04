@@ -23,7 +23,7 @@ function Staking() {
             </p>
           </div>
           <div className="currency-tabs-container w-full font-bold">
-            <div className="flex items-center mt-4">
+            {/* <div className="flex items-center mt-4">
               <Link  href="/dashboard/stake">
                 <div className="py-2 px-3 e rounded-sm font-bold bg-black/5 mr-1 text-sm cursor-pointer hover:bg-[#333] transition-all">
                   Crypto
@@ -44,7 +44,7 @@ function Staking() {
                   My stakings
                 </div>
               </Link  >
-            </div>
+            </div> */}
           </div>
         </div>
         {/*  */}

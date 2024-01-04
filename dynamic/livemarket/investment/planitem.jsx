@@ -9,44 +9,8 @@ function PlanItem() {
         className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(107, 75, 201, 0.19)" }}
       >
-        <div className="absolute bottom-20 right-0 mb-3">
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="opacity-40 w-32 h-32 bg-white"
-            srcset="
-          /assets/premium.jpg 1x,
-          /assets/premium.jpg 2x
-        "
-            src="/assets/premiumm.jpg"
-            style={{ color: "transparent" }}
-          />
-        </div>
-        <div
-          className="text-xl font-bold mb-5 text-center flex items-center justify-center #6B4BC9"
-          style={{ color: "rgb(107, 75, 201)" }}
-        >
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="w-8 h-8 bg-white"
-            srcset="
-          /assets/premium.jpg 1x,
-          /assets/premium.jpg 2x
-        "
-            src="/assets/premium.jpg"
-            style={{ color: "transparent" }}
-          />
-          <div className="capitalize">premium plan</div>
-        </div>
+        
+          
         <div className="flex items-center justify-center cursor-pointer z-50">
           <div
             className="text-2xl my-1 p-2 font-bold rounded-sm"
@@ -146,21 +110,7 @@ function PlanItem() {
             </svg>
             <div>VIP event invitations</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 mr-2 text-black/80"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-            <div>Customized portfolio</div>
-          </div>
+          
           <div className="text-sm flex p-2 font-bold items-center text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -179,61 +129,28 @@ function PlanItem() {
         </div>
         <div className="button-container flex justify-center">
           <button
-            className="rounded-full px-7 text-white my-4 py-3 text-sm font-bold"
-            style={{ backgroundColor: "rgb(107, 75, 201)" }}
+          onClick={(e)=>purchasePlan(e.target.value)}
+          value={1000}
+          
+            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+            
           >
             Purchase Plan
           </button>
         </div>
-        <div className="text-sm text-blue-500 w-full text-center">
+        {/* <div className="text-sm text-blue-500 w-full text-center">
           Insufficient Balance to activate this plan.
           <span className="font-bold">
             <Link href="/dashboard/deposits">Deposit now</Link>
           </span>
-        </div>
+        </div> */}
       </div>
       <div
         className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(207, 155, 3, 0.19)" }}
       >
-        <div className="absolute bottom-20 right-0 mb-3">
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="opacity-40 w-32 h-32 bg-white"
-            srcset="
-          /assets/gold.jpg 1x,
-          /assets/gold.jpg 2x
-        "
-            src="/assets/gold.jpg"
-            style={{ color: "transparent" }}
-          />
-        </div>
-        <div
-          className="text-xl font-bold mb-5 text-center flex items-center justify-center #CF9B03"
-          style={{ color: "rgb(207, 155, 3)" }}
-        >
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="w-8 h-8"
-            srcset="
-          /assets/gold.jpg 1x,
-          /assets/gold.jpg 2x
-        "
-            src="/assets/gold.jpg"
-            style={{ color: "transparent" }}
-          />
-          <div className="capitalize">gold plan</div>
-        </div>
+        
+        
         <div className="flex items-center justify-center cursor-pointer z-50">
           <div
             className="text-2xl my-1 p-2 font-bold rounded-sm"
@@ -351,8 +268,10 @@ function PlanItem() {
         </div>
         <div className="button-container flex justify-center">
           <button
-            className="rounded-full px-7 text-white my-4 py-3 text-sm font-bold"
-            style={{ backgroundColor: "rgb(207, 155, 3)" }}
+          onClick={()=>purchasePlan()}
+          value={500}
+            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+            
           >
             Purchase Plan
           </button>
@@ -362,44 +281,7 @@ function PlanItem() {
         className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(192, 192, 192, 0.19)" }}
       >
-        <div className="absolute bottom-20 right-0 mb-3">
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="opacity-40 w-32 h-32 bg-white bg-transparent"
-            srcset="
-          /assets/silverr.jpg 1x,
-          /assets/silverr.jpg 2x
-        "
-            src="/assets/silverr.jpg"
-            style={{ color: "transparent" }}
-          />
-        </div>
-        <div
-          className="text-xl font-bold mb-5 text-center flex items-center justify-center #C0C0C0"
-          style={{ color: "rgb(192, 192, 192)" }}
-        >
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="w-8 h-8"
-            srcset="
-          /assets/silverr.jpg 1x,
-          /assets/silverr.jpg 2x
-        "
-            src="/assets/silverr.jpg"
-            style={{ color: "transparent" }}
-          />
-          <div className="capitalize">silver plan</div>
-        </div>
+        
         <div className="flex items-center justify-center cursor-pointer z-50">
           <div
             className="text-2xl my-1 p-2 font-bold rounded-sm"
@@ -439,36 +321,7 @@ function PlanItem() {
             </svg>
             <div>Advanced market insights</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 mr-2 text-black/80"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-            <div>Loyalty discounts</div>
-          </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 mr-2 text-black/80"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-            <div>Educational resources</div>
-          </div>
+          
           <div className="text-sm flex p-2 font-bold items-center text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -517,8 +370,10 @@ function PlanItem() {
         </div>
         <div className="button-container flex justify-center">
           <button
-            className="rounded-full px-7 text-white my-4 py-3 text-sm font-bold"
-            style={{ backgroundColor: "rgb(192, 192, 192)" }}
+          value={200}
+          onClick={()=>purchasePlan()}
+            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+            
           >
             Purchase Plan
           </button>
@@ -528,44 +383,8 @@ function PlanItem() {
         className="p-4 rounded-xl border relative  text-black/80"
         style={{ border: "2px solid rgba(205, 127, 50, 0.19)" }}
       >
-        <div className="absolute bottom-20 right-0 mb-3">
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="opacity-40 w-32 h-32 bg-white"
-            srcset="
-          /assets/bronze.jpg 1x,
-          /assets/bronze.jpg 2x
-        "
-            src="/assets/bronze.jpg"
-            style={{ color: "transparent" }}
-          />
-        </div>
-        <div
-          className="text-xl font-bold mb-5 text-center flex items-center justify-center #CD7F32"
-          style={{ color: "rgb(205, 127, 50)" }}
-        >
-          <Image
-            alt=""
-            loading="lazy"
-            width="1000"
-            height="1000"
-            decoding="async"
-            data-nimg="1"
-            className="w-8 h-8"
-            srcset="
-          /assets/bronze.jpg 1x,
-          /assets/bronze.jpg 2x
-        "
-            src="/assets/bronze.jpg"
-            style={{ color: "transparent" }}
-          />
-          <div className="capitalize">bronze plan</div>
-        </div>
+        
+        
         <div className="flex items-center justify-center cursor-pointer z-50">
           <div
             className="text-2xl my-1 p-2 font-bold rounded-sm"
@@ -650,41 +469,15 @@ function PlanItem() {
             </svg>
             <div>Monthly market analysis</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 mr-2 text-black/80"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-            <div>Community forums</div>
-          </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 mr-2 text-black/80"
-            >
-              <path
-                fillRule="evenodd"
-                d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                clipRule="evenodd"
-              ></path>
-            </svg>
-            <div>Mobile app support</div>
-          </div>
+          
+          
         </div>
         <div className="button-container flex justify-center">
           <button
-            className="rounded-full px-7 text-white my-4 py-3 text-sm font-bold"
-            style={{ backgroundColor: "rgb(205, 127, 50)" }}
+          value={50}
+          onClick={()=>purchasePlan()}
+            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+            
           >
             Purchase Plan
           </button>

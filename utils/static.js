@@ -1,5 +1,5 @@
-export const AuthUrl = "https://stoxafx.vercel.app/";
-export const url  = "http://127.0.0.1:8000/";
+export const url = "https://stoxafx.vercel.app/";
+export const AuthUrl  = "http://127.0.0.1:8000/";
 
 
 export const coinJson = [

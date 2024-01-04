@@ -18,7 +18,7 @@ function PopNotifications() {
             <div className="titcount fleex">
               <div className=" ">
                 <div className="py-1 px-2 rounded-full text-xs font-bold bg-[#333]">
-                  6
+                  six
                 </div>
               </div>
             </div>
@@ -79,174 +79,10 @@ function PopNotifications() {
                       </svg>
                     </div>
                   </div>
-                  <div className="flex justify-between w-full items-start cursor-pointer transition-all">
-                    <div className="icon flex items-center flex-col">
-                      <div className="bg-red-500/10 text-red-500 rounded-full p-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="w-5 h-5"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div className="linedwon bg-red-500/10 text-red-500 h-11 border border-dashed border-white/5"></div>
-                    </div>
-                    <div className="message w-full text-sm mx-2">
-                      <div className="pb-1 pt-1 text-white">
-                        Your premium plan purchase was declined due to
-                        insufficient balance. Please deposit.
-                      </div>
-                      <div className="date text-xs capitalize opacity-40">
-                        about 3 hours ago
-                      </div>
-                    </div>
-                    <div className="actiom pt-3 h-full /w-full">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        className="w-4 h-4 text-white/50 hover:text-white/80"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="flex justify-between w-full items-start cursor-pointer transition-all">
-                    <div className="icon flex items-center flex-col">
-                      <div className="bg-red-500/10 text-red-500 rounded-full p-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="w-5 h-5"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div className="linedwon bg-red-500/10 text-red-500 h-11 border border-dashed border-white/5"></div>
-                    </div>
-                    <div className="message w-full text-sm mx-2">
-                      <div className="pb-1 pt-1 text-white">
-                        Your premium plan purchase was declined due to
-                        insufficient balance. Please deposit.
-                      </div>
-                      <div className="date text-xs capitalize opacity-40">
-                        about 3 hours ago
-                      </div>
-                    </div>
-                    <div className="actiom pt-3 h-full /w-full">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        className="w-4 h-4 text-white/50 hover:text-white/80"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="flex justify-between w-full items-start cursor-pointer transition-all">
-                    <div className="icon flex items-center flex-col">
-                      <div className="bg-red-500/10 text-red-500 rounded-full p-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="w-5 h-5"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div className="linedwon bg-red-500/10 text-red-500 h-11 border border-dashed border-white/5"></div>
-                    </div>
-                    <div className="message w-full text-sm mx-2">
-                      <div className="pb-1 pt-1 text-white">
-                        Your premium plan purchase was declined due to
-                        insufficient balance. Please deposit.
-                      </div>
-                      <div className="date text-xs capitalize opacity-40">
-                        about 3 hours ago
-                      </div>
-                    </div>
-                    <div className="actiom pt-3 h-full /w-full">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        className="w-4 h-4 text-white/50 hover:text-white/80"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="flex justify-between w-full items-start cursor-pointer transition-all">
-                    <div className="icon flex items-center flex-col">
-                      <div className="bg-red-500/10 text-red-500 rounded-full p-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="w-5 h-5"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M13.2 2.24a.75.75 0 00.04 1.06l2.1 1.95H6.75a.75.75 0 000 1.5h8.59l-2.1 1.95a.75.75 0 101.02 1.1l3.5-3.25a.75.75 0 000-1.1l-3.5-3.25a.75.75 0 00-1.06.04zm-6.4 8a.75.75 0 00-1.06-.04l-3.5 3.25a.75.75 0 000 1.1l3.5 3.25a.75.75 0 101.02-1.1l-2.1-1.95h8.59a.75.75 0 000-1.5H4.66l2.1-1.95a.75.75 0 00.04-1.06z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </div>
-                      <div className="linedwon bg-red-500/10 text-red-500 h-11 border border-dashed border-white/5"></div>
-                    </div>
-                    <div className="message w-full text-sm mx-2">
-                      <div className="pb-1 pt-1 text-white">
-                        Your premium plan purchase was declined due to
-                        insufficient balance. Please deposit.
-                      </div>
-                      <div className="date text-xs capitalize opacity-40">
-                        about 3 hours ago
-                      </div>
-                    </div>
-                    <div className="actiom pt-3 h-full /w-full">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        className="w-4 h-4 text-white/50 hover:text-white/80"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
+                  
+                 
+                 
+                
                   <div className="flex justify-between w-full items-start cursor-pointer transition-all">
                     <div className="icon flex items-center flex-col">
                       <div className="bg-[#333] text-white rounded-full p-3">
@@ -256,10 +92,10 @@ function PopNotifications() {
                     </div>
                     <div className="message w-full text-sm mx-2">
                       <div className="pb-1 pt-1 text-white">
-                        Welcome to capital nexus
+                      Welcome to Stoxafx
                       </div>
                       <div className="date text-xs capitalize opacity-40">
-                        about 5 hours ago
+                        about 5 days ago
                       </div>
                     </div>
                     <div className="actiom pt-3 h-full /w-full">

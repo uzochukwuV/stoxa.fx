@@ -125,17 +125,6 @@ function LayoutApp({ children }) {
   const [menu, setMenu] = useState(false);
   const [popNof, setPopNof] = useState(false);
 
-  // if (Nav){
-  //   setMenu(false)
-  //   setPopNof(false)
-  // }else if(menu){
-  //   setNav(false)
-  //   setPopNof(false)
-  // }else {
-  //   setNav(false)
-  //   setMenu(false)
-  // }
-
   return (
     <main className="h-screen  overflow-hidden relative overflow-y-scroll w-screen">
       {menu && <PopMenu />}
@@ -179,7 +168,7 @@ function LayoutApp({ children }) {
             </button>
           </div>
           <div className="title hidden md:flex">
-            <h2 className="font-bold font text-4xl font-mono bg-clip-text text-transparent bg-gradient-to-r  to-blue-600 from-gray-600 ">
+            <h2 className="font-bold font text-4xl bg-clip-text text-transparent  ">
               StoxaFx
             </h2>
           </div>
