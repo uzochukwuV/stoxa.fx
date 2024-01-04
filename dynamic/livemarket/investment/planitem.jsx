@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 function PlanItem() {
+  const purchasePlan = (value)=> {
+    
+  }
   return (
     <div className="p-4 grid-cols-1 grid md:grid-cols-2 gap-4">
       <div
@@ -268,7 +271,7 @@ function PlanItem() {
         </div>
         <div className="button-container flex justify-center">
           <button
-          onClick={()=>purchasePlan()}
+          onClick={(e)=>purchasePlan(e.target.value)}
           value={500}
             className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
             
@@ -371,7 +374,7 @@ function PlanItem() {
         <div className="button-container flex justify-center">
           <button
           value={200}
-          onClick={()=>purchasePlan()}
+          onClick={(e)=>purchasePlan(e.target.value)}
             className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
             
           >
@@ -475,7 +478,7 @@ function PlanItem() {
         <div className="button-container flex justify-center">
           <button
           value={50}
-          onClick={()=>purchasePlan()}
+          onClick={(e)=>purchasePlan(e.target.value)}
             className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
             
           >
