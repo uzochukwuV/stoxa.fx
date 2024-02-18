@@ -2,8 +2,10 @@
 import Link from "next/link";
 import React from "react";
 
-function SideBarMini({setNav, Nav}) {
+function SideBarMini(props) {
+  const {setNav, Nav} = props.props
 
+  console.log(props.props);
   
   return (
     <div
@@ -35,24 +37,7 @@ function SideBarMini({setNav, Nav}) {
             style={{ overflow: "hidden scroll" }}
           >
             <div style={{ minWidth: "100%", display: "table" }}>
-              <div className="flex items-center mb-3 font-bold classes text-m /mt-10">
-                <div className="icon" onClick={()=>setNav(false)}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-5 h-5 mr-2"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M2.25 4.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875V17.25a4.5 4.5 0 11-9 0V4.125zm4.5 14.25a1.125 1.125 0 100-2.25 1.125 1.125 0 000 2.25z"
-                      clipRule="evenodd"
-                    ></path>
-                    <path d="M10.719 21.75h9.156c1.036 0 1.875-.84 1.875-1.875v-5.25c0-1.036-.84-1.875-1.875-1.875h-.14l-8.742 8.743c-.09.089-.18.175-.274.257zM12.738 17.625l6.474-6.474a1.875 1.875 0 000-2.651L15.5 4.787a1.875 1.875 0 00-2.651 0l-.1.099V17.25c0 .126-.003.251-.01.375z"></path>
-                  </svg>
-                </div>
-                <div>Quick Access</div>
-              </div>
+              
               <Link
               onClick={()=>setNav(false)}
               
@@ -432,7 +417,7 @@ function SideBarMini({setNav, Nav}) {
         </div>
       </div>
       <button
-        onClick={() => props.props.setNav((n)=>!n)}
+        onClick={() => setNav(false)}
         type="button"
         className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary"
       >

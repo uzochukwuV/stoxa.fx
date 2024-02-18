@@ -140,6 +140,7 @@ function LayoutApp({ children }) {
         }}
       ></div>
       <div className="fixed top-0 left-0 w-full   z-30">
+        
         {Nav && <SideBarMini props={{ setNav, Nav }} />}
         <div className="nav-container flex justify-between  border border-white/5 duration-300 items-center py-3 px-5 transition-colors">
           <div className="burger md:hidden cursor-pointer">
@@ -254,7 +255,7 @@ function LayoutApp({ children }) {
               </div>
             </button>
             <button
-              onClick={() => console.log("navigation bar")}
+              
               className="theme-toggler  md:p-3  md:bg-white/10 text-white  rounded-full mx-5 md:mx-2"
             >
               <svg
