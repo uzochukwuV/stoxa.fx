@@ -103,7 +103,7 @@ function Features() {
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
                     Safe &amp;
-                    <span className="text-blue-500 text-blue-accent2 bg-clip-text text-transparent">
+                    <span className="text-blue-500 ">
                       Secure
                     </span>
                   </p>
@@ -143,7 +143,7 @@ function Features() {
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
                     Profitable
-                    <span className="text-blue-500 text-blue-accent2 bg-clip-text text-transparent">
+                    <span className="text-blue-500 ">
                       Assets
                     </span>
                   </p>
@@ -188,7 +188,7 @@ function Features() {
                 </div>
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
-                    <span className="text-blue-500 text-blue-accent2 bg-clip-text text-transparent">
+                    <span className="text-blue-500 ">
                       Secure{" "}
                     </span>
                     Wallet
@@ -227,7 +227,7 @@ function Features() {
                 </div>
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
-                    <span className="text-blue-500 text-blue-accent2 bg-clip-text text-transparent">
+                    <span className="text-blue-500 ">
                       Instant
                     </span>
                     Withdrawals

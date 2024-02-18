@@ -82,16 +82,16 @@ function AdvancedTrading() {
               </div>
               <div className="message">
                 <span
-                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 font-bold"
                   >MetaTrader 4 </span
                 >(MT4) &amp;
                 <span
-                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 font-bold"
                   >MetaTrader 5
                 </span>
                 (MT5) , IRESS,
                 <span
-                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 font-bold"
                   >cTrader</span
                 >
                 and WebTrader &amp; mobile apps for iPhone and Android
@@ -147,7 +147,7 @@ function AdvancedTrading() {
               <div className="message">
                 Superior
                 <span
-                  className="text-blue-accent2 bg-clip-text text-transparent font-bold"
+                  className="text-blue-accent2 font-bold"
                   >Virtual Private Servers (VPS)</span
                 >
                 solutions for Expert Advisors (EAs) , scalping and

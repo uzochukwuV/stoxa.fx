@@ -26,7 +26,7 @@ function Products() {
           className="larger-text text-xl md:text-2xl lg:text-3xl font-bold mb-4 text-gray-200 aos-init"
         >
           Trade with world-wide accepted
-          <span className="text-blue-accent2 bg-clip-text text-transparent">
+          <span className="text-blue-accent2 ">
             Product
           </span>
         </div>

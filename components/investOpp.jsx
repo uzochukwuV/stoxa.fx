@@ -49,14 +49,14 @@ function InvestmentOpp() {
               Nexus also offers a diverse range of CFD trading options. With
               Capital Nexus, you can engage in CFD trading across various asset
               classNamees, including
-              <span className="text-blue-accent2 bg-clip-text text-transparent font-bold">
+              <span className="text-blue-accent2 font-bold">
                 Forex, Indices, Shares, Commodities, Metals, Digital Currencies,
                 Bonds, and ETFs
               </span>
               . Our CFD trading platform provides you with access to the biggest
               global exchanges, including the NASDAQ and NYSE in the United
               States, along with the
-              <span className="text-blue-accent2 bg-clip-text text-transparent font-bold">
+              <span className="text-blue-accent2 font-bold">
                 Australian Stock Exchange (ASX)
               </span>
               . This means you can trade some of the world &lsquo; s largest and most
