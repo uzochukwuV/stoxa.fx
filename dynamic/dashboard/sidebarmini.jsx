@@ -16,7 +16,7 @@ function SideBarMini({setNav}) {
       tabIndex="-1"
       style={{ pointerEvents: "auto" }}
     >
-      <div className="flex flex-col space-y-2 text-center sm:text-left text-white">
+      <div className="flex flex-col space-y-2 text-center text-white sm:text-left">
         <h2 id="radix-:rp:" className="text-lg font-semibold text-foreground">
           <div className="font-bold"></div>
         </h2>
@@ -35,7 +35,7 @@ function SideBarMini({setNav}) {
             style={{ overflow: "hidden scroll" }}
           >
             <div style={{ minWidth: "100%", display: "table" }}>
-              <div className="classes mb-3 text-m font-bold /mt-10 flex items-center">
+              <div className="flex items-center mb-3 font-bold classes text-m /mt-10">
                 <div className="icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +63,8 @@ function SideBarMini({setNav}) {
                 
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -85,12 +85,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href={"/dashboard/deposits"}
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -127,12 +127,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/markets"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -148,12 +148,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/withdrawals"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -169,12 +169,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/copy_experts"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -216,12 +216,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/history"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -241,12 +241,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/stake"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -263,12 +263,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/investments"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -305,12 +305,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/purchase_btc"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -346,7 +346,7 @@ function SideBarMini({setNav}) {
                   </div>
                 </button>
               </Link>
-              <div className="classes mb-2 mt-5 text-m font-bold flex items-center">
+              <div className="flex items-center mt-5 mb-2 font-bold classes text-m">
                 <div className="icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -366,12 +366,12 @@ function SideBarMini({setNav}) {
               </div>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/account"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -391,37 +391,12 @@ function SideBarMini({setNav}) {
               </Link>
               <Link
               onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
-                href="/dashboard/verify"
-              >
-                <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        className="w-5 h-5"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                          clipRule="evenodd"
-                        ></path>
-                      </svg>
-                    </div>
-                    <div className="nav">Verification</div>
-                  </div>
-                </button>
-              </Link>
-              <Link
-              onClick={()=>setNav(false)}
-                className="flex items-center py-3 w-full transition-all cursor-pointer text-sm font-medium px-3 rounded-xl text-black/80"
+                className="flex items-center w-full px-3 py-3 text-sm font-medium transition-all cursor-pointer rounded-xl text-black/80"
                 href="/dashboard/support"
               >
                 <button type="button" className="w-full">
-                  <div className="w-full flex items-center py-1">
-                    <div className="icon mr-2">
+                  <div className="flex items-center w-full py-1">
+                    <div className="mr-2 icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -471,7 +446,7 @@ function SideBarMini({setNav}) {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="h-4 w-4"
+          className="w-4 h-4"
         >
           <line x1="18" x2="6" y1="6" y2="18"></line>
           <line x1="6" x2="18" y1="6" y2="18"></line>

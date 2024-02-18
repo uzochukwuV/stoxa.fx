@@ -14,7 +14,7 @@ function SideBar({Nav}) {
   }, []);
 
   return (
-    <div className="side-bar hidden md:block /overflow-scroll ">
+    <div className="hidden side-bar md:block /overflow-scroll ">
       <div
         dir="ltr"
         className="relative overflow-hidden w-[250px] h-[calc(100vh-70px)] mb-[70px]"
@@ -32,7 +32,7 @@ function SideBar({Nav}) {
         >
           <div style={{ minWidth: "100%", display: "table" }}>
             <div className="">
-              <div className="border-r px-2 pt-4 pb-8">
+              <div className="px-2 pt-4 pb-8 border-r">
                 <div
                   dir="ltr"
                   className="relative overflow-hidden"
@@ -100,7 +100,7 @@ function SideBar({Nav}) {
                         </div>
                       </Link>
                       <Link href="/dashboard/stake">
-                        <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
+                        <div className="flex flex-col items-center px-2 py-3 my-1 text-xs transition-all rounded-md md:flex-row lg:text-sm text-black/70 hover:bg-gray-200">
                           <div className="mx-2 font-bold">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ function SideBar({Nav}) {
                         </div>
                       </Link>
                       <Link href="/dashboard/deposits">
-                        <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
+                        <div className="flex flex-col items-center px-2 py-3 my-1 text-xs transition-all rounded-md md:flex-row lg:text-sm text-black/70 hover:bg-gray-200">
                           <div className="mx-2 font-bold">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@ function SideBar({Nav}) {
                         </div>
                       </Link>
                       <Link href="/dashboard/copy_experts">
-                        <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
+                        <div className="flex flex-col items-center px-2 py-3 my-1 text-xs transition-all rounded-md md:flex-row lg:text-sm text-black/70 hover:bg-gray-200">
                           <div className="mx-2 font-bold">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -201,7 +201,7 @@ function SideBar({Nav}) {
                         </div>
                       </Link>
                       <Link href="/dashboard/withdrawals">
-                        <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
+                        <div className="flex flex-col items-center px-2 py-3 my-1 text-xs transition-all rounded-md md:flex-row lg:text-sm text-black/70 hover:bg-gray-200">
                           <div className="mx-2 font-bold">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -272,7 +272,7 @@ function SideBar({Nav}) {
                         </div>
                       </Link>
                       <Link href="/dashboard/purchase_btc">
-                        <div className="flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-black/70 hover:bg-gray-200 text-xs">
+                        <div className="flex flex-col items-center px-2 py-3 my-1 text-xs transition-all rounded-md md:flex-row lg:text-sm text-black/70 hover:bg-gray-200">
                           <div className="mx-2 font-bold">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -338,33 +338,7 @@ function SideBar({Nav}) {
                           </div>
                         </div>
                       </Link>
-                      <Link href="/dashboard/verify">
-                        <div
-                          className={
-                            pathname === "/dashboard/verify"
-                              ? "flex flex-col md:flex-row lg:text-sm items-center rounded-md py-3 my-1 px-2 transition-all text-white font-bold bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-800 via-blue-600 to-blue-500"
-                              : "flex flex-col md:flex-row lg:text-sm items-center text-black/70 rounded-md py-3 my-1 px-2 transition-all  hover:bg-gray-200  "
-                          }
-                        >
-                          <div className="mx-2 font-bold">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="w-5 h-5"
-                            >
-                              <path
-                                fillRule="evenodd"
-                                d="M16.403 12.652a3 3 0 000-5.304 3 3 0 00-3.75-3.751 3 3 0 00-5.305 0 3 3 0 00-3.751 3.75 3 3 0 000 5.305 3 3 0 003.75 3.751 3 3 0 005.305 0 3 3 0 003.751-3.75zm-2.546-4.46a.75.75 0 00-1.214-.883l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                clipRule="evenodd"
-                              ></path>
-                            </svg>
-                          </div>
-                          <div className="text-xs lg:text-sm font-bol">
-                            Verification
-                          </div>
-                        </div>
-                      </Link>
+                  
                       <Link href="/dashboard/support">
                         <div
                           className={

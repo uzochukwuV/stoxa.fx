@@ -1,10 +1,10 @@
 export default function TradingProgress() {
   return (
     <>
-      <div className="rounded-sm p-3 bg-gray-400/10 border">
+      <div className="p-3 border rounded-sm bg-gray-400/10">
         <div className="flex items-center gap-x-2">
           <div className="icon">
-            <div className="rounded-full p-3 bg-black/5">
+            <div className="p-3 rounded-full bg-black/5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
@@ -19,13 +19,13 @@ export default function TradingProgress() {
               </svg>
             </div>
           </div>
-          <div className="trading-bar w-full">
-            <div className="title font-bold text-sm">Trading Progress</div>
-            <div className="progress mt-2">
+          <div className="w-full trading-bar">
+            <div className="text-sm font-bold title">Trading Progress</div>
+            <div className="mt-2 progress">
               <div className="progresstrack overflow-hidden w-full relative h-1.5 rounded-full bg-black/5">
                 <div
                   className="bar absolute top-0 left-0 h-full rounded-full bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-blue-600 via-blue-500 to-blue-500"
-                  style={{ width: "2%" }}
+                  style={{ width: "16%" }}
                 ></div>
               </div>
             </div>

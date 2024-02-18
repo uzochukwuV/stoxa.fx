@@ -10,11 +10,11 @@ export default function Greeting() {
   return (
     <>
       <div className="flex items-center gap-x-2">
-        <div className="dash-header font-bold text-sm mt-3 capitalize p-2 rounded-md text-black bg-black/5">
+        <div className="p-2 mt-3 text-sm font-bold text-black capitalize rounded-md dash-header bg-black/5">
           👋 hey {account?.fullname}
         </div>
-        {account?.isVerified ? (
-          <div className="dash-header font-bold mt-3 capitalize p-2 rounded-md text-black bg-blue-500/10">
+        {/* {account?.isVerified ? (
+          <div className="p-2 mt-3 font-bold text-black capitalize rounded-md dash-header bg-blue-500/10">
             <Link
               className="flex items-center text-xs md:text-sm"
               href="/dashboard/verify"
@@ -22,7 +22,7 @@ export default function Greeting() {
               <svg
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="w-5 h-5 text-blue-600 mr-1"
+                className="w-5 h-5 mr-1 text-blue-600"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -42,7 +42,7 @@ export default function Greeting() {
             </Link>
           </div>
         ) : (
-          <div className="dash-header font-bold mt-3 capitalize p-2 rounded-md text-black bg-red-500/10">
+          <div className="p-2 mt-3 font-bold text-black capitalize rounded-md dash-header bg-red-500/10">
             <Link
               className="flex items-center text-xs md:text-sm"
               href="/dashboard/verify"
@@ -51,7 +51,7 @@ export default function Greeting() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="w-5 h-5 text-red-600 mr-1"
+                className="w-5 h-5 mr-1 text-red-600"
               >
                 <path
                   fillRule="evenodd"
@@ -62,7 +62,7 @@ export default function Greeting() {
               <p className="pr-1">You're not verified</p>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </>
   );

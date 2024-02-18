@@ -1,29 +1,44 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+import { M_PLUS_1 } from "next/font/google";
+import React, { useState } from "react";
+import { useContext } from "react";
+import { userAccountContext } from "@/app/dashboard/context";
+
 
 function PlanItem() {
-  const purchasePlan = (value)=> {
-    
+  const [green, setGreen]= useState(null)
+  const [error, setError]= useState(null)
+  const userAccount = useContext(userAccountContext)
+  console.log(userAccount)
+
+  const purchasePlan = (value, plan)=> {
+    fetch(`http://127.0.0.1:8000/account/purchase_plan/?id=${value}&plan=${plan}`)
+    .then((res)=>res.json()
+    .then(r=> {
+      if(r.error){
+        setError(r.error)
+      }else{
+        console.log(r);
+      }
+    }))
   }
   return (
-    <div className="p-4 grid-cols-1 grid md:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2">
       <div
-        className="p-4 rounded-xl border relative  text-black/80"
+        className="relative p-4 border rounded-xl text-black/80"
         style={{ border: "2px solid rgba(107, 75, 201, 0.19)" }}
       >
         
           
-        <div className="flex items-center justify-center cursor-pointer z-50">
+        <div className="z-50 flex items-center justify-center cursor-pointer">
           <div
-            className="text-2xl my-1 p-2 font-bold rounded-sm"
+            className="p-2 my-1 text-2xl font-bold rounded-sm"
             style={{ backgroundColor: "rgba(107, 75, 201, 0.19)" }}
           >
             <sup>$</sup> 1,000<span className="text-xs"> / 1mo</span>
           </div>
         </div>
-        <div className="list-disc pl-5">
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+        <div className="pl-5 list-disc">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -38,7 +53,7 @@ function PlanItem() {
             </svg>
             <div>99.5% AI accuracy</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -53,7 +68,7 @@ function PlanItem() {
             </svg>
             <div>24/7 Priority support</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -68,7 +83,7 @@ function PlanItem() {
             </svg>
             <div>Exclusive market insights</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -83,7 +98,7 @@ function PlanItem() {
             </svg>
             <div>Zero trading fees</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -98,7 +113,7 @@ function PlanItem() {
             </svg>
             <div>Dedicated account manager</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -114,7 +129,7 @@ function PlanItem() {
             <div>VIP event invitations</div>
           </div>
           
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -130,18 +145,18 @@ function PlanItem() {
             <div>Early access to opportunities</div>
           </div>
         </div>
-        <div className="button-container flex justify-center">
+        <div className="flex justify-center button-container">
           <button
-          onClick={(e)=>purchasePlan(e.target.value)}
-          value={1000}
+          onClick={(e)=>purchasePlan(userAccount.account.id, e.target.value )}
+          value={'premium'}
           
-            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+            className="py-3 my-4 text-sm font-bold text-white bg-green-500 rounded-full hover:bg-green-300 hover:ring-1 focus:bg-green-300 focus:opacity-50 px-7"
             
           >
             Purchase Plan
           </button>
         </div>
-        {/* <div className="text-sm text-blue-500 w-full text-center">
+        {/* <div className="w-full text-sm text-center text-blue-500">
           Insufficient Balance to activate this plan.
           <span className="font-bold">
             <Link href="/dashboard/deposits">Deposit now</Link>
@@ -149,21 +164,21 @@ function PlanItem() {
         </div> */}
       </div>
       <div
-        className="p-4 rounded-xl border relative  text-black/80"
+        className="relative p-4 border rounded-xl text-black/80"
         style={{ border: "2px solid rgba(207, 155, 3, 0.19)" }}
       >
         
         
-        <div className="flex items-center justify-center cursor-pointer z-50">
+        <div className="z-50 flex items-center justify-center cursor-pointer">
           <div
-            className="text-2xl my-1 p-2 font-bold rounded-sm"
+            className="p-2 my-1 text-2xl font-bold rounded-sm"
             style={{ backgroundColor: "rgba(207, 155, 3, 0.19)" }}
           >
             <sup>$</sup> 500<span className="text-xs"> / 1mo</span>
           </div>
         </div>
-        <div className="list-disc pl-5">
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+        <div className="pl-5 list-disc">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -178,7 +193,7 @@ function PlanItem() {
             </svg>
             <div>99% AI accuracy</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -193,7 +208,7 @@ function PlanItem() {
             </svg>
             <div>Extended support hours</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -208,7 +223,7 @@ function PlanItem() {
             </svg>
             <div>Premium market insights</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -223,7 +238,7 @@ function PlanItem() {
             </svg>
             <div>blueuced trading fees</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -238,7 +253,7 @@ function PlanItem() {
             </svg>
             <div>Personalized strategies</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -253,7 +268,7 @@ function PlanItem() {
             </svg>
             <div>Exclusive webinars</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -269,11 +284,11 @@ function PlanItem() {
             <div>Flexible withdrawal options</div>
           </div>
         </div>
-        <div className="button-container flex justify-center">
+        <div className="flex justify-center button-container">
           <button
-          onClick={(e)=>purchasePlan(e.target.value)}
-          value={500}
-            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+          onClick={(e)=>purchasePlan(userAccount.account.id, e.target.value)}
+          value={'gold'}
+            className="py-3 my-4 text-sm font-bold text-white bg-green-500 rounded-full focus:opacity-50 hover:bg-green-300 hover:ring-1 focus:bg-green-300 fo px-7"
             
           >
             Purchase Plan
@@ -281,20 +296,20 @@ function PlanItem() {
         </div>
       </div>
       <div
-        className="p-4 rounded-xl border relative  text-black/80"
+        className="relative p-4 border rounded-xl text-black/80"
         style={{ border: "2px solid rgba(192, 192, 192, 0.19)" }}
       >
         
-        <div className="flex items-center justify-center cursor-pointer z-50">
+        <div className="z-50 flex items-center justify-center cursor-pointer">
           <div
-            className="text-2xl my-1 p-2 font-bold rounded-sm"
+            className="p-2 my-1 text-2xl font-bold rounded-sm"
             style={{ backgroundColor: "rgba(192, 192, 192, 0.19)" }}
           >
             <sup>$</sup> 200<span className="text-xs"> / 2wks</span>
           </div>
         </div>
-        <div className="list-disc pl-5">
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+        <div className="pl-5 list-disc">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -309,7 +324,7 @@ function PlanItem() {
             </svg>
             <div>98% AI accuracy</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -325,7 +340,7 @@ function PlanItem() {
             <div>Advanced market insights</div>
           </div>
           
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -340,7 +355,7 @@ function PlanItem() {
             </svg>
             <div>Weekly market analysis</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -355,7 +370,7 @@ function PlanItem() {
             </svg>
             <div>Investment community access</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -371,11 +386,11 @@ function PlanItem() {
             <div>Enhanced security</div>
           </div>
         </div>
-        <div className="button-container flex justify-center">
+        <div className="flex justify-center button-container">
           <button
-          value={200}
-          onClick={(e)=>purchasePlan(e.target.value)}
-            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+          value={'silver'}
+          onClick={(e)=>purchasePlan(userAccount.account.id, e.target.value)}
+            className="py-3 my-4 text-sm font-bold text-white bg-green-500 rounded-full focus:opacity-50 hover:bg-green-300 hover:ring-1 focus:bg-green-300 fo px-7"
             
           >
             Purchase Plan
@@ -383,21 +398,21 @@ function PlanItem() {
         </div>
       </div>
       <div
-        className="p-4 rounded-xl border relative  text-black/80"
+        className="relative p-4 border rounded-xl text-black/80"
         style={{ border: "2px solid rgba(205, 127, 50, 0.19)" }}
       >
         
         
-        <div className="flex items-center justify-center cursor-pointer z-50">
+        <div className="z-50 flex items-center justify-center cursor-pointer">
           <div
-            className="text-2xl my-1 p-2 font-bold rounded-sm"
+            className="p-2 my-1 text-2xl font-bold rounded-sm"
             style={{ backgroundcolor: "rgba(205, 127, 50, 0.19)" }}
           >
             <sup>$</sup> 50<span className="text-xs"> / 1wk</span>
           </div>
         </div>
-        <div className="list-disc pl-5">
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+        <div className="pl-5 list-disc">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -412,7 +427,7 @@ function PlanItem() {
             </svg>
             <div>97% AI accuracy</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -427,7 +442,7 @@ function PlanItem() {
             </svg>
             <div>Live chat support</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -442,7 +457,7 @@ function PlanItem() {
             </svg>
             <div>Basic market insights</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -457,7 +472,7 @@ function PlanItem() {
             </svg>
             <div>Competitive fees</div>
           </div>
-          <div className="text-sm flex p-2 font-bold items-center text-right">
+          <div className="flex items-center p-2 text-sm font-bold text-right">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
@@ -475,11 +490,11 @@ function PlanItem() {
           
           
         </div>
-        <div className="button-container flex justify-center">
+        <div className="flex justify-center button-container">
           <button
-          value={50}
-          onClick={(e)=>purchasePlan(e.target.value)}
-            className="rounded-full px-7 bg-green-500 text-white my-4 py-3 text-sm font-bold"
+          value={'bronze'}
+          onClick={(e)=>purchasePlan(userAccount.account.id, e.target.value)}
+            className="py-3 my-4 text-sm font-bold text-white bg-green-500 rounded-full focus:opacity-50 hover:bg-green-300 hover:ring-1 focus:bg-green-300 fo px-7"
             
           >
             Purchase Plan

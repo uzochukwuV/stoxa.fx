@@ -26,13 +26,13 @@ function Withdrawals() {
   }
   return (
     <div>
-      <div classNameName="p-4">
+      <div classNameName="">
         
-        <div>
-          <div classNameName="flex w-full md:w-1/2 md:mx-auto h-[80vh] justify-center items-center">
-            <div classNameName="not-verified-container rounded-xl p-6 text-color-change-90">
+        <div className="max-w-xl mx-auto">
+          <div classNameName="flex w-full max-w-lg md:w-1/2 md:mx-auto h-[80vh] justify-center items-center">
+            <div classNameName="not-verified-container rounded-xl  text-color-change-90">
               <div classNameName="header-text text-lg uppe/rcase font-bold w-full text-center">
-                <div className="font-manrope flex h-screen w-full items-center justify-center">
+                <div className="flex items-center justify-center w-full h-screen font-manrope">
                   <div className="mx-auto box-border  w-full  sm:w-[760px]  border bg-white p-4">
                     
 
@@ -97,10 +97,10 @@ function Withdrawals() {
                         <span className="font-semibold text-[#191D23]">
                         To
                         </span>
-                        <div className="flex cursor-pointer items-center gap-x-2" onClick={showInput}>
+                        <div className="flex items-center cursor-pointer gap-x-2" onClick={showInput}>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5 text-green-700"
+                            className="w-5 h-5 text-green-700"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -122,7 +122,7 @@ function Withdrawals() {
                     </div>
                    {input && (
                      <div>
-                     <input type="text" onChange={(e)=>setAmount(e.target.value)} value={amount} placeholder="btc address" className=" border m-3 border-sm  p-3 bg-inherit font-normal" />
+                     <input type="text" onChange={(e)=>setAmount(e.target.value)} value={amount} placeholder="btc address" className="p-3 m-3 font-normal border border-sm bg-inherit" />
                      </div>
                    )}
                     <div className="mt-6">
@@ -149,20 +149,20 @@ export default Withdrawals;
 function Modal() {
   const router =useRouter()
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
-  <div className="rounded-lg bg-gray-50 px-16 py-14">
+    <div className="flex items-center justify-center max-w-lg min-h-screen bg-gray-100">
+  <div className="px-16 rounded-lg bg-gray-50 py-14">
     <div className="flex justify-center">
-      <div className="rounded-full bg-green-200 p-6">
-        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-500 p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-8 w-8 text-white">
+      <div className="p-6 bg-green-200 rounded-full">
+        <div className="flex items-center justify-center w-16 h-16 p-4 bg-green-500 rounded-full">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8 text-white">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
           </svg>
         </div>
       </div>
     </div>
-    <h3 className="my-4 text-center text-3xl font-semibold text-gray-700">Congratuation!!!</h3>
+    <h3 className="my-4 text-3xl font-semibold text-center text-gray-700">Congratuation!!!</h3>
     <p className="w-[230px] text-center font-normal text-gray-600">Your order have been taken and is being attended to</p>
-    <button className="mx-auto mt-10 block rounded-xl border-4 border-transparent bg-green-400 px-6 py-3 text-center text-base font-medium text-gray-100 outline-8 hover:outline hover:duration-300" onClick={()=>router.push('/dashboard')}> Confirmed</button>
+    <button className="block px-6 py-3 mx-auto mt-10 text-base font-medium text-center text-gray-100 bg-green-400 border-4 border-transparent rounded-xl outline-8 hover:outline hover:duration-300" onClick={()=>router.push('/dashboard')}> Confirmed</button>
   </div>
 </div>
   )
