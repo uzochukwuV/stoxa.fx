@@ -9,10 +9,6 @@ function SideBar({Nav}) {
 
   const pathname = usePathname();
 
-  useMemo(() => {
-    
-  }, []);
-
   return (
     <div className="hidden side-bar md:block /overflow-scroll ">
       <div

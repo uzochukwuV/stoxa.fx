@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React from "react";
 
-function SideBarMini({setNav}) {
+function SideBarMini({setNav, Nav}) {
 
   
   return (
@@ -36,7 +36,7 @@ function SideBarMini({setNav}) {
           >
             <div style={{ minWidth: "100%", display: "table" }}>
               <div className="flex items-center mb-3 font-bold classes text-m /mt-10">
-                <div className="icon">
+                <div className="icon" onClick={()=>setNav(false)}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
